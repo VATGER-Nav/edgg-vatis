@@ -1,3 +1,7 @@
+# This workflow was originally developed by the EDWW-FIR.
+# Full credit to the original creators.
+# Source: https://github.com/VATGER-Nav/edww-vatis
+
 name: Update Serial
 
 on:
