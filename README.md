@@ -4,8 +4,8 @@
 
 To use this configuration with vATIS:
 
-1. Download and install the latest beta version of vATIS from the official website
-2. Download the `vATIS Profile - EDGG D-ATIS.json` file from this repository
+1. Download and install the latest beta version of vATIS from the [official website](https://vatis.app)
+2. Download the [`vATIS Profile - EDGG D-ATIS.json`](https://github.com/VATGER-Nav/edgg-vatis/blob/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json) file from this repository
 3. When opening vATIS import the downloaded profile
 4. The EDGG vATIS profile should now be available for use and will update automatically
 
