@@ -1,9 +1,9 @@
 {
-  "version": 4,
+  "version": 5,
   "name": "EDGG D-ATIS",
   "id": "5f41e667-a9e7-4223-83e2-9449f64de100",
   "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-   "updateSerial": 2025042501,
+  "updateSerial": 2025042502,
   "stations": [
     {
       "id": "0233ea9c-bd5c-481a-afd2-88387a5dfd4f",
@@ -41,19 +41,19 @@
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": "WIND VARIABLE AT {wind_spd} {wind_unit}"
+              "voice": ".WIND VARIABLE AT {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "WIND VARIABLE AT {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ".WIND VARIABLE AT {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -66,7 +66,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": "WIND CALM"
+              "voice": ".WIND CALM"
             }
           }
         },
@@ -1821,7 +1821,7 @@
           },
           "template": {
             "text": "{weather}",
-            "voice": "{weather}"
+            "voice": "PRESENT WEATHER {weather}"
           }
         },
         "recentWeather": {
@@ -1937,7 +1937,7 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}."
+            "voice": ".TRANSITION LEVEL {trl}"
           }
         },
         "notams": {
@@ -2004,7 +2004,7 @@
           "name": "25 via CDA",
           "airportConditions": "",
           "notams": "",
-          "template": "",
+          "template": "ATIS EDDS [ATIS_LETTER] [OBS_TIME]\r\nEXPECT CDA [ARPT_COND]\r\nRWY_25\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false
           }
@@ -2049,52 +2049,52 @@
         {
           "variableName": "ILS",
           "text": "FOR ILS APPROACH",
-          "voice": "EXPECT VECTORS FOR ILS APPROACH."
+          "voice": "FOR ILS APPROACH."
         },
         {
           "variableName": "RNP",
           "text": "FOR RNP APPROACH",
-          "voice": "EXPECT VECTORS FOR RNP APPROACH."
+          "voice": "FOR RNP APPROACH."
         },
         {
           "variableName": "VOR",
           "text": "FOR VOR APPROACH",
-          "voice": "EXPECT VECTORS FOR VOR APPROACH."
+          "voice": "FOR VOR APPROACH."
         },
         {
           "variableName": "ADVISORY",
           "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8"
         },
         {
           "variableName": "DEP_FREQUENCY_STG",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.050",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.050."
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.050"
         },
         {
           "variableName": "DEP_FREQUENCY_DKB",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.200",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.2."
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.2"
         },
         {
           "variableName": "DEP_FREQUENCY_BAD",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.300",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.3."
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.3"
         },
         {
           "variableName": "DEP_FREQUENCY_KTG",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280."
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280"
         },
         {
           "variableName": "SRA_ON_REQ",
           "text": "SRA APPROACH AVBL ON REQ.",
-          "voice": "SRA APPROACH AVAILABLE ON REQUEST."
+          "voice": "SRA APPROACH AVAILABLE ON REQUEST"
         },
         {
           "variableName": "LOW_VISIBILITY",
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AND III AVBL.",
-          "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL."
+          "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL"
         }
       ],
       "airportConditionDefinitions": [
@@ -2107,18 +2107,23 @@
           "text": "RNP",
           "ordinal": 2,
           "enabled": false
+        },
+        {
+          "text": "VOR",
+          "ordinal": 3,
+          "enabled": false
         }
       ],
       "notamDefinitions": [
         {
           "text": "ADVISORY",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "DEP_FREQUENCY_STG",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "DEP_FREQUENCY_DKB",
@@ -2182,25 +2187,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": "WIND VARIABLE AT {wind_spd} {wind_unit}"
+              "voice": ".WIND VARIABLE AT {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "WIND VARIABLE AT {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ".WIND VARIABLE AT {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -2213,7 +2218,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": "WIND CALM"
+              "voice": ".WIND CALM"
             }
           }
         },
@@ -3968,7 +3973,7 @@
           },
           "template": {
             "text": "{weather}",
-            "voice": "{weather}"
+            "voice": "PRESENT WEATHER {weather}"
           }
         },
         "recentWeather": {
@@ -4084,7 +4089,7 @@
           ],
           "template": {
             "text": "TRL {trl}",
-            "voice": "TRANSITION LEVEL {trl}."
+            "voice": ".TRANSITION LEVEL {trl}"
           }
         },
         "notams": {
@@ -4226,56 +4231,56 @@
         {
           "variableName": "ADVISORY",
           "text": "WHEN PASSING 2000FT MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN PASSING *2000FT MONITOR ADVISORY ON 122.8."
+          "voice": "WHEN PASSING *2000FT MONITOR ADVISORY ON 122.8"
         },
         {
           "variableName": "DEP_FREQUENCY_DLD_DLA_BOT",
           "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON 121.355",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON 121.355."
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON 121.355"
         },
         {
           "variableName": "DEP_FREQUENCY_PADH",
           "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON 135.650",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON 135.650."
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON 135.650"
         },
         {
           "variableName": "LOW_VISIBILITY",
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AND III AVBL.",
-          "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL."
+          "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL"
         },
         {
           "variableName": "SRA_ON_REQ",
           "text": "SRA APPROACH AVBL ON REQ",
-          "voice": "SRA APPROACH AVAILABLE ON REQUEST."
+          "voice": "SRA APPROACH AVAILABLE ON REQUEST"
         },
         {
           "variableName": "RNP",
           "text": "EXPECT VECTORS FOR RNP APPROACH",
-          "voice": "EXPECT VECTORS FOR RNP APPROACH."
+          "voice": "EXPECT VECTORS FOR RNP APPROACH"
         }
       ],
       "airportConditionDefinitions": [
         {
           "text": "ILS",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RNP",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
         {
           "text": "ADVISORY",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "DEP_FREQUENCY_DLD_DLA_BOT",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "DEP_FREQUENCY_PADH",
@@ -4285,7 +4290,7 @@
         {
           "text": "LOW_VISIBILITY",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "SRA_ON_REQ",
