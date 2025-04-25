@@ -10,15 +10,15 @@ To use this configuration with vATIS:
 4. The EDGG vATIS profile should now be available for use and will update automatically
 
 ## Usage
+Airport Condition and NOTAM Presets applied by clicking on the "Airport Conditions"/"NOTAM" header.
 
 ### Airport Conditions
-
-The airport conditions are mainly used to set the departure frequency and can be accessed by clicking on the "Airport Conditions" header. Alternatively freetext can be entered in the textfield below.
+The airport conditions are used to set the approach type in use (e.g. ILS or RNP).
 
 ### NOTAMs
+NOTAM Presets are used to set the departure frequency and additional information (e.g. LVO Ops in use).
 
-NOTAM Presets (also applied by clicking on the "NOTAMS" header) can look like this:
-
+- "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.020"
 - "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AND III AVBL."
 - "SRA APPROACH AVAILABLE ON REQUEST"
 - "CAUTION WINDSHEAR ALL RWYS"
