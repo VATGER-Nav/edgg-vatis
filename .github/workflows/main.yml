@@ -1,21 +1,16 @@
-# This workflow was originally developed by the EDWW-FIR.
-# Full credit to the original creators.
-# Source: https://github.com/VATGER-Nav/edww-vatis
-
-name: Update Serial
+name: Update Serial and Create Release
 
 on:
   push:
     branches:
       - main
-      - dev
     paths:
       - 'vATIS Profile - EDGG D-ATIS.json'
       
 permissions: write-all
 
 jobs:
-  update-serial:
+  update-and-release:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,13 +22,17 @@ jobs:
         with:
           python-version: 3.13.2
 
-      - name: Run Serial Update Script
-        run: python .github/workflows/serial.py
+      - name: Create Release Version
+        run: python .github/workflows/create_release.py
 
-      - name: Commit and Push Changes
+      - name: Commit Release File
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add "vATIS Profile - EDGG D-ATIS.json"
-          git commit -m "Update Serial"
-          git push
+          git add "vATIS Profile - EDGG D-ATIS Release.json"
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update release version with serial $(date +%Y%m%d)"
+            git push
+          fi
