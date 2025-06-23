@@ -10825,7 +10825,7 @@
           "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
         },
         {
-          "variableName": "DEP_FREQ_PADL_HMM_PADH_125.225",
+          "variableName": "DEP_FREQ_PADL_HMM_PADH_125_225",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.225",
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.225."
         },
@@ -28088,7 +28088,7 @@
           "voice": "ACFT DEPARTING RWY 18, EXPECT POSSIBLE DEPARTURE FROM INTERSECTION MIKE, TORA {3454} METERS. IF UNABLE ADVISE TWR ON INITIAL CONTACT."
         },
         {
-          "variableName": "TAILWIND_RWY_18",
+          "variableName": "TAILWIND_RWY_18_MORE_10_KT",
           "text": "TAILWIND COMPONENT RWY 18 MORE THAN 10 KT, PILOTS UNABLE TO ACCEPT SHALL ADVISE ATC UPON START-UP REQUEST",
           "voice": "TAILWIND COMPONENT RWY 18 MORE THAN 10 KT PILOTS UNABLE TO ACCEPT SHALL ADVISE ATC UPON START-UP REQUEST."
         },
@@ -28121,7 +28121,7 @@
           "enabled": false
         },
         {
-          "text": "TAILWIND_RWY_18",
+          "text": "TAILWIND_RWY_18_MORE_10_KT",
           "ordinal": 3,
           "enabled": false
         },
@@ -28134,6 +28134,11 @@
           "text": "25C_ALL_NORTH",
           "ordinal": 5,
           "enabled": false
+        },
+        {
+          "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+          "ordinal": 6,
+          "enabled": true
         }
       ]
     },
@@ -30276,6 +30281,96 @@
             "approaches": "",
             "remarks": ""
           }
+        },
+        {
+          "id": "a2c9828e-79ce-46f5-b6cd-e1b9b210553c",
+          "ordinal": 11,
+          "name": "07C | ILS Z",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07C_ILS_Z \r\nRWY_07C\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "c3e73a3c-c37c-4e53-935e-d505393833f9",
+          "ordinal": 12,
+          "name": "07R | ILS",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_ILS \r\nRWY_07R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "93f883fb-930d-4888-8b9d-47302119b014",
+          "ordinal": 13,
+          "name": "25C | RNP X",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP X APCH \r\n[ARPT_COND]\r\nRWY_25C\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "aec82799-bb52-4afc-a762-1ccbfbbf6c82",
+          "ordinal": 14,
+          "name": "25L | RNP X",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP X APCH \r\n[ARPT_COND]\r\nRWY_25L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "e9357fe7-bdc4-4036-ba19-a1bfb99f9c10",
+          "ordinal": 15,
+          "name": "07C | RNP X",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP X APCH \r\n[ARPT_COND]\r\nRWY_07C\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "d120288d-3cae-4a04-8d8f-84d346f1c6b9",
+          "ordinal": 16,
+          "name": "07R | RNP X",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP X APCH \r\n[ARPT_COND]\r\nRWY_07R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
       "contractions": [
@@ -30383,9 +30478,25 @@
           "variableName": "07R_07L_ILS_Z",
           "text": "EXPECT DEPENDENT PARALLEL ILS Z APCH RWY 07L OR ILS APCH RWY 07R",
           "voice": "EXPECT DEPENDENT PARALLEL ILS ZULU APCH RWY ^07L OR ILS APCH RWY ^07R."
+        },
+        {
+          "variableName": "07C_ILS_Z",
+          "text": "EXPECT ILS Z APCH RWY 07C",
+          "voice": "EXPECT ILS ZULU APCH RWY ^07C."
+        },
+        {
+          "variableName": "07R_ILS",
+          "text": "EXPECT ILS APCH RWY 07R",
+          "voice": "EXPECT ILS APCH RWY 07R."
         }
       ],
-      "airportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "FROM 0350 EXPECT ILS OR GLS APCH",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
       "notamDefinitions": [
         {
           "text": "LOW_VISIBILITY",
@@ -30395,21 +30506,6 @@
         {
           "text": "CAUTION WINDSHEAR ALL RWYS",
           "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "TAILWIND_RWY_18",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "25C_ALL_SOUTH",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "25C_ALL_NORTH",
-          "ordinal": 5,
           "enabled": false
         }
       ]
