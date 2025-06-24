@@ -30136,7 +30136,7 @@
           "id": "3447f0c9-e449-455d-9906-a24eff5a1a6c",
           "ordinal": 1,
           "name": "25L + 25R | ILS Y",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Y \r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30301,7 +30301,7 @@
           "id": "c3e73a3c-c37c-4e53-935e-d505393833f9",
           "ordinal": 12,
           "name": "07R | ILS",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_ILS \r\nRWY_07R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_ILS \r\nRWY_07R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30391,8 +30391,8 @@
         },
         {
           "variableName": "RWY_07R_07L",
-          "text": "RWY 07R 07L",
-          "voice": "RWY IN USE ^07R AND ^07L."
+          "text": "RWY 07L 07R",
+          "voice": "RWY IN USE ^07L AND ^07R."
         },
         {
           "variableName": "RWY_07R",
@@ -30411,8 +30411,8 @@
         },
         {
           "variableName": "RWY_25L_25R",
-          "text": "RWY 25L 25R",
-          "voice": "RWY IN USE ^25L AND ^25R."
+          "text": "RWY 25R 25L",
+          "voice": "RWY IN USE ^25R AND ^25L."
         },
         {
           "variableName": "RWY_25L",
@@ -30426,8 +30426,8 @@
         },
         {
           "variableName": "APP_SWING",
-          "text": "DO NOT MISTAKE TWY M FOR RWY 25C WHEN PERFORMING VIS APCH.",
-          "voice": "DO NOT MISTAKE TWY MIKE FOR RWY ^25C WHEN PERFORMING VISUAL APCH."
+          "text": "DO NOT MISTAKE TWY M FOR RWY 25C WHEN PERFORMING VIS APCH",
+          "voice": ".DO NOT MISTAKE TWY MIKE FOR RWY ^25C WHEN PERFORMING VISUAL APCH."
         },
         {
           "variableName": "IPA_25L_25R_ILS_Y",
@@ -30488,6 +30488,11 @@
           "variableName": "07R_ILS",
           "text": "EXPECT ILS APCH RWY 07R",
           "voice": "EXPECT ILS APCH RWY 07R."
+        },
+        {
+          "variableName": "REQ",
+          "text": "REQ",
+          "voice": "REQUEST"
         }
       ],
       "airportConditionDefinitions": [
