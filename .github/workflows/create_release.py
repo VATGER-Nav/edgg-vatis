@@ -3,8 +3,8 @@ from datetime import datetime
 import sys
 
 def main():
-    dev_file_path = "vATIS Profile - EDGG D-ATIS.json"
-    release_file_path = "vATIS Profile - EDGG D-ATIS Release.json"
+    dev_file_path = "vATIS Profile - EDGG D-ATIS Development.json"
+    release_file_path = "vATIS Profile - EDGG D-ATIS.json"
 
     with open(dev_file_path, "r") as f:
         data = json.load(f)
@@ -33,7 +33,7 @@ def main():
             new_serial = int(today) * 100 + 1
 
     release_data = data.copy()
-    release_data["updateUrl"] = "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS%20Release.json"
+    release_data["updateUrl"] = "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json"
     release_data["updateSerial"] = new_serial
 
     with open(release_file_path, "w") as f:
