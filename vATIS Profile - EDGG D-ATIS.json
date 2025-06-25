@@ -1,6 +1,6 @@
 {
     "name": "EDGG D-ATIS",
-    "id": "5f41e667-a9e7-4223-83e2-9449f64de100",
+    "id": "ccb27250-f747-4e01-a223-be83e25a7161",
     "stations": [
         {
             "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
@@ -28138,7 +28138,7 @@
                 {
                     "text": "CHECK_CHARTS_FOR_DEP_FREQ",
                     "ordinal": 6,
-                    "enabled": true
+                    "enabled": false
                 }
             ]
         },
@@ -30136,7 +30136,7 @@
                     "id": "3447f0c9-e449-455d-9906-a24eff5a1a6c",
                     "ordinal": 1,
                     "name": "25L + 25R | ILS Y",
-                    "template": "",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Y\r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -30518,5 +30518,5 @@
     ],
     "version": 4,
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2025062401
+    "updateSerial": 2025062501
 }
