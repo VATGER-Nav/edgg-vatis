@@ -1,6 +1,6 @@
 {
   "name": "EDGG D-ATIS",
-  "id": "5950832c-2512-4835-8380-9d2e7372bd97",
+  "id": "ccb27250-f747-4e01-a223-be83e25a7161",
   "stations": [
     {
       "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
@@ -2041,8 +2041,6 @@
           "id": "1dfead01-e839-4aba-b559-1e7418775616",
           "ordinal": 3,
           "name": "05R",
-          "airportConditions": "",
-          "notams": "",
           "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nDEP_ARR_05R\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
@@ -2183,12 +2181,12 @@
         {
           "text": "ADVISORY",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "DEP_FREQ_DLD_DLA_BOT_121_355",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "DEP_FREQ_PADH_135_650",
@@ -4253,7 +4251,6 @@
           "id": "03f78c87-02c3-4547-9a25-9526bd6e28d0",
           "ordinal": 4,
           "name": "31R 24",
-          "airportConditions": "",
           "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_31R_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
@@ -4484,12 +4481,12 @@
         {
           "text": "ADVISORY",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "DEP_FREQ_DKA_NOR_135_350",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "DEP_FREQ_PADH_135_650",
@@ -15097,12 +15094,12 @@
         {
           "text": "ILS",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "RNP",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "NDB",
@@ -15119,7 +15116,7 @@
         {
           "text": "ADVISORY",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "DEP_FREQ_DLD_DLA_PADH_DL23_121_355",
@@ -15134,7 +15131,7 @@
         {
           "text": "DEP_FREQ_DLA_PADH_LN31_DL05_128.555",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "CAUTION WINDSHEAR ALL RWYS",
@@ -19304,7 +19301,7 @@
           "name": "26",
           "airportConditions": "",
           "notams": "",
-          "template": "",
+          "template": "EDDR [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_26\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30154,8 +30151,6 @@
           "id": "b570872a-51e3-4aad-aa2b-4ddee2a34190",
           "ordinal": 2,
           "name": "07R + 07L | ILS Y",
-          "airportConditions": "",
-          "notams": "",
           "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_07L_ILS_Y\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
