@@ -15021,7 +15021,7 @@
           "name": "31",
           "airportConditions": "",
           "notams": "",
-          "template": "",
+          "template": "EDLN [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_31\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19301,7 +19301,7 @@
           "name": "26",
           "airportConditions": "",
           "notams": "",
-          "template": "",
+          "template": "EDDR [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_26\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
