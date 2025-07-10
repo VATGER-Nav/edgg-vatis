@@ -1,6 +1,6 @@
 {
     "name": "EDGG D-ATIS",
-    "id": "ccb27250-f747-4e01-a223-be83e25a7161",
+    "id": "a7824927-c661-47ab-8036-6540fa4d42ad",
     "stations": [
         {
             "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
@@ -1963,7 +1963,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -4171,7 +4171,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -6476,7 +6476,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -8621,7 +8621,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -10741,7 +10741,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -12851,7 +12851,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -14971,7 +14971,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -17101,7 +17101,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -19251,7 +19251,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -21406,7 +21406,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -23602,7 +23602,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -23672,27 +23672,27 @@
                 },
                 {
                     "variableName": "RWY_03",
-                    "text": "RWY 03",
+                    "text": "RWY 03 ",
                     "voice": "RWY IN USE 03."
                 },
                 {
                     "variableName": "RWY_21",
-                    "text": "RWY 21",
+                    "text": "RWY 21 ",
                     "voice": "RWY IN USE 21."
                 },
                 {
                     "variableName": "ILS",
-                    "text": "FOR ILS APCH",
+                    "text": "FOR ILS APCH ",
                     "voice": "FOR ILS APPROACH."
                 },
                 {
                     "variableName": "RNP",
-                    "text": "FOR RNP APCH",
+                    "text": "FOR RNP APCH ",
                     "voice": "FOR RNP APPROACH."
                 },
                 {
                     "variableName": "NDB",
-                    "text": "FOR NDB APCH",
+                    "text": "FOR NDB APCH ",
                     "voice": "FOR NDB APPROACH."
                 },
                 {
@@ -23727,7 +23727,7 @@
                 },
                 {
                     "variableName": "LOC",
-                    "text": "FOR LOC APCH",
+                    "text": "FOR LOC APCH ",
                     "voice": "FOR LOCALIZER APPROACH."
                 },
                 {
@@ -25772,7 +25772,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -25856,52 +25856,52 @@
                 },
                 {
                     "variableName": "RWY_09",
-                    "text": "RWY 09",
+                    "text": "RWY 09 ",
                     "voice": "RWY IN USE 09."
                 },
                 {
                     "variableName": "RWY_27",
-                    "text": "RWY 27",
+                    "text": "RWY 27 ",
                     "voice": "RWY IN USE 27."
                 },
                 {
                     "variableName": "LOC",
-                    "text": "FOR LOC DME APCH",
+                    "text": "FOR LOC DME APCH ",
                     "voice": "FOR LOCALIZER DME APPROACH."
                 },
                 {
                     "variableName": "RNAV",
-                    "text": "FOR RNAV APCH",
+                    "text": "FOR RNAV APCH ",
                     "voice": "FOR R NAV APPROACH."
                 },
                 {
                     "variableName": "ADVISORY",
-                    "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
+                    "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800 ",
                     "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
                 },
                 {
                     "variableName": "DEP_FREQ_NKRL_129_355",
-                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 129.355",
+                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 129.355 ",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 129.355."
                 },
                 {
                     "variableName": "DEP_FREQ_DKB_125_200",
-                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.200",
+                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.200 ",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.2."
                 },
                 {
                     "variableName": "DEP_FREQ_BAD_131.300",
-                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.300",
+                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.300 ",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.3."
                 },
                 {
                     "variableName": "DEP_FREQ_KTG_123.280",
-                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280",
+                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280 ",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280."
                 },
                 {
                     "variableName": "DEP_09_ARR_27",
-                    "text": "ARR RWY 27 DEP RWY 09",
+                    "text": "ARR RWY 27 DEP RWY 09 ",
                     "voice": "ARRIVAL RWY IN USE 27. DEPARTURE RWY IN USE 09."
                 }
             ],
@@ -27911,7 +27911,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -30103,7 +30103,7 @@
                         }
                     ],
                     "template": {
-                        "text": "TRL {trl}",
+                        "text": "TRL {trl} ",
                         "voice": ".TRANSITION LEVEL {trl}"
                     }
                 },
@@ -30518,5 +30518,5 @@
     ],
     "version": 4,
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2025070201
+    "updateSerial": 2025071001
 }
