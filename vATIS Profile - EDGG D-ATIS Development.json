@@ -15124,12 +15124,12 @@
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_DLAT_LN13_DL05_128.655",
+          "text": "DEP_FREQ_DLAT_LN13_DL05_128_655",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_DLA_PADH_LN31_DL05_128.555",
+          "text": "DEP_FREQ_DLA_PADH_LN31_DL05_128_555",
           "ordinal": 4,
           "enabled": false
         },
