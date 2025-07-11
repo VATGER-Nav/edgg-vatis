@@ -15055,7 +15055,7 @@
                     "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
                 },
                 {
-                    "variableName": "DEP_FREQ_DLAT_LN13_DL05_128.655",
+                    "variableName": "DEP_FREQ_DLAT_LN13_DL05_128_655",
                     "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 128.655",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 128.655."
                 },
@@ -15080,7 +15080,7 @@
                     "voice": "FOR VOR APPROACH."
                 },
                 {
-                    "variableName": "DEP_FREQ_DLA_PADH_LN31_DL05_128.555",
+                    "variableName": "DEP_FREQ_DLA_PADH_LN31_DL05_128_555",
                     "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 128.555",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 128.555."
                 },
@@ -30518,5 +30518,5 @@
     ],
     "version": 4,
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2025071001
+    "updateSerial": 2025071101
 }
