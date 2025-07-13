@@ -1,6 +1,6 @@
 {
   "name": "EDGG D-ATIS",
-  "id": "a7824927-c661-47ab-8036-6540fa4d42ad",
+  "id": "5950832c-2512-4835-8380-9d2e7372bd97",
   "stations": [
     {
       "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
@@ -6510,7 +6510,7 @@
           "name": "07",
           "airportConditions": "",
           "notams": "",
-          "template": "EDDG [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_07\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDG [ATIS_LETTER] [OBS_TIME]\r\nEXPECT [ARPT_COND]\r\nRWY_07\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6526,7 +6526,7 @@
           "name": "25",
           "airportConditions": "",
           "notams": "",
-          "template": "EDDG [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_25\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDG [ATIS_LETTER] [OBS_TIME]\r\nEXPECT [ARPT_COND]\r\nRWY_25\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6555,21 +6555,6 @@
           "voice": "RWY IN USE 25."
         },
         {
-          "variableName": "ILS",
-          "text": "FOR ILS APCH",
-          "voice": "FOR ILS APPROACH."
-        },
-        {
-          "variableName": "RNAV",
-          "text": "FOR RNAV APCH",
-          "voice": "FOR R NAV APPROACH."
-        },
-        {
-          "variableName": "NDB",
-          "text": "FOR NDB APCH",
-          "voice": "FOR NDB APPROACH."
-        },
-        {
           "variableName": "ADVISORY",
           "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
           "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
@@ -6586,8 +6571,8 @@
         },
         {
           "variableName": "LOC",
-          "text": "FOR LOC APCH",
-          "voice": "FOR LOCALIZER APPROACH."
+          "text": "VECTORS FOR LOC APCH",
+          "voice": "VECTORS FOR LOCALIZER APPROACH."
         },
         {
           "variableName": "DEP_FREQ_PADH_135_650",
@@ -6595,40 +6580,45 @@
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 135.650."
         },
         {
-          "variableName": "ILS_VIS_ON_REQ",
-          "text": "FOR ILS APCH, VIS APCH AVBL ON REQ",
-          "voice": "FOR ILS APPROACH, VISUAL APPROACH AVAILABLE ON REQUEST."
-        },
-        {
           "variableName": "TRND",
           "text": "TREND",
           "voice": ""
+        },
+        {
+          "variableName": "GPS_NDB_VIS_ON_REQ",
+          "text": "GPS OR NDB APCH, VIS APCH AVB ON REQ",
+          "voice": "GPS OR NDB APPROACH, VISUAL APPROACH AVAILABLE ON REQUEST"
+        },
+        {
+          "variableName": "NDB",
+          "text": "NDB APCH",
+          "voice": "NDB APPROACH"
+        },
+        {
+          "variableName": "ILS_VIS_ON_REQ",
+          "text": "VECTORS FOR ILS APCH, VIS APCH ON REQ",
+          "voice": "VECTORS FOR ILS APPROACH, VISUAL APPROACH ON REQUEST"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "ILS",
+          "text": "GPS_NDB_VIS_ON_REQ",
           "ordinal": 1,
           "enabled": true
         },
         {
           "text": "ILS_VIS_ON_REQ",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RNAV",
-          "ordinal": 3,
+          "ordinal": 2,
           "enabled": false
         },
         {
           "text": "NDB",
-          "ordinal": 4,
+          "ordinal": 3,
           "enabled": false
         },
         {
           "text": "LOC",
-          "ordinal": 5,
+          "ordinal": 4,
           "enabled": false
         }
       ],
