@@ -1,6 +1,6 @@
 {
     "name": "EDGG D-ATIS",
-    "id": "5950832c-2512-4835-8380-9d2e7372bd97",
+    "id": "a7824927-c661-47ab-8036-6540fa4d42ad",
     "stations": [
         {
             "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
@@ -4206,7 +4206,7 @@
                     "name": "13L",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_13L\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4221,7 +4221,7 @@
                     "id": "f4371b69-619b-4c79-9e7b-adc730201eb7",
                     "ordinal": 2,
                     "name": "31R",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_31R\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4236,7 +4236,7 @@
                     "id": "d3be467b-be33-4d99-83be-34e77249f8f8",
                     "ordinal": 3,
                     "name": "13L 24",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_13L_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4251,7 +4251,7 @@
                     "id": "03f78c87-02c3-4547-9a25-9526bd6e28d0",
                     "ordinal": 4,
                     "name": "31R 24",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_31R_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4266,7 +4266,7 @@
                     "id": "0c001416-a87b-4dac-a215-d2740647a776",
                     "ordinal": 4,
                     "name": "24",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_24\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_24\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4281,7 +4281,7 @@
                     "id": "7045299f-044c-4bb8-be39-6fe2b672fffb",
                     "ordinal": 6,
                     "name": "13L 13R 24",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_13L_13R_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_13R_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4296,7 +4296,7 @@
                     "id": "8b64f82b-44a3-4751-85a0-15c8edb36dd5",
                     "ordinal": 7,
                     "name": "13L 13R",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_13L_13R\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_13R\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4311,7 +4311,7 @@
                     "id": "1c759c9f-7c47-4a76-804a-fdba31343858",
                     "ordinal": 8,
                     "name": "31R 31L",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_31R_31L\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_31L\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4326,7 +4326,7 @@
                     "id": "6166363a-8741-46c3-9b1f-950cdd019477",
                     "ordinal": 9,
                     "name": "06",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS @RNP\r\nRWY_06\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_06\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4341,7 +4341,37 @@
                     "id": "3276e880-e548-4a09-bea2-f2ce59a79432",
                     "ordinal": 10,
                     "name": "31R 31L 24",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_31R_31L_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_31L_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "16106326-8a7b-4a56-8867-9bd201fd765a",
+                    "ordinal": 11,
+                    "name": "31R 06",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_31R_06\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "57ecb274-057c-4483-b20c-96608ee7af9f",
+                    "ordinal": 12,
+                    "name": "13L 06",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_13L_06\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4371,13 +4401,13 @@
                 },
                 {
                     "variableName": "ILS",
-                    "text": "FOR ILS APCH",
-                    "voice": "FOR ILS APPROACH."
+                    "text": "EXPECT VECOTRS FOR ILS APCH",
+                    "voice": "EXPECT VECTORS FOR ILS APPROACH."
                 },
                 {
                     "variableName": "RNP",
-                    "text": "FOR RNP APCH",
-                    "voice": "FOR RNP APPROACH."
+                    "text": "EXPECT VECTORS FOR RNP APCH",
+                    "voice": "EXPECT VECTORS FOR RNP APPROACH."
                 },
                 {
                     "variableName": "ADVISORY",
@@ -4458,6 +4488,31 @@
                     "variableName": "LOW_VISIBILITY",
                     "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AVBL.",
                     "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL."
+                },
+                {
+                    "variableName": "CDO_ILS",
+                    "text": "EXPECT CDO FOR ILS APCH",
+                    "voice": "EXPECT CONTINOUS DESCEND APCH FOR ILS APCH."
+                },
+                {
+                    "variableName": "CDO_RNP",
+                    "text": "EXPECT CDO FOR RNP APCH",
+                    "voice": "EXPECT CONTINOUS DESCEND APCH FOR RNP APCH."
+                },
+                {
+                    "variableName": "RWY_31R_06",
+                    "text": "RWY 31R 06",
+                    "voice": "RWY IN USE ^31R AND 06."
+                },
+                {
+                    "variableName": "RNP_APCH",
+                    "text": "RNP APCH",
+                    "voice": "RNP APCH."
+                },
+                {
+                    "variableName": "RWY_13L_06",
+                    "text": "RWY 13L 06",
+                    "voice": "RUNWAY IN USE ^13L AND 06."
                 }
             ],
             "airportConditionDefinitions": [
@@ -4474,6 +4529,16 @@
                 {
                     "text": "VOR",
                     "ordinal": 3,
+                    "enabled": false
+                },
+                {
+                    "text": "CDO_ILS",
+                    "ordinal": 4,
+                    "enabled": false
+                },
+                {
+                    "text": "CDO_RNP",
+                    "ordinal": 5,
                     "enabled": false
                 }
             ],
@@ -6555,6 +6620,21 @@
                     "voice": "RWY IN USE 25."
                 },
                 {
+                    "variableName": "ILS",
+                    "text": "VECTORS FOR ILS APCH",
+                    "voice": "VECTORS FOR ILS APCH."
+                },
+                {
+                    "variableName": "RNAV",
+                    "text": "VECTORS FOR RNAV APCH",
+                    "voice": "VECTORS FOR R NAV APCH."
+                },
+                {
+                    "variableName": "NDB",
+                    "text": "VECTORS FOR NDB APCH",
+                    "voice": "VECTORS FOR NDB APCH."
+                },
+                {
                     "variableName": "ADVISORY",
                     "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
                     "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
@@ -6572,7 +6652,7 @@
                 {
                     "variableName": "LOC",
                     "text": "VECTORS FOR LOC APCH",
-                    "voice": "VECTORS FOR LOCALIZER APPROACH."
+                    "voice": "VECTORS FOR LOCALIZER APCH."
                 },
                 {
                     "variableName": "DEP_FREQ_PADH_135_650",
@@ -6580,29 +6660,24 @@
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 135.650."
                 },
                 {
+                    "variableName": "ILS_VIS_ON_REQ",
+                    "text": "VECTORS FOR ILS APCH, VIS APCH AVBL ON REQ",
+                    "voice": "VECTORS FOR ILS APPROACH, VISUAL APPROACH AVAILABLE ON REQUEST."
+                },
+                {
                     "variableName": "TRND",
                     "text": "TREND",
                     "voice": ""
                 },
                 {
-                    "variableName": "GPS_NDB_VIS_ON_REQ",
-                    "text": "GPS OR NDB APCH, VIS APCH AVB ON REQ",
-                    "voice": "GPS OR NDB APPROACH, VISUAL APPROACH AVAILABLE ON REQUEST"
-                },
-                {
-                    "variableName": "NDB",
-                    "text": "NDB APCH",
-                    "voice": "NDB APPROACH"
-                },
-                {
-                    "variableName": "ILS_VIS_ON_REQ",
-                    "text": "VECTORS FOR ILS APCH, VIS APCH ON REQ",
-                    "voice": "VECTORS FOR ILS APPROACH, VISUAL APPROACH ON REQUEST"
+                    "variableName": "RNAV_NDB_VIS_ON_REQ",
+                    "text": "VECTORS FOR RNAV OR NDB APCH, VIS APCH AVB ON REQ",
+                    "voice": "VECTORS FOR R NAV OR NDB APPROACH, VISUAL APPROACH AVAILABLE ON REQUEST."
                 }
             ],
             "airportConditionDefinitions": [
                 {
-                    "text": "GPS_NDB_VIS_ON_REQ",
+                    "text": "ILS",
                     "ordinal": 1,
                     "enabled": true
                 },
@@ -6612,13 +6687,23 @@
                     "enabled": false
                 },
                 {
-                    "text": "NDB",
+                    "text": "RNAV",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "LOC",
+                    "text": "NDB",
                     "ordinal": 4,
+                    "enabled": false
+                },
+                {
+                    "text": "LOC",
+                    "ordinal": 5,
+                    "enabled": false
+                },
+                {
+                    "text": "GPS_NDB_VIS_ON_REQ",
+                    "ordinal": 6,
                     "enabled": false
                 }
             ],
@@ -15114,12 +15199,12 @@
                     "enabled": false
                 },
                 {
-                    "text": "DEP_FREQ_DLAT_LN13_DL05_128_655",
+                    "text": "DEP_FREQ_DLAT_LN13_DL05_128.655",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "DEP_FREQ_DLA_PADH_LN31_DL05_128_555",
+                    "text": "DEP_FREQ_DLA_PADH_LN31_DL05_128.555",
                     "ordinal": 4,
                     "enabled": false
                 },
@@ -23662,27 +23747,27 @@
                 },
                 {
                     "variableName": "RWY_03",
-                    "text": "RWY 03 ",
+                    "text": "RWY 03",
                     "voice": "RWY IN USE 03."
                 },
                 {
                     "variableName": "RWY_21",
-                    "text": "RWY 21 ",
+                    "text": "RWY 21",
                     "voice": "RWY IN USE 21."
                 },
                 {
                     "variableName": "ILS",
-                    "text": "FOR ILS APCH ",
+                    "text": "FOR ILS APCH",
                     "voice": "FOR ILS APPROACH."
                 },
                 {
                     "variableName": "RNP",
-                    "text": "FOR RNP APCH ",
+                    "text": "FOR RNP APCH",
                     "voice": "FOR RNP APPROACH."
                 },
                 {
                     "variableName": "NDB",
-                    "text": "FOR NDB APCH ",
+                    "text": "FOR NDB APCH",
                     "voice": "FOR NDB APPROACH."
                 },
                 {
@@ -23717,7 +23802,7 @@
                 },
                 {
                     "variableName": "LOC",
-                    "text": "FOR LOC APCH ",
+                    "text": "FOR LOC APCH",
                     "voice": "FOR LOCALIZER APPROACH."
                 },
                 {
@@ -25846,52 +25931,52 @@
                 },
                 {
                     "variableName": "RWY_09",
-                    "text": "RWY 09 ",
+                    "text": "RWY 09",
                     "voice": "RWY IN USE 09."
                 },
                 {
                     "variableName": "RWY_27",
-                    "text": "RWY 27 ",
+                    "text": "RWY 27",
                     "voice": "RWY IN USE 27."
                 },
                 {
                     "variableName": "LOC",
-                    "text": "FOR LOC DME APCH ",
+                    "text": "FOR LOC DME APCH",
                     "voice": "FOR LOCALIZER DME APPROACH."
                 },
                 {
                     "variableName": "RNAV",
-                    "text": "FOR RNAV APCH ",
+                    "text": "FOR RNAV APCH",
                     "voice": "FOR R NAV APPROACH."
                 },
                 {
                     "variableName": "ADVISORY",
-                    "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800 ",
+                    "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
                     "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
                 },
                 {
                     "variableName": "DEP_FREQ_NKRL_129_355",
-                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 129.355 ",
+                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 129.355",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 129.355."
                 },
                 {
                     "variableName": "DEP_FREQ_DKB_125_200",
-                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.200 ",
+                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.200",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.2."
                 },
                 {
                     "variableName": "DEP_FREQ_BAD_131.300",
-                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.300 ",
+                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.300",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.3."
                 },
                 {
                     "variableName": "DEP_FREQ_KTG_123.280",
-                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280 ",
+                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280."
                 },
                 {
                     "variableName": "DEP_09_ARR_27",
-                    "text": "ARR RWY 27 DEP RWY 09 ",
+                    "text": "ARR RWY 27 DEP RWY 09",
                     "voice": "ARRIVAL RWY IN USE 27. DEPARTURE RWY IN USE 09."
                 }
             ],
@@ -30508,5 +30593,5 @@
     ],
     "version": 4,
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2025071401
+    "updateSerial": 2025072101
 }
