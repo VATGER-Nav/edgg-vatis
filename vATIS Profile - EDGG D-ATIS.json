@@ -30391,7 +30391,7 @@
                     "id": "93f883fb-930d-4888-8b9d-47302119b014",
                     "ordinal": 13,
                     "name": "25C | RNP X",
-                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP X APCH \r\n[ARPT_COND]\r\nRWY_25C\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP_X\r\n[ARPT_COND]\r\nRWY_25C\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -30406,7 +30406,7 @@
                     "id": "aec82799-bb52-4afc-a762-1ccbfbbf6c82",
                     "ordinal": 14,
                     "name": "25L | RNP X",
-                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP X APCH \r\n[ARPT_COND]\r\nRWY_25L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP_X\r\n[ARPT_COND]\r\nRWY_25L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -30421,7 +30421,7 @@
                     "id": "e9357fe7-bdc4-4036-ba19-a1bfb99f9c10",
                     "ordinal": 15,
                     "name": "07C | RNP X",
-                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP X APCH \r\n[ARPT_COND]\r\nRWY_07C\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP_X\r\n[ARPT_COND]\r\nRWY_07C\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -30436,7 +30436,7 @@
                     "id": "d120288d-3cae-4a04-8d8f-84d346f1c6b9",
                     "ordinal": 16,
                     "name": "07R | RNP X",
-                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP X APCH \r\n[ARPT_COND]\r\nRWY_07R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP_X\r\n[ARPT_COND]\r\nRWY_07R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -30568,6 +30568,11 @@
                     "variableName": "REQ",
                     "text": "REQ",
                     "voice": "REQUEST"
+                },
+                {
+                    "variableName": "RNP_X",
+                    "text": "RNP X APCH",
+                    "voice": "RNP X-RAY APCH."
                 }
             ],
             "airportConditionDefinitions": [
@@ -30593,5 +30598,5 @@
     ],
     "version": 4,
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2025072101
+    "updateSerial": 2025072401
 }
