@@ -4401,7 +4401,7 @@
                 },
                 {
                     "variableName": "ILS",
-                    "text": "EXPECT VECOTRS FOR ILS APCH",
+                    "text": "EXPECT VECTORS FOR ILS APCH",
                     "voice": "EXPECT VECTORS FOR ILS APPROACH."
                 },
                 {
@@ -30598,5 +30598,5 @@
     ],
     "version": 4,
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2025072401
+    "updateSerial": 2025072402
 }
