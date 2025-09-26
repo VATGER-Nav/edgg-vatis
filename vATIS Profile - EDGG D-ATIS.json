@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "9383283f-b777-4aac-aa04-a71741cefb54",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2025092601,
+    "updateSerial": 2025092602,
     "stations": [
         {
             "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
@@ -19493,7 +19493,7 @@
                 {
                     "text": "ADVISORY",
                     "ordinal": 1,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "DEP_FREQ_PFA_129_675",
@@ -19503,7 +19503,7 @@
                 {
                     "text": "DEP_FREQ_GIN_124_730",
                     "ordinal": 3,
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "text": "DEP_FREQ_RUD_133_435",
@@ -27849,7 +27849,7 @@
                     },
                     "template": {
                         "text": "{weather}",
-                        "voice": "PRESENTT WEATHER {weather}"
+                        "voice": "PRESENT WEATHER {weather}"
                     }
                 },
                 "recentWeather": {
@@ -28225,7 +28225,7 @@
                 {
                     "text": "NOTAM_L21_L20",
                     "ordinal": 7,
-                    "enabled": true
+                    "enabled": false
                 }
             ]
         },
