@@ -1,6 +1,8 @@
 {
   "name": "EDGG D-ATIS",
-  "id": "a7824927-c661-47ab-8036-6540fa4d42ad",
+  "id": "9383283f-b777-4aac-aa04-a71741cefb54",
+  "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
+  "updateSerial": 2025072402,
   "stations": [
     {
       "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
@@ -14,10 +16,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -1837,10 +1836,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -2087,7 +2083,7 @@
         {
           "variableName": "EDDL",
           "text": "ATIS EDDL",
-          "voice": "DUESSELDORF INFORMATION"
+          "voice": "DUSSELDORF INFORMATION"
         },
         {
           "variableName": "TRND",
@@ -2222,10 +2218,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -4045,10 +4038,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -4442,32 +4432,32 @@
         {
           "variableName": "RWY_13L_24",
           "text": "RWY 13L 24",
-          "voice": "RWY IN USE ^13L AND 24."
+          "voice": "RWYS IN USE ^13L AND 24."
         },
         {
           "variableName": "RWY_13L_13R_24",
           "text": "RWY 13L 13R 24",
-          "voice": "RWY IN USE ^13L, ^13R AND 24."
+          "voice": "RWYS IN USE ^13L, ^13R AND 24."
         },
         {
           "variableName": "RWY_13L_13R",
           "text": "RWY 13L 13R",
-          "voice": "RWY IN USE ^13L AND ^13R."
+          "voice": "RWYS IN USE ^13L AND ^13R."
         },
         {
           "variableName": "HIGH_TRAFFIC_MEDIUM_13R",
-          "text": "ALL MEDIUM ACFT EXP RWY 13R FOR DEP. REPORT UNABLE ON INITIAL CONTACT.",
+          "text": "ALL DEPARTING MEDIUM ACFT EXP RWY 13R FOR DEP. REPORT UNABLE ON INITIAL CONTACT.",
           "voice": "ALL DEPARTING MEDIUM AIRCRAFT EXPECT RWY ^13R. REPORT IF UNABLE ON INITIAL CONTACT."
         },
         {
           "variableName": "RWY_31R_24",
           "text": "RWY 31R 24",
-          "voice": "RWY IN USE ^31R AND 24."
+          "voice": "RWYS IN USE ^31R AND 24."
         },
         {
           "variableName": "RWY_31R_31L",
           "text": "RWY 31R 31L",
-          "voice": "RWY IN USE ^31R AND ^31L."
+          "voice": "RWYS IN USE ^31R AND ^31L."
         },
         {
           "variableName": "RWY_24",
@@ -4482,7 +4472,7 @@
         {
           "variableName": "RWY_31R_31L_24",
           "text": "RWY 31R 31L 24",
-          "voice": "RWY IN USE ^31R, ^31L AND 24."
+          "voice": "RWYS IN USE ^31R, ^31L AND 24."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -4502,7 +4492,7 @@
         {
           "variableName": "RWY_31R_06",
           "text": "RWY 31R 06",
-          "voice": "RWY IN USE ^31R AND 06."
+          "voice": "RWYS IN USE ^31R AND 06."
         },
         {
           "variableName": "RNP_APCH",
@@ -4592,10 +4582,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -6415,10 +6402,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -6747,10 +6731,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -8570,10 +8551,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -8867,10 +8845,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -10690,10 +10665,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -10977,10 +10949,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -12800,10 +12769,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -13097,10 +13063,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -14920,10 +14883,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -15227,10 +15187,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -17050,10 +17007,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -17331,7 +17285,7 @@
         {
           "text": "ADVISORY",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "DEP_FREQ_EIF_125_600",
@@ -17346,7 +17300,7 @@
         {
           "text": "DEP_FREQ_RUD_133_435",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "DEP_FREQ_KTG_123_280",
@@ -17377,10 +17331,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -19200,10 +19151,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -19430,14 +19378,14 @@
           "voice": "FOR NDB APPROACH."
         },
         {
-          "variableName": "DEP_FREQ_GIN_133_435",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 133.435",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 133.435."
-        },
-        {
-          "variableName": "DEP_FREQ_RUD_124_730",
+          "variableName": "DEP_FREQ_GIN_124_730",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 124.730",
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 124.730."
+        },
+        {
+          "variableName": "DEP_FREQ_RUD_133_435",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 133.435",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 133.435."
         },
         {
           "variableName": "DEP_FREQ_KTG_123_280",
@@ -19532,10 +19480,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -21355,10 +21300,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -21728,10 +21670,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -23551,10 +23490,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -23898,10 +23834,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -25721,10 +25654,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -26037,10 +25967,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -27860,10 +27787,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -28120,7 +28044,7 @@
         {
           "variableName": "RWY_25C_18",
           "text": "RWY 25C 18",
-          "voice": "RWY IN USE ^25C AND 18."
+          "voice": "RWYS IN USE ^25C AND 18."
         },
         {
           "variableName": "CHECK_CHARTS_FOR_DEP_FREQ",
@@ -28135,7 +28059,7 @@
         {
           "variableName": "RWY_07C_18",
           "text": "RWY 07C 18",
-          "voice": "RWY IN USE ^07C AND 18."
+          "voice": "RWYS IN USE ^07C AND 18."
         },
         {
           "variableName": "RWY_18",
@@ -28159,8 +28083,13 @@
         },
         {
           "variableName": "INTERSECTION_M",
-          "text": "ACFT DEPARTING RWY 18: EXPECT POSSIBLE DEPARTURE FROM INTERSECTION M, TORA 3454 METERS. IF UNABLE, ADVISE TWR ON INITIAL CONTACT",
+          "text": "ACFT DEPARTING RWY18: EXPECT POSSIBLE DEPARTURE FROM INTERSECTION M, TORA 3454 METERS. IF UNABLE, ADVISE TWR ON INITIAL CONTACT",
           "voice": "ACFT DEPARTING RWY 18, EXPECT POSSIBLE DEPARTURE FROM INTERSECTION MIKE, TORA {3454} METERS. IF UNABLE ADVISE TWR ON INITIAL CONTACT."
+        },
+        {
+          "variableName": "NOTAM_L21_L20",
+          "text": "ACFT DEPARTING RWY07C: EXPECT DEPARTURE FROM INTERSECTION L17, TORA 3312 METERS. IF UNABLE, ADVISE APRON ON INITIAL CONTACT",
+          "voice": "AIRCRAFT DEPARTING RWY ^07C, EXPECT DEPARTURE FROM INTERSECTION LIMA ONE SEVEN, TORA {3312} METERS. IF UNABLE ADVISE APRON ON INITIAL CONTACT."
         },
         {
           "variableName": "TAILWIND_RWY_18_MORE_10_KT",
@@ -28214,6 +28143,11 @@
           "text": "CHECK_CHARTS_FOR_DEP_FREQ",
           "ordinal": 6,
           "enabled": false
+        },
+        {
+          "text": "NOTAM_L21_L20",
+          "ordinal": 7,
+          "enabled": false
         }
       ]
     },
@@ -28229,10 +28163,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -30052,10 +29983,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -30467,7 +30395,7 @@
         {
           "variableName": "RWY_07R_07L",
           "text": "RWY 07L 07R",
-          "voice": "RWY IN USE ^07L AND ^07R."
+          "voice": "RWYS IN USE ^07L AND ^07R."
         },
         {
           "variableName": "RWY_07R",
@@ -30482,12 +30410,12 @@
         {
           "variableName": "RWY_07C_07L",
           "text": "RWY 07C 07L",
-          "voice": "RWY IN USE ^07C AND ^07L."
+          "voice": "RWYS IN USE ^07C AND ^07L."
         },
         {
           "variableName": "RWY_25L_25R",
           "text": "RWY 25R 25L",
-          "voice": "RWY IN USE ^25R AND ^25L."
+          "voice": "RWYS IN USE ^25R AND ^25L."
         },
         {
           "variableName": "RWY_25L",
@@ -30501,7 +30429,7 @@
         },
         {
           "variableName": "APP_SWING",
-          "text": "DO NOT MISTAKE TWY M FOR RWY 25C WHEN PERFORMING VIS APCH",
+          "text": "DO NOT MISTAKE TWY M FOR RWY 25C WHEN PERFORMING VISUAL APCH",
           "voice": ".DO NOT MISTAKE TWY MIKE FOR RWY ^25C WHEN PERFORMING VISUAL APCH."
         },
         {
