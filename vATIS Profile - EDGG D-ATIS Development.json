@@ -2066,7 +2066,7 @@
         {
           "id": "fdb86a31-9381-4e06-97dd-0611527f3955",
           "ordinal": 5,
-          "name": "DEP 05R | ARR 05R 05L",
+          "name": "DEP 05R | ARR 05L 05R",
           "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 05L OR RWY 05R DOT\r\nRWY_05R_05L\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
@@ -4456,8 +4456,8 @@
         },
         {
           "variableName": "HIGH_TRAFFIC_MEDIUM_13R",
-          "text": "ALL DEPARTING MEDIUM ACFT EXP RWY 13R. REPORT UNABLE ON INITIAL CONTACT.",
-          "voice": "ALL DEPARTING MEDIUM AIRCRAFT EXPECT RWY ^13R. REPORT IF UNABLE ON INITIAL CONTACT."
+          "text": "ALL DEPARTING MEDIUM ACFT EXPECT RWY 13R FOR DEPARTURE, REPORT UNABLE ON INITIAL CONTACT.",
+          "voice": "ALL DEPARTING MEDIUM AIRCRAFT EXPECT RWY ^13R FOR DEPARTURE. REPORT IF UNABLE ON INITIAL CONTACT."
         },
         {
           "variableName": "RWY_31R_24",
