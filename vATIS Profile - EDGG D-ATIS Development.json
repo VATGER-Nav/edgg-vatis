@@ -31,25 +31,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -62,7 +62,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -1891,7 +1891,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -1973,7 +1973,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -1992,7 +1992,7 @@
           "id": "4c1ee2dc-95c7-4e07-b3a2-b6e5e58c2324",
           "ordinal": 0,
           "name": "23L",
-          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nDEP_ARR_23L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] DOT\r\nRWY_23L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2007,7 +2007,7 @@
           "id": "3b207d79-49f9-4956-9cc4-d63044445827",
           "ordinal": 1,
           "name": "DEP 23L | ARR 23R",
-          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nDEP_23L_ARR_23R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 23R DOT\r\nRWY_23L_23R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2022,7 +2022,7 @@
           "id": "55d0c754-c388-4c7e-83ec-dd318b4d7caa",
           "ordinal": 2,
           "name": "DEP 23L | ARR 23R 23L",
-          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nDEP_23L_ARR_23R_23L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 23L OR RWY 23R DOT\r\nRWY_23L_23R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2037,7 +2037,7 @@
           "id": "1dfead01-e839-4aba-b559-1e7418775616",
           "ordinal": 3,
           "name": "05R",
-          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nDEP_ARR_05R\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] DOT\r\nRWY_05R\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2052,7 +2052,7 @@
           "id": "43116b9b-c360-4161-b9d0-8e78a8eca34d",
           "ordinal": 4,
           "name": "DEP 05R | ARR 05L",
-          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nDEP_05R_ARR_05L\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 05L DOT\r\nRWY_05R_05L\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2066,8 +2066,8 @@
         {
           "id": "fdb86a31-9381-4e06-97dd-0611527f3955",
           "ordinal": 5,
-          "name": "DEP 05R | ARR 05L 05R",
-          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nDEP_05R_ARR_05L_05R\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "name": "DEP 05R | ARR 05R 05L",
+          "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 05L OR RWY 05R DOT\r\nRWY_05R_05L\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2092,53 +2092,58 @@
         },
         {
           "variableName": "ILS",
-          "text": "EXPECT VECTORS FOR ILS APCH",
-          "voice": "EXPECT VECTORS FOR ILS APPROACH."
+          "text": "EXPECT VECTORS ILS APPROACH",
+          "voice": "EXPECT VECTORS ILS APPROACH"
         },
         {
-          "variableName": "DEP_ARR_23L",
+          "variableName": "DOT",
+          "text": "",
+          "voice": "."
+        },
+        {
+          "variableName": "RWY_23L",
           "text": "RWY 23L",
           "voice": "RWY IN USE ^23L."
         },
         {
-          "variableName": "DEP_23L_ARR_23R",
-          "text": "ARR RWY 23R DEP RWY 23L",
-          "voice": "ARRIVAL RWY IN USE ^23R. DEPARTURE RWY IN USE ^23L."
+          "variableName": "RWY_23R",
+          "text": "RWY 23R",
+          "voice": "RWY IN USE ^23R."
         },
         {
-          "variableName": "DEP_23L_ARR_23R_23L",
-          "text": "ARR RWY 23R 23L DEP RWY 23L",
-          "voice": "ARRIVAL RWY IN USE ^23R AND ^23L. DEPARTURE RWY IN USE ^23L."
+          "variableName": "RWY_23L_23R",
+          "text": "RWY 23L 23R",
+          "voice": "RWYS IN USE ^23L AND ^23R."
         },
         {
-          "variableName": "DEP_ARR_05R",
+          "variableName": "RWY_05R",
           "text": "RWY 05R",
           "voice": "RWY IN USE ^05R."
         },
         {
-          "variableName": "DEP_05R_ARR_05L",
-          "text": "ARR RWY 05L DEP RWY 05R",
-          "voice": "ARRIVAL RWY IN USE ^05L. DEPARTURE RWY IN USE ^05R."
+          "variableName": "RWY_05L",
+          "text": "RWY 05L",
+          "voice": "RWY IN USE ^05L."
         },
         {
-          "variableName": "DEP_05R_ARR_05L_05R",
-          "text": "ARR RWY 05L 05R DEP RWY 05R",
-          "voice": "ARRIVAL RWY IN USE ^05L AND ^05R. DEPARTURE RWY IN USE ^05R."
+          "variableName": "RWY_05R_05L",
+          "text": "RWY 05R 05L",
+          "voice": "RWYS IN USE ^05R AND ^05L."
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN PASSING 2000FT MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN PASSING *2000FT MONITOR ADVISORY ON 122.8."
+          "text": "WHEN PASSING 2000FT MONITOR ADVISORY ON FREQUENCY 122.800",
+          "voice": "WHEN PASSING *2000FT MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
           "variableName": "DEP_FREQ_DLD_DLA_BOT_121_355",
-          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON 121.355",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON 121.355."
+          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 121.355",
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 121.355."
         },
         {
           "variableName": "DEP_FREQ_PADH_135_650",
-          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON 135.650",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON 135.650."
+          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.650",
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.650."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -2148,16 +2153,16 @@
         {
           "variableName": "SRA_ON_REQ",
           "text": "SRA APPROACH AVBL ON REQ",
-          "voice": "SRA APPROACH AVAILABLE ON REQUEST."
+          "voice": "SRA APPROACH AVAILABLE ON REQUEST"
         },
         {
           "variableName": "RNP",
-          "text": "EXPECT VECTORS FOR RNP APCH",
-          "voice": "EXPECT VECTORS FOR RNP APPROACH."
+          "text": "EXPECT VECTORS RNP APPROACH",
+          "voice": "EXPECT VECTORS RNP APPROACH."
         },
         {
           "variableName": "TWY_INCURSION",
-          "text": "ATTENTION, RISK OF TWY INCURSION WHEN TAXIING TO RWY 05R, CHECK HOT SPOTS T1 AND L9 ON TAXI CHART.",
+          "text": "ATTENTION, RISK OF TWY INCURSION WHEN TAXIING TO RWY05R, CHECK HOT SPOTS T1 AND L9 ON TAXI CHART.",
           "voice": "ATTENTION, RISK OF TWY INCURSION WHEN TAXIING TO RWY ^05R, CHECK HOT SPOTS TANGO 1 AND LIMA 9 ON TAXI CHART."
         }
       ],
@@ -2233,25 +2238,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -2264,7 +2269,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -4093,7 +4098,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -4175,7 +4180,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -4191,8 +4196,128 @@
       },
       "presets": [
         {
-          "id": "c1a8999e-d4bb-4919-9097-15b4b3713ed5",
+          "id": "d3be467b-be33-4d99-83be-34e77249f8f8",
           "ordinal": 1,
+          "name": "13L 24",
+          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "03f78c87-02c3-4547-9a25-9526bd6e28d0",
+          "ordinal": 2,
+          "name": "31R 24",
+          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "7045299f-044c-4bb8-be39-6fe2b672fffb",
+          "ordinal": 3,
+          "name": "13L 24 13R",
+          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_24_13R\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "3276e880-e548-4a09-bea2-f2ce59a79432",
+          "ordinal": 4,
+          "name": "31R 24 31L",
+          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_24_31L\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "8b64f82b-44a3-4751-85a0-15c8edb36dd5",
+          "ordinal": 5,
+          "name": "13L 13R",
+          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_13R\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "1c759c9f-7c47-4a76-804a-fdba31343858",
+          "ordinal": 6,
+          "name": "31R 31L",
+          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_31L\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "16106326-8a7b-4a56-8867-9bd201fd765a",
+          "ordinal": 7,
+          "name": "31R 06",
+          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_31R_06\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "57ecb274-057c-4483-b20c-96608ee7af9f",
+          "ordinal": 8,
+          "name": "13L 06",
+          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_13L_06\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "c1a8999e-d4bb-4919-9097-15b4b3713ed5",
+          "ordinal": 9,
           "name": "13L",
           "airportConditions": "",
           "notams": "",
@@ -4209,7 +4334,7 @@
         },
         {
           "id": "f4371b69-619b-4c79-9e7b-adc730201eb7",
-          "ordinal": 2,
+          "ordinal": 10,
           "name": "31R",
           "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
@@ -4223,98 +4348,8 @@
           }
         },
         {
-          "id": "d3be467b-be33-4d99-83be-34e77249f8f8",
-          "ordinal": 3,
-          "name": "13L 24",
-          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "03f78c87-02c3-4547-9a25-9526bd6e28d0",
-          "ordinal": 4,
-          "name": "31R 24",
-          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "0c001416-a87b-4dac-a215-d2740647a776",
-          "ordinal": 4,
-          "name": "24",
-          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_24\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "7045299f-044c-4bb8-be39-6fe2b672fffb",
-          "ordinal": 6,
-          "name": "13L 13R 24",
-          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_13R_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "8b64f82b-44a3-4751-85a0-15c8edb36dd5",
-          "ordinal": 7,
-          "name": "13L 13R",
-          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_13R\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "1c759c9f-7c47-4a76-804a-fdba31343858",
-          "ordinal": 8,
-          "name": "31R 31L",
-          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_31L\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
           "id": "6166363a-8741-46c3-9b1f-950cdd019477",
-          "ordinal": 9,
+          "ordinal": 11,
           "name": "06",
           "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_06\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
@@ -4328,40 +4363,10 @@
           }
         },
         {
-          "id": "3276e880-e548-4a09-bea2-f2ce59a79432",
-          "ordinal": 10,
-          "name": "31R 31L 24",
-          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_31L_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "16106326-8a7b-4a56-8867-9bd201fd765a",
-          "ordinal": 11,
-          "name": "31R 06",
-          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_31R_06\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "57ecb274-057c-4483-b20c-96608ee7af9f",
+          "id": "0c001416-a87b-4dac-a215-d2740647a776",
           "ordinal": 12,
-          "name": "13L 06",
-          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_13L_06\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "name": "24",
+          "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_24\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4395,14 +4400,19 @@
           "voice": "EXPECT VECTORS FOR ILS APPROACH."
         },
         {
+          "variableName": "ILS",
+          "text": "EXPECT ILS OR RNP APCH",
+          "voice": "EXPECT ILS OR RNP APPROACH."
+        },
+        {
           "variableName": "RNP",
           "text": "EXPECT VECTORS FOR RNP APCH",
           "voice": "EXPECT VECTORS FOR RNP APPROACH."
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
           "variableName": "OLD_NAV_DATA_13",
@@ -4411,13 +4421,13 @@
         },
         {
           "variableName": "DEP_FREQ_DKA_NOR_135_350",
-          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON 135.350",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON 135.350."
+          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.350",
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.350."
         },
         {
           "variableName": "DEP_FREQ_PADH_135_650",
-          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON 135.650",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON 135.650"
+          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.650",
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.650"
         },
         {
           "variableName": "OLD_NAV_DATA_31",
@@ -4435,9 +4445,9 @@
           "voice": "RWYS IN USE ^13L AND 24."
         },
         {
-          "variableName": "RWY_13L_13R_24",
-          "text": "RWY 13L 13R 24",
-          "voice": "RWYS IN USE ^13L, ^13R AND 24."
+          "variableName": "RWY_13L_24_13R",
+          "text": "RWY 13L 24 13R",
+          "voice": "RWYS IN USE ^13L, 24 AND ^13R."
         },
         {
           "variableName": "RWY_13L_13R",
@@ -4446,7 +4456,7 @@
         },
         {
           "variableName": "HIGH_TRAFFIC_MEDIUM_13R",
-          "text": "ALL DEPARTING MEDIUM ACFT EXP RWY 13R FOR DEP. REPORT UNABLE ON INITIAL CONTACT.",
+          "text": "ALL DEPARTING MEDIUM ACFT EXP RWY 13R. REPORT UNABLE ON INITIAL CONTACT.",
           "voice": "ALL DEPARTING MEDIUM AIRCRAFT EXPECT RWY ^13R. REPORT IF UNABLE ON INITIAL CONTACT."
         },
         {
@@ -4470,9 +4480,9 @@
           "voice": "RWY IN USE 06."
         },
         {
-          "variableName": "RWY_31R_31L_24",
+          "variableName": "RWY_31R_24_31L",
           "text": "RWY 31R 31L 24",
-          "voice": "RWYS IN USE ^31R, ^31L AND 24."
+          "voice": "RWYS IN USE ^31R, 24 AND ^31L."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -4482,12 +4492,12 @@
         {
           "variableName": "CDO_ILS",
           "text": "EXPECT CDO FOR ILS APCH",
-          "voice": "EXPECT CONTINOUS DESCEND APCH FOR ILS APCH."
+          "voice": "EXPECT CONTINUOUS DESCEND APCH FOR ILS APCH."
         },
         {
           "variableName": "CDO_RNP",
           "text": "EXPECT CDO FOR RNP APCH",
-          "voice": "EXPECT CONTINOUS DESCEND APCH FOR RNP APCH."
+          "voice": "EXPECT CONTINUOUS DESCEND APCH FOR RNP APCH."
         },
         {
           "variableName": "RWY_31R_06",
@@ -4597,25 +4607,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -4628,7 +4638,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -6457,7 +6467,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -6539,7 +6549,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -6591,7 +6601,7 @@
         {
           "variableName": "EDDG",
           "text": "ATIS EDDG",
-          "voice": "MUENSTER OSNABRUECK INFORMATION"
+          "voice": "MUENSTER OSNABRUCK INFORMATION"
         },
         {
           "variableName": "RWY_07",
@@ -6605,23 +6615,23 @@
         },
         {
           "variableName": "ILS",
-          "text": "VECTORS FOR ILS APCH",
-          "voice": "VECTORS FOR ILS APCH."
+          "text": "ILS APPROACH",
+          "voice": "ILS APCH."
         },
         {
-          "variableName": "RNAV",
-          "text": "VECTORS FOR RNAV APCH",
-          "voice": "VECTORS FOR R NAV APCH."
+          "variableName": "GPS",
+          "text": "GPS APPROACH",
+          "voice": "G PS APCH."
         },
         {
           "variableName": "NDB",
-          "text": "VECTORS FOR NDB APCH",
-          "voice": "VECTORS FOR NDB APCH."
+          "text": "NDB APPROACH",
+          "voice": "NDB APCH."
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -6630,23 +6640,23 @@
         },
         {
           "variableName": "DEP_FREQ_HMM_PADL_129_300",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 129.300",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 129.3."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.300",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.3."
         },
         {
           "variableName": "LOC",
-          "text": "VECTORS FOR LOC APCH",
-          "voice": "VECTORS FOR LOCALIZER APCH."
+          "text": "LOC APPROACH",
+          "voice": "LOCALIZER APCH."
         },
         {
           "variableName": "DEP_FREQ_PADH_135_650",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 135.650",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 135.650."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650."
         },
         {
           "variableName": "ILS_VIS_ON_REQ",
-          "text": "VECTORS FOR ILS APCH, VIS APCH AVBL ON REQ",
-          "voice": "VECTORS FOR ILS APPROACH, VISUAL APPROACH AVAILABLE ON REQUEST."
+          "text": "ILS APPROACH, VISUAL APPROACH ON REQUEST",
+          "voice": "ILS APPROACH, VISUAL APPROACH ON REQUEST."
         },
         {
           "variableName": "TRND",
@@ -6654,9 +6664,9 @@
           "voice": ""
         },
         {
-          "variableName": "RNAV_NDB_VIS_ON_REQ",
-          "text": "VECTORS FOR RNAV OR NDB APCH, VIS APCH AVB ON REQ",
-          "voice": "VECTORS FOR R NAV OR NDB APPROACH, VISUAL APPROACH AVAILABLE ON REQUEST."
+          "variableName": "GPS_NDB_VIS_ON_REQ",
+          "text": "GPS OR NDB APPROACH, VISUAL APPROACH ON REQUEST",
+          "voice": "G PS OR NDB APPROACH, VISUAL APPROACH ON REQUEST."
         }
       ],
       "airportConditionDefinitions": [
@@ -6671,22 +6681,22 @@
           "enabled": false
         },
         {
-          "text": "RNAV",
+          "text": "GPS",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "NDB",
+          "text": "GPS_NDB_VIS_ON_REQ",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "LOC",
+          "text": "NDB",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "GPS_NDB_VIS_ON_REQ",
+          "text": "LOC",
           "ordinal": 6,
           "enabled": false
         }
@@ -6746,25 +6756,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -6777,7 +6787,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -8606,7 +8616,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -8688,7 +8698,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -8754,8 +8764,8 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -8764,8 +8774,8 @@
         },
         {
           "variableName": "DEP_FREQ_PADL_HMM_PADH_125_225",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.225",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.225."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.225",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.225."
         },
         {
           "variableName": "ILS",
@@ -8860,25 +8870,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -8891,7 +8901,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -10720,7 +10730,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -10802,7 +10812,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -10868,13 +10878,13 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
           "variableName": "DEP_FREQ_PADL_HMM_PADH_125_225",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.225",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.225."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.225",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.225."
         },
         {
           "variableName": "ILS",
@@ -10964,25 +10974,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -10995,7 +11005,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -12824,7 +12834,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -12906,7 +12916,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -12972,8 +12982,8 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -12982,8 +12992,8 @@
         },
         {
           "variableName": "DEP_FREQ_BOT_DLD_DLA_PADH_119_110",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 119.110",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 119.110."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.110",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.110."
         },
         {
           "variableName": "ILS",
@@ -13078,25 +13088,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -13109,7 +13119,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -14938,7 +14948,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -15020,7 +15030,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -15086,13 +15096,13 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
           "variableName": "DEP_FREQ_DLAT_LN13_DL05_128_655",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 128.655",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 128.655."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 128.655",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 128.655."
         },
         {
           "variableName": "ILS",
@@ -15116,13 +15126,13 @@
         },
         {
           "variableName": "DEP_FREQ_DLA_PADH_LN31_DL05_128_555",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 128.555",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 128.555."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 128.555",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 128.555."
         },
         {
           "variableName": "DEP_FREQ_DLD_DLA_PADH_DL23_121_355",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 121.355",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 121.355."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 121.355",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 121.355."
         }
       ],
       "airportConditionDefinitions": [
@@ -15202,25 +15212,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -15233,7 +15243,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -17062,7 +17072,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -17144,7 +17154,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -17210,13 +17220,13 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
           "variableName": "DEP_FREQ_EIF_125_600",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.600",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.600."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.600",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.600."
         },
         {
           "variableName": "ILS",
@@ -17245,18 +17255,18 @@
         },
         {
           "variableName": "DEP_FREQ_RUD_133_435",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 133.435",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 133.435."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.435",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.435."
         },
         {
           "variableName": "DEP_FREQ_GIN_124_730",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 124.730",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 124.730."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.730",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.730."
         },
         {
           "variableName": "DEP_FREQ_KTG_123_280",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280."
         }
       ],
       "airportConditionDefinitions": [
@@ -17285,7 +17295,7 @@
         {
           "text": "ADVISORY",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "DEP_FREQ_EIF_125_600",
@@ -17300,7 +17310,7 @@
         {
           "text": "DEP_FREQ_RUD_133_435",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "DEP_FREQ_KTG_123_280",
@@ -17346,25 +17356,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -17377,7 +17387,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -19206,7 +19216,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -19288,7 +19298,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -19354,13 +19364,13 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
           "variableName": "DEP_FREQ_PFA_129_675",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 129.675",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 129.675."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.675",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.675."
         },
         {
           "variableName": "ILS_Y",
@@ -19379,18 +19389,18 @@
         },
         {
           "variableName": "DEP_FREQ_GIN_124_730",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 124.730",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 124.730."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.730",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.730."
         },
         {
           "variableName": "DEP_FREQ_RUD_133_435",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 133.435",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 133.435."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.435",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.435."
         },
         {
           "variableName": "DEP_FREQ_KTG_123_280",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280."
         },
         {
           "variableName": "ILS_Z",
@@ -19495,25 +19505,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -19526,7 +19536,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -21355,7 +21365,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -21437,7 +21447,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -21458,7 +21468,7 @@
           "name": "07",
           "airportConditions": "",
           "notams": "",
-          "template": "EDDS [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_07\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDS [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORING [ARPT_COND]\r\nRWY_07\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21475,7 +21485,7 @@
           "name": "25",
           "airportConditions": "",
           "notams": "",
-          "template": "EDDS [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_25\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDS [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORING [ARPT_COND]\r\nRWY_25\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21564,28 +21574,28 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
           "variableName": "DEP_FREQ_STG_125_050",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.050",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.050."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.050",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.050."
         },
         {
           "variableName": "DEP_FREQ_DKB_125_200",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.200",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.2."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.200",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.2."
         },
         {
           "variableName": "DEP_FREQ_BAD_131_300",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.300",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.3."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.300",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.3."
         },
         {
           "variableName": "DEP_FREQ_KTG_123_280",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280."
         },
         {
           "variableName": "SRA_ON_REQ",
@@ -21685,25 +21695,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -21716,7 +21726,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -23545,7 +23555,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -23627,7 +23637,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -23708,28 +23718,28 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
           "variableName": "DEP_FREQ_STG_125_050",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.050",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.050."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.050",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.050."
         },
         {
           "variableName": "DEP_FREQ_DKB_125_200",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.200",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.2."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.200",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.2."
         },
         {
           "variableName": "DEP_FREQ_BAD_131_300",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.300",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.3."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.300",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.3."
         },
         {
           "variableName": "DEP_FREQ_KTG_123_280",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -23743,8 +23753,8 @@
         },
         {
           "variableName": "DEP_FREQ_LFSTAPP_119_580",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 119.580",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 119.580."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.580",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.580."
         },
         {
           "variableName": "HP_CAUTION",
@@ -23849,25 +23859,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -23880,7 +23890,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -25709,7 +25719,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -25791,7 +25801,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -25811,7 +25821,7 @@
           "name": "09 visual circling",
           "airportConditions": "",
           "notams": "",
-          "template": "EDFM [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND] FOR CIRCLING RWY 09\r\nRWY_09\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
+          "template": "EDFM [ATIS_LETTER] [OBS_TIME]\r\nEXPECT [ARPT_COND] FOR CIRCLING RWY 09\r\nRWY_09\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -25827,7 +25837,7 @@
           "name": "27",
           "airportConditions": "",
           "notams": "",
-          "template": "EDFM [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_27\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
+          "template": "EDFM [ATIS_LETTER] [OBS_TIME]\r\nEXPECT [ARPT_COND]\r\nRWY_27\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -25841,7 +25851,7 @@
         {
           "id": "1830732a-76dc-42f3-b0c9-4a356d965309",
           "name": "DEP 09 | ARR 27",
-          "template": "EDFM [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nDEP_09_ARR_27\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
+          "template": "EDFM [ATIS_LETTER] [OBS_TIME]\r\nEXPECT [ARPT_COND]\r\nDEP_09_ARR_27\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -25881,28 +25891,28 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
           "variableName": "DEP_FREQ_NKRL_129_355",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 129.355",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 129.355."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.355",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.355."
         },
         {
           "variableName": "DEP_FREQ_DKB_125_200",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.200",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 125.2."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.200",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.2."
         },
         {
           "variableName": "DEP_FREQ_BAD_131.300",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.300",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 131.3."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.300",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.3."
         },
         {
           "variableName": "DEP_FREQ_KTG_123.280",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON 123.280."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280."
         },
         {
           "variableName": "DEP_09_ARR_27",
@@ -25982,25 +25992,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -26013,7 +26023,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -27842,7 +27852,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -27924,7 +27934,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -28130,22 +28140,22 @@
           "enabled": false
         },
         {
-          "text": "25C_ALL_SOUTH",
+          "text": "NOTAM_L21_L20",
           "ordinal": 4,
-          "enabled": false
+          "enabled": true
         },
         {
-          "text": "25C_ALL_NORTH",
+          "text": "25C_ALL_SOUTH",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+          "text": "25C_ALL_NORTH",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "NOTAM_L21_L20",
+          "text": "CHECK_CHARTS_FOR_DEP_FREQ",
           "ordinal": 7,
           "enabled": false
         }
@@ -28178,25 +28188,25 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
               "text": "VRB{wind_spd}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": ".WIND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+              "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
             }
           },
           "variableDirection": {
@@ -28209,7 +28219,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": ".WIND CALM"
+              "voice": ". WYND CALM"
             }
           }
         },
@@ -30038,7 +30048,7 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS .. {clouds}"
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -30120,7 +30130,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "",
-            "voice": " INFORMATION {letter|word} .. OUT"
+            "voice": " INFORMATION {letter|word} OUT"
           }
         }
       },
@@ -30139,7 +30149,7 @@
           "id": "3447f0c9-e449-455d-9906-a24eff5a1a6c",
           "ordinal": 1,
           "name": "25L + 25R | ILS Y",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Y\r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Y\r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30154,7 +30164,7 @@
           "id": "b570872a-51e3-4aad-aa2b-4ddee2a34190",
           "ordinal": 2,
           "name": "07R + 07L | ILS Y",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_07L_ILS_Y\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_07L_ILS_Y\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30169,7 +30179,7 @@
           "id": "e9b66e4a-9607-499c-9e06-6b7e9228ceae",
           "ordinal": 3,
           "name": "25L + 25R | IPA ILS Y",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Y \r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Y \r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30184,7 +30194,7 @@
           "id": "adb89371-bd6a-4415-8537-08d237890ae0",
           "ordinal": 4,
           "name": "07R + 07L | IPA ILS Y",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_07R_07L_ILS_Y\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_07R_07L_ILS_Y\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30199,7 +30209,7 @@
           "id": "5f2e0ac5-233d-437e-8a27-96c2e72db622",
           "ordinal": 5,
           "name": "25L + 25R | ILS Z",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Z \r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Z \r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30214,7 +30224,7 @@
           "id": "5e6b3726-b63d-4f0e-ac53-d33f6f200c89",
           "ordinal": 5,
           "name": "07R + 07L | ILS Z",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_07L_ILS_Z\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_07L_ILS_Z\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30229,7 +30239,7 @@
           "id": "5be32735-4002-49f8-a0bf-0ee1df0f4eec",
           "ordinal": 7,
           "name": "25L + 25R | IPA ILS Z",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Z \r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Z \r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30244,7 +30254,7 @@
           "id": "33268d4b-0baa-483d-8257-e8233eee402f",
           "ordinal": 8,
           "name": "07R + 07L | IPA ILS Z",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_07R_07L_ILS_Z\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_07R_07L_ILS_Z\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30259,7 +30269,7 @@
           "id": "69a07614-3a40-41b4-89ec-6a8281994020",
           "ordinal": 9,
           "name": "25C | ILS Z",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25C_ILS_Z \r\nRWY_25C\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25C_ILS_Z \r\nRWY_25C\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30274,7 +30284,7 @@
           "id": "3e8a8fe3-4061-442f-b7ab-966decc372a9",
           "ordinal": 10,
           "name": "25L | ILS",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_ILS \r\nRWY_25L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_ILS \r\nRWY_25L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30289,7 +30299,7 @@
           "id": "a2c9828e-79ce-46f5-b6cd-e1b9b210553c",
           "ordinal": 11,
           "name": "07C | ILS Z",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07C_ILS_Z \r\nRWY_07C\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07C_ILS_Z \r\nRWY_07C\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30304,7 +30314,7 @@
           "id": "c3e73a3c-c37c-4e53-935e-d505393833f9",
           "ordinal": 12,
           "name": "07R | ILS",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_ILS \r\nRWY_07R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQ\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_ILS \r\nRWY_07R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30429,8 +30439,8 @@
         },
         {
           "variableName": "APP_SWING",
-          "text": "DO NOT MISTAKE TWY M FOR RWY 25C WHEN PERFORMING VISUAL APCH",
-          "voice": ".DO NOT MISTAKE TWY MIKE FOR RWY ^25C WHEN PERFORMING VISUAL APCH."
+          "text": "DO NOT MISTAKE TWY M FOR RWY 25C WHEN PERFORMING VISUAL APPROACH",
+          "voice": ".DO NOT MISTAKE TWY MIKE FOR RWY ^25C WHEN PERFORMING VISUAL APPROACH."
         },
         {
           "variableName": "IPA_25L_25R_ILS_Y",
@@ -30459,8 +30469,8 @@
         },
         {
           "variableName": "25L_ILS",
-          "text": "EXPECT  ILS APCH RWY 25L",
-          "voice": "EXPECT  ILS APCH RWY ^25L."
+          "text": "EXPECT ILS APCH RWY 25L",
+          "voice": "EXPECT ILS APCH RWY ^25L."
         },
         {
           "variableName": "IPA_07R_07L_ILS_Y",
