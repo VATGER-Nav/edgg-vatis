@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "9383283f-b777-4aac-aa04-a71741cefb54",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2025100401,
+    "updateSerial": 2025100402,
     "stations": [
         {
             "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
@@ -2072,7 +2072,7 @@
                 {
                     "id": "fdb86a31-9381-4e06-97dd-0611527f3955",
                     "ordinal": 5,
-                    "name": "DEP 05R | ARR 05R 05L",
+                    "name": "DEP 05R | ARR 05L 05R",
                     "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 05L OR RWY 05R DOT\r\nRWY_05R_05L\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
@@ -4468,8 +4468,8 @@
                 },
                 {
                     "variableName": "HIGH_TRAFFIC_MEDIUM_13R",
-                    "text": "ALL DEPARTING MEDIUM ACFT EXP RWY 13R. REPORT UNABLE ON INITIAL CONTACT.",
-                    "voice": "ALL DEPARTING MEDIUM AIRCRAFT EXPECT RWY ^13R. REPORT IF UNABLE ON INITIAL CONTACT."
+                    "text": "ALL DEPARTING MEDIUM ACFT EXPECT RWY 13R FOR DEPARTURE, REPORT UNABLE ON INITIAL CONTACT.",
+                    "voice": "ALL DEPARTING MEDIUM AIRCRAFT EXPECT RWY ^13R FOR DEPARTURE. REPORT IF UNABLE ON INITIAL CONTACT."
                 },
                 {
                     "variableName": "RWY_31R_24",
