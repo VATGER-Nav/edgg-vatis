@@ -28142,7 +28142,7 @@
         {
           "text": "NOTAM_L21_L20",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "25C_ALL_SOUTH",
