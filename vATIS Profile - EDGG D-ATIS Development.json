@@ -1914,7 +1914,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
@@ -4121,7 +4121,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
@@ -6530,7 +6530,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
@@ -8669,7 +8669,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
@@ -10783,7 +10783,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
@@ -12887,7 +12887,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
@@ -15001,7 +15001,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
@@ -17125,7 +17125,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
@@ -19269,7 +19269,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
@@ -21418,7 +21418,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
@@ -23608,7 +23608,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
@@ -25772,7 +25772,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
@@ -27905,7 +27905,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
@@ -30101,7 +30101,7 @@
           "pronounceDecimal": false,
           "template": {
             "text": "QNH{altimeter}",
-            "voice": "QNH {altimeter} HECTO PASCAL"
+            "voice": "QNH {altimeter} HECTOPASCAL"
           }
         },
         "trend": {
