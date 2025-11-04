@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "9383283f-b777-4aac-aa04-a71741cefb54",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2025110401,
+    "updateSerial": 2025110402,
     "stations": [
         {
             "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
@@ -1920,7 +1920,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -4133,7 +4133,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -6548,7 +6548,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -8693,7 +8693,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -10813,7 +10813,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -12923,7 +12923,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -15043,7 +15043,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -17173,7 +17173,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -19323,7 +19323,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -21478,7 +21478,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -23674,7 +23674,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -25844,7 +25844,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -27983,7 +27983,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -30185,7 +30185,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTO PASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
