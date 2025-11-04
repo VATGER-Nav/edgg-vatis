@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "9383283f-b777-4aac-aa04-a71741cefb54",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2025100701,
+    "updateSerial": 2025110401,
     "stations": [
         {
             "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
@@ -1920,7 +1920,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
@@ -4133,7 +4133,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
@@ -4211,7 +4211,7 @@
                     "id": "d3be467b-be33-4d99-83be-34e77249f8f8",
                     "ordinal": 1,
                     "name": "13L 24",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_24\r\nOLD_NAV_DATA_13\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4226,7 +4226,7 @@
                     "id": "03f78c87-02c3-4547-9a25-9526bd6e28d0",
                     "ordinal": 2,
                     "name": "31R 24",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_24\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_24\r\nOLD_NAV_DATA_31\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4241,7 +4241,7 @@
                     "id": "7045299f-044c-4bb8-be39-6fe2b672fffb",
                     "ordinal": 3,
                     "name": "13L 24 13R",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_24_13R\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_24_13R\r\nOLD_NAV_DATA_13\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4256,7 +4256,37 @@
                     "id": "3276e880-e548-4a09-bea2-f2ce59a79432",
                     "ordinal": 4,
                     "name": "31R 24 31L",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_24_31L\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_24_31L\r\nOLD_NAV_DATA_31\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "7045299f-044c-4bb8-be39-6fe2b672fffb",
+                    "ordinal": 3,
+                    "name": "13L 06 13R",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_06_13R\r\nOLD_NAV_DATA_13\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "3276e880-e548-4a09-bea2-f2ce59a79432",
+                    "ordinal": 4,
+                    "name": "31R 06 31L",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_06_31L\r\nOLD_NAV_DATA_31\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4271,7 +4301,7 @@
                     "id": "8b64f82b-44a3-4751-85a0-15c8edb36dd5",
                     "ordinal": 5,
                     "name": "13L 13R",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_13R\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_13R\r\nOLD_NAV_DATA_13\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4286,7 +4316,7 @@
                     "id": "1c759c9f-7c47-4a76-804a-fdba31343858",
                     "ordinal": 6,
                     "name": "31R 31L",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_31L\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_31L\r\nOLD_NAV_DATA_31\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4301,7 +4331,7 @@
                     "id": "16106326-8a7b-4a56-8867-9bd201fd765a",
                     "ordinal": 7,
                     "name": "31R 06",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_31R_06\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_31R_06\r\nOLD_NAV_DATA_31\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4316,7 +4346,7 @@
                     "id": "57ecb274-057c-4483-b20c-96608ee7af9f",
                     "ordinal": 8,
                     "name": "13L 06",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_13L_06\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_13L_06\r\nOLD_NAV_DATA_13\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4333,7 +4363,7 @@
                     "name": "13L",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L\r\n[NOTAMS]\r\nOLD_NAV_DATA_13\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L\r\nOLD_NAV_DATA_13\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4348,7 +4378,7 @@
                     "id": "f4371b69-619b-4c79-9e7b-adc730201eb7",
                     "ordinal": 10,
                     "name": "31R",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R\r\n[NOTAMS]\r\nOLD_NAV_DATA_31\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R\r\nOLD_NAV_DATA_31\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4462,6 +4492,21 @@
                     "voice": "RWYS IN USE ^13L, 24 AND ^13R."
                 },
                 {
+                    "variableName": "RWY_13L_06_13R",
+                    "text": "RWY 13L 06 13R",
+                    "voice": "RWYS IN USE ^13L, 06 AND ^13R."
+                },
+                {
+                    "variableName": "RWY_31R_24_31L",
+                    "text": "RWY 31R 24 31L",
+                    "voice": "RWYS IN USE ^31R, 24 AND ^31L."
+                },
+                {
+                    "variableName": "RWY_31R_06_31L",
+                    "text": "RWY 31R 06 31L",
+                    "voice": "RWYS IN USE ^31R, 06 AND ^31L."
+                },
+                {
                     "variableName": "RWY_13L_13R",
                     "text": "RWY 13L 13R",
                     "voice": "RWYS IN USE ^13L AND ^13R."
@@ -4492,11 +4537,6 @@
                     "voice": "RWY IN USE 06."
                 },
                 {
-                    "variableName": "RWY_31R_24_31L",
-                    "text": "RWY 31R 31L 24",
-                    "voice": "RWYS IN USE ^31R, 24 AND ^31L."
-                },
-                {
                     "variableName": "LOW_VISIBILITY",
                     "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AVBL.",
                     "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL."
@@ -4504,12 +4544,12 @@
                 {
                     "variableName": "CDO_ILS",
                     "text": "EXPECT CDO FOR ILS APCH",
-                    "voice": "EXPECT CONTINUOUS DESCEND APCH FOR ILS APCH."
+                    "voice": "EXPECT CONTINUOUS DESCEND OPERATIONS FOR ILS APCH."
                 },
                 {
                     "variableName": "CDO_RNP",
                     "text": "EXPECT CDO FOR RNP APCH",
-                    "voice": "EXPECT CONTINUOUS DESCEND APCH FOR RNP APCH."
+                    "voice": "EXPECT CONTINUOUS DESCEND OPERATIONS FOR RNP APCH."
                 },
                 {
                     "variableName": "RWY_31R_06",
@@ -6508,7 +6548,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
@@ -6632,19 +6672,19 @@
                     "voice": "RWY IN USE 25."
                 },
                 {
-                    "variableName": "ILS",
-                    "text": "ILS APPROACH",
-                    "voice": "ILS APCH."
+                    "variableName": "ILS_Z",
+                    "text": "ILS Z APPROACH",
+                    "voice": "ILS ZULU APCH."
                 },
                 {
-                    "variableName": "GPS",
-                    "text": "GPS APPROACH",
-                    "voice": "G PS APCH."
+                    "variableName": "ILS_Y",
+                    "text": "ILS Y APPROACH",
+                    "voice": "ILS YANKEE APCH."
                 },
                 {
-                    "variableName": "NDB",
-                    "text": "NDB APPROACH",
-                    "voice": "NDB APCH."
+                    "variableName": "RNP",
+                    "text": "RNP APPROACH",
+                    "voice": "RNP APCH."
                 },
                 {
                     "variableName": "ADVISORY",
@@ -6662,9 +6702,9 @@
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.3."
                 },
                 {
-                    "variableName": "LOC",
-                    "text": "LOC APPROACH",
-                    "voice": "LOCALIZER APCH."
+                    "variableName": "LOC_Y",
+                    "text": "LOC Y APPROACH",
+                    "voice": "LOCALIZER YANKEE APCH."
                 },
                 {
                     "variableName": "DEP_FREQ_PADH_135_650",
@@ -6672,50 +6712,40 @@
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650."
                 },
                 {
-                    "variableName": "ILS_VIS_ON_REQ",
-                    "text": "ILS APPROACH, VISUAL APPROACH ON REQUEST",
-                    "voice": "ILS APPROACH, VISUAL APPROACH ON REQUEST."
+                    "variableName": "ILS_Z_VIS_ON_REQ",
+                    "text": "ILS Z APPROACH, VISUAL APPROACH ON REQUEST",
+                    "voice": "ILS ZULU APPROACH, VISUAL APPROACH ON REQUEST."
                 },
                 {
                     "variableName": "TRND",
                     "text": "TREND",
                     "voice": ""
-                },
-                {
-                    "variableName": "GPS_NDB_VIS_ON_REQ",
-                    "text": "GPS OR NDB APPROACH, VISUAL APPROACH ON REQUEST",
-                    "voice": "G PS OR NDB APPROACH, VISUAL APPROACH ON REQUEST."
                 }
             ],
             "airportConditionDefinitions": [
                 {
-                    "text": "ILS",
+                    "text": "ILS_Z",
                     "ordinal": 1,
                     "enabled": true
                 },
                 {
-                    "text": "ILS_VIS_ON_REQ",
+                    "text": "ILS_Z_VIS_ON_REQ",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "GPS",
+                    "text": "ILS_Y",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "GPS_NDB_VIS_ON_REQ",
+                    "text": "RNP",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "NDB",
+                    "text": "LOC_Y",
                     "ordinal": 5,
-                    "enabled": false
-                },
-                {
-                    "text": "LOC",
-                    "ordinal": 6,
                     "enabled": false
                 }
             ],
@@ -8663,7 +8693,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
@@ -10783,7 +10813,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
@@ -12893,7 +12923,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
@@ -15013,7 +15043,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
@@ -17143,7 +17173,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
@@ -19293,7 +19323,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
@@ -21448,7 +21478,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
@@ -23644,7 +23674,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
@@ -25814,7 +25844,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
@@ -27953,7 +27983,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
@@ -30155,7 +30185,7 @@
                     "pronounceDecimal": false,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter}"
+                        "voice": "QNH {altimeter} HECTO PASCAL"
                     }
                 },
                 "trend": {
