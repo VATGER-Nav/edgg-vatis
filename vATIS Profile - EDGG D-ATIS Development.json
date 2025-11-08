@@ -25911,13 +25911,13 @@
         },
         {
           "variableName": "LOC",
-          "text": "FOR LOC DME APCH",
-          "voice": "FOR LOCALIZER DME APPROACH."
+          "text": "LOC DME APCH",
+          "voice": "LOCALIZER DME APPROACH."
         },
         {
           "variableName": "RNAV",
-          "text": "FOR RNAV APCH",
-          "voice": "FOR R NAV APPROACH."
+          "text": "RNAV APCH",
+          "voice": "R NAV APPROACH."
         },
         {
           "variableName": "ADVISORY",
