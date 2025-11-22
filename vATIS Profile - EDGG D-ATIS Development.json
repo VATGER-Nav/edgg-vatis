@@ -2147,8 +2147,8 @@
         },
         {
           "variableName": "LOW_VISIBILITY",
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AND III AVBL.",
-          "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL."
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVAILABLE",
+          "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVAILABLE."
         },
         {
           "variableName": "SRA_ON_REQ",
@@ -2159,6 +2159,11 @@
           "variableName": "RNP",
           "text": "EXPECT VECTORS RNP APPROACH",
           "voice": "EXPECT VECTORS RNP APPROACH."
+        },
+        {
+          "variableName": "DEICING",
+          "text": "FOR ALL AIRCRAFT WITH DEICING: TURNOFF TAXI LIGHT WHEN ENTERING DEICING PAD",
+          "voice": "FOR ALL AIRCRAFT WITH DI ICING. TURNOFF TAXI LIGHT WHEN ENTERING DI ICING PAD."
         },
         {
           "variableName": "TWY_INCURSION",
@@ -2200,13 +2205,18 @@
           "enabled": false
         },
         {
-          "text": "SRA_ON_REQ",
+          "text": "DEICING",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "SRA_ON_REQ",
           "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 7,
           "enabled": false
         }
       ]
@@ -21636,6 +21646,21 @@
           "variableName": "LOW_VISIBILITY",
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AND III AVBL.",
           "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL."
+        },
+        {
+          "variableName": "DEICING_PADS_1_2",
+          "text": "TWY S BLOCKED BTW H AND I",
+          "voice": "TAXIWAY SIERRA BLOCKED BETWEEN HOTEL AND INDIA."
+        },
+        {
+          "variableName": "DEICING_PADS_3_4",
+          "text": "TWY S BLOCKED BTW H AND F",
+          "voice": "TAXIWAY SIERRA BLOCKED BETWEEN HOTEL AND FOXTROT."
+        },
+        {
+          "variableName": "DEICING_PADS_ALL",
+          "text": "TWY S BLOCKED BTW F AND I",
+          "voice": "TAXIWAY SIERRA BLOCKED BETWEEN FOXTROT AND INDIA."
         }
       ],
       "airportConditionDefinitions": [
@@ -21687,13 +21712,28 @@
           "enabled": false
         },
         {
-          "text": "SRA_ON_REQ",
+          "text": "DEICING_PADS_1_2",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "DEICING_PADS_3_4",
           "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "DEICING_PADS_ALL",
+          "ordinal": 9,
+          "enabled": false
+        },
+        {
+          "text": "SRA_ON_REQ",
+          "ordinal": 10,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 11,
           "enabled": false
         }
       ]
@@ -28093,7 +28133,7 @@
         },
         {
           "variableName": "LOW_VISIBILITY",
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AND III AVBL.",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AND III AVBL",
           "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL."
         },
         {
@@ -28150,6 +28190,11 @@
           "variableName": "25C_ALL_NORTH",
           "text": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR F OR G",
           "voice": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR FOXTROTT OR GOLF."
+        },
+        {
+          "variableName": "DEICING",
+          "text": "PLEASE REQUEST DEICING ASAP ON FREQ 121.985",
+          "voice": "PLEASE REQUEST DE ICING AS SOON AS POSSIBLE ON FREQUENCY 121.985"
         }
       ],
       "airportConditionDefinitions": [],
@@ -28185,8 +28230,13 @@
           "enabled": false
         },
         {
-          "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+          "text": "DEICING",
           "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+          "ordinal": 8,
           "enabled": false
         }
       ]
