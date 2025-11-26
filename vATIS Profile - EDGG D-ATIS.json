@@ -1,8 +1,8 @@
 {
     "name": "EDGG D-ATIS",
-    "id": "9383283f-b777-4aac-aa04-a71741cefb54",
+    "id": "5950832c-2512-4835-8380-9d2e7372bd97",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2025110601,
+    "updateSerial": 2025112601,
     "stations": [
         {
             "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
@@ -4211,7 +4211,7 @@
                     "id": "d3be467b-be33-4d99-83be-34e77249f8f8",
                     "ordinal": 1,
                     "name": "13L 24",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_24\r\nOLD_NAV_DATA_13\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_24\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4226,7 +4226,7 @@
                     "id": "03f78c87-02c3-4547-9a25-9526bd6e28d0",
                     "ordinal": 2,
                     "name": "31R 24",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_24\r\nOLD_NAV_DATA_31\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_24\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4241,7 +4241,7 @@
                     "id": "7045299f-044c-4bb8-be39-6fe2b672fffb",
                     "ordinal": 3,
                     "name": "13L 24 13R",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_24_13R\r\nOLD_NAV_DATA_13\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_24_13R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4256,7 +4256,7 @@
                     "id": "3276e880-e548-4a09-bea2-f2ce59a79432",
                     "ordinal": 4,
                     "name": "31R 24 31L",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_24_31L\r\nOLD_NAV_DATA_31\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_24_31L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4271,7 +4271,7 @@
                     "id": "7045299f-044c-4bb8-be39-6fe2b672fffb",
                     "ordinal": 3,
                     "name": "13L 06 13R",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_06_13R\r\nOLD_NAV_DATA_13\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_06_13R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4286,7 +4286,7 @@
                     "id": "3276e880-e548-4a09-bea2-f2ce59a79432",
                     "ordinal": 4,
                     "name": "31R 06 31L",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_06_31L\r\nOLD_NAV_DATA_31\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_06_31L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4301,7 +4301,7 @@
                     "id": "8b64f82b-44a3-4751-85a0-15c8edb36dd5",
                     "ordinal": 5,
                     "name": "13L 13R",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_13R\r\nOLD_NAV_DATA_13\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L_13R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4316,7 +4316,7 @@
                     "id": "1c759c9f-7c47-4a76-804a-fdba31343858",
                     "ordinal": 6,
                     "name": "31R 31L",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_31L\r\nOLD_NAV_DATA_31\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R_31L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4331,7 +4331,7 @@
                     "id": "16106326-8a7b-4a56-8867-9bd201fd765a",
                     "ordinal": 7,
                     "name": "31R 06",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_31R_06\r\nOLD_NAV_DATA_31\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_31R_06\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4346,7 +4346,7 @@
                     "id": "57ecb274-057c-4483-b20c-96608ee7af9f",
                     "ordinal": 8,
                     "name": "13L 06",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_13L_06\r\nOLD_NAV_DATA_13\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] OR RNP_APCH\r\nRWY_13L_06\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4363,7 +4363,7 @@
                     "name": "13L",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L\r\nOLD_NAV_DATA_13\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_13L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4378,7 +4378,7 @@
                     "id": "f4371b69-619b-4c79-9e7b-adc730201eb7",
                     "ordinal": 10,
                     "name": "31R",
-                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R\r\nOLD_NAV_DATA_31\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDK [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND]\r\nRWY_31R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4457,11 +4457,6 @@
                     "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
                 },
                 {
-                    "variableName": "OLD_NAV_DATA_13",
-                    "text": "RWY 14R/14L RENAMED TO 13R/13L. REPORT OLD NAV DATA ON INITIAL CONTACT.",
-                    "voice": "RWY ^14R AND ^14L RENAMED TO ^13R AND ^13L. REPORT OLD NAV DATA ON INITIAL CONTACT."
-                },
-                {
                     "variableName": "DEP_FREQ_DKA_NOR_135_350",
                     "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.350",
                     "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.350."
@@ -4470,11 +4465,6 @@
                     "variableName": "DEP_FREQ_PADH_135_650",
                     "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.650",
                     "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.650"
-                },
-                {
-                    "variableName": "OLD_NAV_DATA_31",
-                    "text": "RWY 32R/32L RENAMED TO 31R/31L. REPORT OLD NAV DATA ON INITIAL CONTACT.",
-                    "voice": "RWY ^32R AND ^32L RENAMED TO ^31R AND ^31L. REPORT OLD NAV DATA ON INITIAL CONTACT."
                 },
                 {
                     "variableName": "TRND",
@@ -4598,12 +4588,12 @@
                 {
                     "text": "ADVISORY",
                     "ordinal": 1,
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "text": "DEP_FREQ_DKA_NOR_135_350",
                     "ordinal": 2,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "DEP_FREQ_PADH_135_650",
@@ -13108,12 +13098,12 @@
                 {
                     "text": "ADVISORY",
                     "ordinal": 1,
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "text": "DEP_FREQ_BOT_DLD_DLA_PADH_119_110",
                     "ordinal": 2,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "LOW_VISIBILITY",
@@ -15211,12 +15201,12 @@
                 {
                     "text": "ILS",
                     "ordinal": 1,
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "text": "RNP",
                     "ordinal": 2,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "NDB",
@@ -15233,12 +15223,12 @@
                 {
                     "text": "ADVISORY",
                     "ordinal": 1,
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "text": "DEP_FREQ_DLD_DLA_PADH_DL23_121_355",
                     "ordinal": 2,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "DEP_FREQ_DLAT_LN13_DL05_128.655",
