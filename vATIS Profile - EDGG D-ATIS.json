@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "5950832c-2512-4835-8380-9d2e7372bd97",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2025112604,
+    "updateSerial": 2025112605,
     "stations": [
         {
             "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
@@ -4598,12 +4598,12 @@
                 {
                     "text": "ADVISORY",
                     "ordinal": 1,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "DEP_FREQ_DKA_NOR_135_350",
                     "ordinal": 2,
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "text": "DEP_FREQ_PADH_135_650",
@@ -15211,12 +15211,12 @@
                 {
                     "text": "ILS",
                     "ordinal": 1,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "RNP",
                     "ordinal": 2,
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "text": "NDB",
@@ -15233,12 +15233,12 @@
                 {
                     "text": "ADVISORY",
                     "ordinal": 1,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "DEP_FREQ_DLD_DLA_PADH_DL23_121_355",
                     "ordinal": 2,
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "text": "DEP_FREQ_DLAT_LN13_DL05_128.655",
