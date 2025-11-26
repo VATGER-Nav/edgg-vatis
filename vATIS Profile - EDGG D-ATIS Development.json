@@ -2153,8 +2153,8 @@
         },
         {
           "variableName": "LOW_VISIBILITY",
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AND III AVBL.",
-          "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL."
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVAILABLE",
+          "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVAILABLE."
         },
         {
           "variableName": "SRA_ON_REQ",
@@ -2165,6 +2165,11 @@
           "variableName": "RNP",
           "text": "EXPECT VECTORS RNP APPROACH",
           "voice": "EXPECT VECTORS RNP APPROACH."
+        },
+        {
+          "variableName": "DEICING",
+          "text": "FOR ALL AIRCRAFT WITH DEICING: TURNOFF TAXI LIGHT WHEN ENTERING DEICING PAD",
+          "voice": "FOR ALL AIRCRAFT WITH DI ICING. TURNOFF TAXI LIGHT WHEN ENTERING DI ICING PAD."
         },
         {
           "variableName": "TWY_INCURSION",
@@ -2206,13 +2211,18 @@
           "enabled": false
         },
         {
-          "text": "SRA_ON_REQ",
+          "text": "DEICING",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "SRA_ON_REQ",
           "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 7,
           "enabled": false
         }
       ]
@@ -21686,6 +21696,21 @@
           "variableName": "LOW_VISIBILITY",
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AND III AVBL.",
           "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL."
+        },
+        {
+          "variableName": "DEICING_PADS_1_2",
+          "text": "TWY S BLOCKED BTW H AND I",
+          "voice": "TAXIWAY SIERRA BLOCKED BETWEEN HOTEL AND INDIA."
+        },
+        {
+          "variableName": "DEICING_PADS_3_4",
+          "text": "TWY S BLOCKED BTW H AND F",
+          "voice": "TAXIWAY SIERRA BLOCKED BETWEEN HOTEL AND FOXTROT."
+        },
+        {
+          "variableName": "DEICING_PADS_ALL",
+          "text": "TWY S BLOCKED BTW F AND I",
+          "voice": "TAXIWAY SIERRA BLOCKED BETWEEN FOXTROT AND INDIA."
         }
       ],
       "airportConditionDefinitions": [
@@ -21737,13 +21762,28 @@
           "enabled": false
         },
         {
-          "text": "SRA_ON_REQ",
+          "text": "DEICING_PADS_1_2",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "DEICING_PADS_3_4",
           "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "DEICING_PADS_ALL",
+          "ordinal": 9,
+          "enabled": false
+        },
+        {
+          "text": "SRA_ON_REQ",
+          "ordinal": 10,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 11,
           "enabled": false
         }
       ]
@@ -28161,7 +28201,7 @@
         },
         {
           "variableName": "LOW_VISIBILITY",
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AND III AVBL.",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AND III AVBL",
           "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL."
         },
         {
@@ -28218,6 +28258,11 @@
           "variableName": "25C_ALL_NORTH",
           "text": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR F OR G",
           "voice": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR FOXTROTT OR GOLF."
+        },
+        {
+          "variableName": "DEICING",
+          "text": "PLEASE REQUEST DEICING ASAP ON FREQ 121.985",
+          "voice": "PLEASE REQUEST DE ICING AS SOON AS POSSIBLE ON FREQUENCY 121.985"
         }
       ],
       "airportConditionDefinitions": [],
@@ -28253,8 +28298,13 @@
           "enabled": false
         },
         {
-          "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+          "text": "DEICING",
           "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+          "ordinal": 8,
           "enabled": false
         }
       ]
@@ -30283,7 +30333,7 @@
           "id": "e9b66e4a-9607-499c-9e06-6b7e9228ceae",
           "ordinal": 3,
           "name": "25L + 25R | IPA ILS Y",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Y \r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Y\r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30313,7 +30363,22 @@
           "id": "5f2e0ac5-233d-437e-8a27-96c2e72db622",
           "ordinal": 5,
           "name": "25L + 25R | ILS Z",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Z \r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Z\r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "5f2e0ac5-233d-437e-8a27-96c2e72db622",
+          "ordinal": 5,
+          "name": "25L + 25R | LVO",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Z\r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nLOW_VISIBILITY\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30340,10 +30405,25 @@
           }
         },
         {
+          "id": "5e6b3726-b63d-4f0e-ac53-d33f6f200c89",
+          "ordinal": 5,
+          "name": "07R + 07L | LVO",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_07L_ILS_Z\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nLOW_VISIBILITY\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "5be32735-4002-49f8-a0bf-0ee1df0f4eec",
           "ordinal": 7,
           "name": "25L + 25R | IPA ILS Z",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Z \r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Z\r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30373,7 +30453,7 @@
           "id": "69a07614-3a40-41b4-89ec-6a8281994020",
           "ordinal": 9,
           "name": "25C | ILS Z",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25C_ILS_Z \r\nRWY_25C\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25C_ILS_Z\r\nRWY_25C\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30388,7 +30468,7 @@
           "id": "3e8a8fe3-4061-442f-b7ab-966decc372a9",
           "ordinal": 10,
           "name": "25L | ILS",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_ILS \r\nRWY_25L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_ILS\r\nRWY_25L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30403,7 +30483,7 @@
           "id": "a2c9828e-79ce-46f5-b6cd-e1b9b210553c",
           "ordinal": 11,
           "name": "07C | ILS Z",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07C_ILS_Z \r\nRWY_07C\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07C_ILS_Z\r\nRWY_07C\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30418,7 +30498,7 @@
           "id": "c3e73a3c-c37c-4e53-935e-d505393833f9",
           "ordinal": 12,
           "name": "07R | ILS",
-          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_ILS \r\nRWY_07R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+          "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_ILS\r\nRWY_07R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -30504,7 +30584,7 @@
         {
           "variableName": "LOW_VISIBILITY",
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT II AND III AVBL.",
-          "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL."
+          "voice": ". LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL."
         },
         {
           "variableName": "RWY_07R_07L",
