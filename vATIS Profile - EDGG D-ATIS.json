@@ -1,8 +1,8 @@
 {
     "name": "EDGG D-ATIS",
-    "id": "5950832c-2512-4835-8380-9d2e7372bd97",
+    "id": "376ec977-48e2-4dd7-bcd3-ef4abb5eae42",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2025112605,
+    "updateSerial": 2026010601,
     "stations": [
         {
             "id": "c12a7fa9-2958-40ef-a778-c3e3bfba2e2f",
@@ -28263,48 +28263,58 @@
                     "variableName": "DEICING",
                     "text": "PLEASE REQUEST DEICING ASAP ON FREQ 121.985",
                     "voice": "PLEASE REQUEST DE ICING AS SOON AS POSSIBLE ON FREQUENCY 121.985"
+                },
+                {
+                    "variableName": "FRA_BER_SHUTTLE",
+                    "text": "DEP TRFC TO EDDB REQUIRE RTE VIA SULUS. CHECK VATS.IM/FRA-BER.",
+                    "voice": "DEPARTING TRAFFIC TO BERLIN REQUIRE ROUTE VIA SULUS."
                 }
             ],
             "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
-                    "text": "LOW_VISIBILITY",
-                    "ordinal": 1,
+                    "text": "FRA_BER_SHUTTLE",
+                    "ordinal": 0,
                     "enabled": false
                 },
                 {
-                    "text": "CAUTION WINDSHEAR ALL RWYS",
+                    "text": "LOW_VISIBILITY",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "TAILWIND_RWY_18_MORE_10_KT",
+                    "text": "CAUTION WINDSHEAR ALL RWYS",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "NOTAM_L21_L20",
+                    "text": "TAILWIND_RWY_18_MORE_10_KT",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "25C_ALL_SOUTH",
+                    "text": "NOTAM_L21_L20",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "25C_ALL_NORTH",
+                    "text": "25C_ALL_SOUTH",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "DEICING",
+                    "text": "25C_ALL_NORTH",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+                    "text": "DEICING",
                     "ordinal": 8,
+                    "enabled": false
+                },
+                {
+                    "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+                    "ordinal": 9,
                     "enabled": false
                 }
             ]
