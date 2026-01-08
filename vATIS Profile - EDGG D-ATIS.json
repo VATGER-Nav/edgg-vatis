@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "376ec977-48e2-4dd7-bcd3-ef4abb5eae42",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2026010802,
+    "updateSerial": 2026010803,
     "stations": [
         {
             "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -4557,7 +4557,7 @@
                 {
                     "variableName": "TAILWIND_RWY_18_MORE_10_KT",
                     "text": "TAILWIND COMPONENT RWY 18 MORE THAN 10 KT, PILOTS UNABLE TO ACCEPT SHALL ADVISE ATC UPON START-UP REQUEST",
-                    "voice": "TAILWIND COMPONENT RWY 18 MORE THAN 10 KT PILOTS UNABLE TO ACCEPT SHALL ADVISE ATC UPON START-UP REQUEST."
+                    "voice": "TAILWIND COMPONENT RWY 18 MORE THAN 10 KT, PILOTS UNABLE TO ACCEPT SHALL ADVISE ATC UPON START-UP REQUEST."
                 },
                 {
                     "variableName": "RWY_18_NOT_USED_TAILWIND",
@@ -4576,8 +4576,8 @@
                 },
                 {
                     "variableName": "DEICING",
-                    "text": "PLEASE REQUEST DEICING ASAP ON FREQ 121.985",
-                    "voice": "PLEASE REQUEST DE ICING AS SOON AS POSSIBLE ON FREQUENCY 121.985"
+                    "text": "ACFT DEPARTING RWY18: IF REMOTE DEICING REQUIRED, CONTACT 121.985 ASAP",
+                    "voice": "ACFT DEPARTING RWY 18, IF REMOTE DI ICING REQUIRED, CONTACT 121.985 AS SOON AS POSSIBLE."
                 }
             ],
             "airportConditionDefinitions": [],
