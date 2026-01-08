@@ -34776,7 +34776,7 @@
           "voice": "TOWER PATTERN IS OPEN."
         },
         {
-          "variableName": "TWR_ PATTERN_CLOSED",
+          "variableName": "TWR_PATTERN_CLOSED",
           "text": "TWR PATTERN CLOSED",
           "voice": "TOWER PATTERN IS CLOSED."
         }
