@@ -32814,7 +32814,7 @@
         {
           "text": "TWR_PATTERN_CLOSED",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -34880,7 +34880,7 @@
         {
           "text": "TWR_PATTERN_CLOSED",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -38948,11 +38948,11 @@
       },
       "presets": [
         {
-          "id": "7fc821a3-7a28-42f3-a75f-8b48c9eccbd1",
-          "name": "25",
+          "id": "578c59dd-fd95-4029-b29a-1a8d5f460bb6",
+          "name": "07",
           "airportConditions": "",
           "notams": "",
-          "template": "WIE [ATIS_LETTER] [OBS_TIME]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nRWY_25\r\n[ARPT_COND] [NOTAMS]",
+          "template": "WIE [ATIS_LETTER] [OBS_TIME]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nRWY_07\r\n[ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -38964,11 +38964,11 @@
           }
         },
         {
-          "id": "578c59dd-fd95-4029-b29a-1a8d5f460bb6",
-          "name": "07",
+          "id": "7fc821a3-7a28-42f3-a75f-8b48c9eccbd1",
+          "name": "25",
           "airportConditions": "",
           "notams": "",
-          "template": "WIE [ATIS_LETTER] [OBS_TIME]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nRWY_07\r\n[ARPT_COND] [NOTAMS]",
+          "template": "WIE [ATIS_LETTER] [OBS_TIME]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nRWY_25\r\n[ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -39016,7 +39016,7 @@
         {
           "text": "TWR_PATTERN_CLOSED",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
