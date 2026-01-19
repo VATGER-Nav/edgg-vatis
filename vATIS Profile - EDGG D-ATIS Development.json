@@ -1,8 +1,8 @@
 {
   "name": "EDGG D-ATIS",
-  "id": "376ec977-48e2-4dd7-bcd3-ef4abb5eae42",
+  "id": "9d80750b-aceb-49e4-a79b-93bafef9624f",
   "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-  "updateSerial": 2025123101,
+  "updateSerial": 2026011902,
   "stations": [
     {
       "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -2406,8 +2406,43 @@
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "TAILWIND_RWY_18_MORE_10_KT",
           "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "NOTAM_L21_L20",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "PDC_CLEARANCE",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "DE_ICING",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "25C_ALL_SOUTH",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "25C_ALL_NORTH",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 9,
           "enabled": false
         }
       ]
@@ -4573,6 +4608,16 @@
           "variableName": "25C_ALL_NORTH",
           "text": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR F OR G",
           "voice": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR FOXTROTT OR GOLF."
+        },
+        {
+          "variableName": "DE_ICING",
+          "text": "REQ DE-ICING PRIOR STARTUP CLEARANCE",
+          "voice": "REQUEST DE-ICING PRIOIR STARTUP CLEARANCE"
+        },
+        {
+          "variableName": "PDC_CLEARANCE",
+          "text": "EXPECT ENROUTE CLEARANCE VIA PRIVATE MESSAGE ONLY. DO NOT REPLY.",
+          "voice": "ALL OUTBOUNDS EXPECT ENROUTE CLEARANCE VIA PRIVATE MESSAGE ONLY. DO NOT REPLY."
         }
       ],
       "airportConditionDefinitions": [],
@@ -4583,33 +4628,43 @@
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "TAILWIND_RWY_18_MORE_10_KT",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "TAILWIND_RWY_18_MORE_10_KT",
+          "text": "NOTAM_L21_L20",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "NOTAM_L21_L20",
+          "text": "PDC_CLEARANCE",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "DE_ICING",
           "ordinal": 4,
           "enabled": false
         },
         {
           "text": "25C_ALL_SOUTH",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "25C_ALL_NORTH",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+          "text": "25C_ALL_NORTH",
           "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 9,
           "enabled": false
         }
       ]
@@ -6752,14 +6807,14 @@
           "voice": "WHEN PASSING *2000FT MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
-          "variableName": "DEP_FREQ_DLD_DLA_BOT_121_355",
+          "variableName": "DEP_FREQ_DLD_DLA_BOT_DKLA_121_355",
           "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 121.355",
           "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 121.355."
         },
         {
-          "variableName": "DEP_FREQ_PADH_135_650",
-          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.650",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.650."
+          "variableName": "DEP_FREQ_GN_118_215",
+          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 118.215",
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 118.215."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -6777,14 +6832,14 @@
           "voice": "EXPECT VECTORS RNP APPROACH."
         },
         {
-          "variableName": "DEICING",
-          "text": "FOR ALL AIRCRAFT WITH DEICING: TURNOFF TAXI LIGHT WHEN ENTERING DEICING PAD",
-          "voice": "FOR ALL AIRCRAFT WITH DI ICING. TURNOFF TAXI LIGHT WHEN ENTERING DI ICING PAD."
-        },
-        {
           "variableName": "TWY_INCURSION",
           "text": "ATTENTION, RISK OF TWY INCURSION WHEN TAXIING TO RWY05R, CHECK HOT SPOTS T1 AND L9 ON TAXI CHART.",
           "voice": "ATTENTION, RISK OF TWY INCURSION WHEN TAXIING TO RWY ^05R, CHECK HOT SPOTS TANGO 1 AND LIMA 9 ON TAXI CHART."
+        },
+        {
+          "variableName": "DEP_FREQ_GNH_136_480",
+          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 136.480.",
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 136.480."
         }
       ],
       "airportConditionDefinitions": [
@@ -6806,22 +6861,22 @@
           "enabled": true
         },
         {
-          "text": "DEP_FREQ_DLD_DLA_BOT_121_355",
+          "text": "DEP_FREQ_DLD_DLA_BOT_DKLA_121_355",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_PADH_135_650",
+          "text": "DEP_FREQ_GN_118_215",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "LOW_VISIBILITY",
+          "text": "DEP_FREQ_GNH_136_480",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "DEICING",
+          "text": "LOW_VISIBILITY",
           "ordinal": 5,
           "enabled": false
         },
@@ -9077,14 +9132,14 @@
           "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
-          "variableName": "DEP_FREQ_DKA_NOR_135_350",
+          "variableName": "DEP_FREQ_DKA_NOR_DKLA_135_350",
           "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.350",
           "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.350."
         },
         {
-          "variableName": "DEP_FREQ_PADH_135_650",
+          "variableName": "DEP_FREQ_GN_118_215",
           "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.650",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.650"
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 118.215"
         },
         {
           "variableName": "TRND",
@@ -9175,6 +9230,11 @@
           "variableName": "RWY_13L_06",
           "text": "RWY 13L 06",
           "voice": "RUNWAY IN USE ^13L AND 06."
+        },
+        {
+          "variableName": "DEP_FREQ_GNH_136_480",
+          "text": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 136.480",
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 136.480."
         }
       ],
       "airportConditionDefinitions": [
@@ -9211,18 +9271,23 @@
           "enabled": true
         },
         {
-          "text": "DEP_FREQ_DKA_NOR_135_350",
+          "text": "DEP_FREQ_DKA_NOR_DKLA_135_350",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_PADH_135_650",
-          "ordinal": 2,
+          "text": "DEP_FREQ_GN_118_215",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GNH_136_480",
+          "ordinal": 3,
           "enabled": false
         },
         {
           "text": "HIGH_TRAFFIC_MEDIUM_13R",
-          "ordinal": 3,
+          "ordinal": 5,
           "enabled": false
         },
         {
@@ -9237,7 +9302,7 @@
         },
         {
           "text": "CAUTION WINDSHEAR ALL RWYS",
-          "ordinal": 7,
+          "ordinal": 8,
           "enabled": false
         }
       ]
@@ -11353,9 +11418,9 @@
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.050."
         },
         {
-          "variableName": "DEP_FREQ_DKB_125_200",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.200",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.2."
+          "variableName": "DEP_FREQ_BADH_124_035",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035.."
         },
         {
           "variableName": "DEP_FREQ_BAD_131_300",
@@ -11363,9 +11428,9 @@
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.3."
         },
         {
-          "variableName": "DEP_FREQ_KTG_123_280",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280."
+          "variableName": "DEP_FREQ_GS_136_315",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.315",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.315."
         },
         {
           "variableName": "SRA_ON_REQ",
@@ -11391,6 +11456,26 @@
           "variableName": "DEICING_PADS_ALL",
           "text": "TWY S BLOCKED BTW F AND I",
           "voice": "TAXIWAY SIERRA BLOCKED BETWEEN FOXTROT AND INDIA."
+        },
+        {
+          "variableName": "DEP_FREQ_GSH_123_010",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.010",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.010."
+        },
+        {
+          "variableName": "DEP_FREQ_GSA_131_365",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.365",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.365."
+        },
+        {
+          "variableName": "DEP_FREQ_GCS_135_310",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310."
+        },
+        {
+          "variableName": "DEP_FREQ_GCSH_135_030",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030."
         }
       ],
       "airportConditionDefinitions": [
@@ -11422,48 +11507,68 @@
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_DKB_125_200",
+          "text": "DEP_FREQ_BAD_131_300",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_BAD_131_300",
+          "text": "DEP_FREQ_BADH_124_035",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_KTG_123_280",
+          "text": "DEP_FREQ_GS_136_315",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "LOW_VISIBILITY",
-          "ordinal": 6,
+          "text": "DEP_FREQ_GSA_131_365",
+          "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "DEICING_PADS_1_2",
+          "text": "DEP_FREQ_GSH_123_010",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "DEICING_PADS_3_4",
+          "text": "DEP_FREQ_GCS_135_310",
           "ordinal": 8,
           "enabled": false
         },
         {
-          "text": "DEICING_PADS_ALL",
+          "text": "DEP_FREQ_GCSH_135_030",
           "ordinal": 9,
           "enabled": false
         },
         {
-          "text": "SRA_ON_REQ",
+          "text": "LOW_VISIBILITY",
           "ordinal": 10,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "DEICING_PADS_1_2",
           "ordinal": 11,
+          "enabled": false
+        },
+        {
+          "text": "DEICING_PADS_3_4",
+          "ordinal": 12,
+          "enabled": false
+        },
+        {
+          "text": "DEICING_PADS_ALL",
+          "ordinal": 13,
+          "enabled": false
+        },
+        {
+          "text": "SRA_ON_REQ",
+          "ordinal": 14,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 15,
           "enabled": false
         }
       ]
@@ -13543,9 +13648,9 @@
           "voice": "LOCALIZER YANKEE APCH."
         },
         {
-          "variableName": "DEP_FREQ_PADH_135_650",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650."
+          "variableName": "DEP_FREQ_PADH_136_625",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.625",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.625."
         },
         {
           "variableName": "ILS_Z_VIS_ON_REQ",
@@ -13556,6 +13661,31 @@
           "variableName": "TRND",
           "text": "TREND",
           "voice": ""
+        },
+        {
+          "variableName": "DEP_FREQ_PAD_135_650",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650."
+        },
+        {
+          "variableName": "DEP_FREQ_GN_118_215",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215."
+        },
+        {
+          "variableName": "DEP_FREQ_GNH_136_480",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480."
+        },
+        {
+          "variableName": "DEP_FREQ_GA_132_230",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.230",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.230."
+        },
+        {
+          "variableName": "DEP_FREQ_GAH_125_935",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.935",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.935."
         }
       ],
       "airportConditionDefinitions": [
@@ -13597,18 +13727,43 @@
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_PADH_135_650",
-          "ordinal": 2,
+          "text": "DEP_FREQ_PAD_135_650",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_PADH_136_625",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GN_118_215",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GNH_136_480",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GA_132_230",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GAH_125_935",
+          "ordinal": 8,
           "enabled": false
         },
         {
           "text": "LOW_VISIBILITY",
-          "ordinal": 4,
+          "ordinal": 9,
           "enabled": false
         },
         {
           "text": "CAUTION WINDSHEAR ALL RWYS",
-          "ordinal": 5,
+          "ordinal": 10,
           "enabled": false
         }
       ]
@@ -15658,7 +15813,7 @@
           "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
-          "variableName": "DEP_FREQ_PFA_129_675",
+          "variableName": "DEP_FREQ_PFA_EIF_129_675",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.675",
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.675."
         },
@@ -15678,9 +15833,9 @@
           "voice": "FOR NDB APPROACH."
         },
         {
-          "variableName": "DEP_FREQ_GIN_124_730",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.730",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.730."
+          "variableName": "DEP_FREQ_RUDH_135_725",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.725",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.725."
         },
         {
           "variableName": "DEP_FREQ_RUD_133_435",
@@ -15688,9 +15843,9 @@
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.435."
         },
         {
-          "variableName": "DEP_FREQ_KTG_123_280",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280."
+          "variableName": "DEP_FREQ_GC_133_815",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.815",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.815"
         },
         {
           "variableName": "ILS_Z",
@@ -15706,6 +15861,26 @@
           "variableName": "TRND",
           "text": "TREND",
           "voice": ""
+        },
+        {
+          "variableName": "DEP_FREQ_GCA_133_835",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.835",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.835."
+        },
+        {
+          "variableName": "DEP_FREQ_GCH_127.925",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 127.925",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 127.925."
+        },
+        {
+          "variableName": "DEP_FREQ_GCS_135_310",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310."
+        },
+        {
+          "variableName": "DEP_FREQ_GCSH_135_030",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030."
         }
       ],
       "airportConditionDefinitions": [
@@ -15742,28 +15917,48 @@
           "enabled": true
         },
         {
-          "text": "DEP_FREQ_PFA_129_675",
+          "text": "DEP_FREQ_PFA_EIF_129_675",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_GIN_124_730",
+          "text": "DEP_FREQ_RUD_133_435",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_RUD_133_435",
-          "ordinal": 4,
+          "text": "DEP_FREQ_RUDH_135_725",
+          "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_KTG_123_280",
+          "text": "DEP_FREQ_GC_133_815",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "DEP_FREQ_GCA_133_835",
           "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GCH_127.925",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GCS_135_310",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GCSH_135_030",
+          "ordinal": 9,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 10,
           "enabled": false
         }
       ]
@@ -17818,7 +18013,7 @@
           "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AVBL."
         },
         {
-          "variableName": "DEP_FREQ_PADL_HMM_PADH_125_225",
+          "variableName": "DEP_FREQ_PADL_HMM_125_225",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.225",
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.225."
         },
@@ -17841,6 +18036,36 @@
           "variableName": "VOR",
           "text": "FOR VOR APCH",
           "voice": "FOR VOR APPROACH."
+        },
+        {
+          "variableName": "DEP_FREQ_PAD_135_650",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650."
+        },
+        {
+          "variableName": "DEP_FREQ_PADH_136_625",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.625",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.625."
+        },
+        {
+          "variableName": "DEP_FREQ_GN_118_215",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215."
+        },
+        {
+          "variableName": "DEP_FREQ_GNH_136_480",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480."
+        },
+        {
+          "variableName": "DEP_FREQ_GA_132_230",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.230",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.230."
+        },
+        {
+          "variableName": "DEP_FREQ_GAH_125_935",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.935",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.935."
         }
       ],
       "airportConditionDefinitions": [
@@ -17872,18 +18097,48 @@
           "enabled": true
         },
         {
-          "text": "DEP_FREQ_PADL_HMM_PADH_125_225",
+          "text": "DEP_FREQ_PADL_HMM_125_225",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "LOW_VISIBILITY",
+          "text": "DEP_FREQ_PAD_135_650",
           "ordinal": 3,
           "enabled": false
         },
         {
+          "text": "DEP_FREQ_PADH_136_625",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GN_118_215",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GNH_136_480",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GA_132_230",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GAH_125_935",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "LOW_VISIBILITY",
+          "ordinal": 9,
+          "enabled": false
+        },
+        {
           "text": "CAUTION WINDSHEAR ALL RWYS",
-          "ordinal": 4,
+          "ordinal": 10,
           "enabled": false
         }
       ]
@@ -19933,7 +20188,7 @@
           "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
-          "variableName": "DEP_FREQ_PADL_HMM_PADH_125_225",
+          "variableName": "DEP_FREQ_PADL_HMM_125_225",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.225",
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.225."
         },
@@ -19956,6 +20211,36 @@
           "variableName": "NDB",
           "text": "FOR NDB APCH",
           "voice": "FOR NDB APPROACH."
+        },
+        {
+          "variableName": "DEP_FREQ_PAD_135_650",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650."
+        },
+        {
+          "variableName": "DEP_FREQ_PADH_136_625",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.625",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.625."
+        },
+        {
+          "variableName": "DEP_FREQ_GN_118_215",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215."
+        },
+        {
+          "variableName": "DEP_FREQ_GNH_136_480",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480."
+        },
+        {
+          "variableName": "DEP_FREQ_GA_132_230",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.230",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.230."
+        },
+        {
+          "variableName": "DEP_FREQ_GAH_125_935",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.935",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.935."
         }
       ],
       "airportConditionDefinitions": [
@@ -19987,13 +20272,43 @@
           "enabled": true
         },
         {
-          "text": "DEP_FREQ_PADL_HMM_PADH_125_225",
+          "text": "DEP_FREQ_PADL_HMM_125_225",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "DEP_FREQ_PAD_135_650",
           "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_PADH_136_625",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GN_118_215",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GNH_136_480",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GA_132_230",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GAH_125_935",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 9,
           "enabled": false
         }
       ]
@@ -22048,7 +22363,7 @@
           "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVBL."
         },
         {
-          "variableName": "DEP_FREQ_BOT_DLD_DLA_PADH_119_110",
+          "variableName": "DEP_FREQ_BOT_DLD_DLA_DKLA_119_110",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.110",
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.110."
         },
@@ -22071,6 +22386,16 @@
           "variableName": "NDB",
           "text": "FOR VOR APCH",
           "voice": "FOR VOR APPROACH."
+        },
+        {
+          "variableName": "DEP_FREQ_GN_118_215",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215."
+        },
+        {
+          "variableName": "DEP_FREQ_GNH_136_480",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480"
         }
       ],
       "airportConditionDefinitions": [
@@ -22099,21 +22424,31 @@
         {
           "text": "ADVISORY",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "DEP_FREQ_BOT_DLD_DLA_PADH_119_110",
-          "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "LOW_VISIBILITY",
+          "text": "DEP_FREQ_BOT_DLD_DLA_DKLA_119_110",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GN_118_215",
           "ordinal": 3,
           "enabled": false
         },
         {
+          "text": "DEP_FREQ_GNH_136_480",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "LOW_VISIBILITY",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
           "text": "CAUTION WINDSHEAR ALL RWYS",
-          "ordinal": 4,
+          "ordinal": 6,
           "enabled": false
         }
       ]
@@ -24188,14 +24523,24 @@
           "voice": "FOR VOR APPROACH."
         },
         {
-          "variableName": "DEP_FREQ_DLA_PADH_LN31_DL05_128_555",
+          "variableName": "DEP_FREQ_DLA_DKLA_LN31_DL05_128_555",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 128.555",
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 128.555."
         },
         {
-          "variableName": "DEP_FREQ_DLD_DLA_PADH_DL23_121_355",
+          "variableName": "DEP_FREQ_DLD_DLA_BOT_DKLA_DL23_121_355",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 121.355",
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 121.355."
+        },
+        {
+          "variableName": "DEP_FREQ_GN_118_215",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215."
+        },
+        {
+          "variableName": "DEP_FREQ_GNH_136_480",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480."
         }
       ],
       "airportConditionDefinitions": [
@@ -24227,23 +24572,33 @@
           "enabled": true
         },
         {
-          "text": "DEP_FREQ_DLD_DLA_PADH_DL23_121_355",
+          "text": "DEP_FREQ_DLAT_LN13_DL05_128_655",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_DLAT_LN13_DL05_128.655",
+          "text": "DEP_FREQ_DLA_DKLA_LN31_DL05_128_555",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_DLA_PADH_LN31_DL05_128.555",
-          "ordinal": 4,
+          "text": "DEP_FREQ_DLD_DLA_BOT_DKLA_DL23_121_355",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GN_118_215",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GNH_136_480",
+          "ordinal": 6,
           "enabled": false
         },
         {
           "text": "CAUTION WINDSHEAR ALL RWYS",
-          "ordinal": 5,
+          "ordinal": 7,
           "enabled": false
         }
       ]
@@ -26293,7 +26648,7 @@
           "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
         },
         {
-          "variableName": "DEP_FREQ_EIF_125_600",
+          "variableName": "DEP_FREQ_EIF_PFA_125_600",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.600",
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.600."
         },
@@ -26328,14 +26683,34 @@
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.435."
         },
         {
-          "variableName": "DEP_FREQ_GIN_124_730",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.730",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.730."
+          "variableName": "DEP_FREQ_RUDH_135_725",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.725",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.725."
         },
         {
-          "variableName": "DEP_FREQ_KTG_123_280",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280."
+          "variableName": "DEP_FREQ_GC_133_815",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.815",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.815."
+        },
+        {
+          "variableName": "DEP_FREQ_GCA_133_835",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.835",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.835."
+        },
+        {
+          "variableName": "DEP_FREQ_GCH_127_925",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 127.925",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 127.925."
+        },
+        {
+          "variableName": "DEP_FREQ_GCS_135_310",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310."
+        },
+        {
+          "variableName": "DEP_FREQ_GCSH_135_030",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030."
         }
       ],
       "airportConditionDefinitions": [
@@ -26367,33 +26742,53 @@
           "enabled": true
         },
         {
-          "text": "DEP_FREQ_EIF_125_600",
+          "text": "DEP_FREQ_EIF_PFA_125_600",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_GIN_124_730",
+          "text": "DEP_FREQ_GCA_133_835",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_RUD_133_435",
+          "text": "DEP_FREQ_GC_133_815",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_KTG_123_280",
+          "text": "DEP_FREQ_GCH_127_925",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "LOW_VISIBILITY",
+          "text": "DEP_FREQ_GCS_135_310",
           "ordinal": 6,
           "enabled": false
         },
         {
+          "text": "DEP_FREQ_GCSH_135_030",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_RUD_133_435",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_RUDH_135_725",
+          "ordinal": 9,
+          "enabled": false
+        },
+        {
+          "text": "LOW_VISIBILITY",
+          "ordinal": 10,
+          "enabled": false
+        },
+        {
           "text": "CAUTION WINDSHEAR ALL RWYS",
-          "ordinal": 7,
+          "ordinal": 11,
           "enabled": false
         }
       ]
@@ -28463,9 +28858,9 @@
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.050."
         },
         {
-          "variableName": "DEP_FREQ_DKB_125_200",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.200",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.2."
+          "variableName": "DEP_FREQ_GS_136_315",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.315",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.315.."
         },
         {
           "variableName": "DEP_FREQ_BAD_131_300",
@@ -28473,9 +28868,9 @@
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.3."
         },
         {
-          "variableName": "DEP_FREQ_KTG_123_280",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280."
+          "variableName": "DEP_FREQ_GSA_131_365",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.365",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.365."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -28496,6 +28891,26 @@
           "variableName": "HP_CAUTION",
           "text": "ADDITIONAL INFORMATION! CAUTION! CAT I HOLDING POINT A AND E ARE LOCATED ON TWY G SHORT BEHIND CAT II/III HOLDING POINT",
           "voice": "ADDITIONAL INFORMATION. CAUTION. CATEGORY 1 HOLDING POINT ALPHA AND ECHO, ARE LOCATED ON TAXIWAY GOLF, SHORT BEHIND CATEGORY 2 AND 3 HOLDING POINT."
+        },
+        {
+          "variableName": "DEP_FREQ_GSH_123_010",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.010",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.010."
+        },
+        {
+          "variableName": "DEP_FREQ_GCS_135_310",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310."
+        },
+        {
+          "variableName": "DEP_FREQ_GCSH_135_030",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030."
+        },
+        {
+          "variableName": "DEP_FREQ_BADH_124_035",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035."
         }
       ],
       "airportConditionDefinitions": [
@@ -28532,38 +28947,58 @@
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_DKB_125_200",
+          "text": "DEP_FREQ_BAD_131_300",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_BAD_131_300",
-          "ordinal": 4,
+          "text": "DEP_FREQ_BADH_124_035",
+          "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_KTG_123_280",
+          "text": "DEP_FREQ_GS_136_315",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_LFSTAPP_119_580",
+          "text": "DEP_FREQ_GSA_131_365",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "LOW_VISIBILITY",
+          "text": "DEP_FREQ_GSH_123_010",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "DEP_FREQ_GCS_135_310",
           "ordinal": 8,
           "enabled": false
         },
         {
-          "text": "HP_CAUTION",
+          "text": "DEP_FREQ_GCSH_135_030",
           "ordinal": 9,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_LFSTAPP_119_580",
+          "ordinal": 10,
+          "enabled": false
+        },
+        {
+          "text": "LOW_VISIBILITY",
+          "ordinal": 11,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 12,
+          "enabled": false
+        },
+        {
+          "text": "HP_CAUTION",
+          "ordinal": 13,
           "enabled": true
         }
       ]
@@ -30642,24 +31077,44 @@
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.355."
         },
         {
-          "variableName": "DEP_FREQ_DKB_125_200",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.200",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.2."
+          "variableName": "DEP_FREQ_BADH_124_035",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035."
         },
         {
-          "variableName": "DEP_FREQ_BAD_131.300",
+          "variableName": "DEP_FREQ_BAD_131_300",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.300",
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.3."
         },
         {
-          "variableName": "DEP_FREQ_KTG_123.280",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.280."
+          "variableName": "DEP_FREQ_GS_136_315",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.315",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.315."
         },
         {
           "variableName": "DEP_09_ARR_27",
           "text": "ARR RWY 27 DEP RWY 09",
           "voice": "ARRIVAL RWY IN USE 27. DEPARTURE RWY IN USE 09."
+        },
+        {
+          "variableName": "DEP_FREQ_GSA_131_365",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.365",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.365."
+        },
+        {
+          "variableName": "DEP_FREQ_GSH_123_010",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.010",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.010."
+        },
+        {
+          "variableName": "DEP_FREQ_GCS_135_310",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310."
+        },
+        {
+          "variableName": "DEP_FREQ_GCSH_135.030",
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030."
         }
       ],
       "airportConditionDefinitions": [
@@ -30681,7 +31136,7 @@
           "enabled": true
         },
         {
-          "text": "DEP_FREQ_DKB_125_200",
+          "text": "DEP_FREQ_NKRL_129_355",
           "ordinal": 2,
           "enabled": false
         },
@@ -30691,18 +31146,38 @@
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_KTG_123_280",
+          "text": "DEP_FREQ_BADH_124_035",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_NKRL_129_355",
+          "text": "DEP_FREQ_GS_136_315",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "DEP_FREQ_GSA_131_365",
           "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GSH_123_010",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GCS_135_310",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "DEP_FREQ_GCSH_135.030",
+          "ordinal": 9,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 9,
           "enabled": false
         }
       ]
