@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "376ec977-48e2-4dd7-bcd3-ef4abb5eae42",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2026011901,
+    "updateSerial": 2026011902,
     "stations": [
         {
             "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -4573,11 +4573,6 @@
                     "variableName": "25C_ALL_NORTH",
                     "text": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR F OR G",
                     "voice": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR FOXTROTT OR GOLF."
-                },
-                {
-                    "variableName": "DEICING",
-                    "text": "PLEASE REQUEST DEICING ASAP ON FREQ 121.985",
-                    "voice": "PLEASE REQUEST DE ICING AS SOON AS POSSIBLE ON FREQUENCY 121.985"
                 }
             ],
             "airportConditionDefinitions": [],
@@ -4613,13 +4608,8 @@
                     "enabled": false
                 },
                 {
-                    "text": "DEICING",
-                    "ordinal": 7,
-                    "enabled": false
-                },
-                {
                     "text": "CHECK_CHARTS_FOR_DEP_FREQ",
-                    "ordinal": 8,
+                    "ordinal": 7,
                     "enabled": false
                 }
             ]
