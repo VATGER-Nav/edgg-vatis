@@ -4573,11 +4573,6 @@
           "variableName": "25C_ALL_NORTH",
           "text": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR F OR G",
           "voice": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR FOXTROTT OR GOLF."
-        },
-        {
-          "variableName": "DEICING",
-          "text": "PLEASE REQUEST DEICING ASAP ON FREQ 121.985",
-          "voice": "PLEASE REQUEST DE ICING AS SOON AS POSSIBLE ON FREQUENCY 121.985"
         }
       ],
       "airportConditionDefinitions": [],
@@ -4613,13 +4608,8 @@
           "enabled": false
         },
         {
-          "text": "DEICING",
-          "ordinal": 7,
-          "enabled": false
-        },
-        {
           "text": "CHECK_CHARTS_FOR_DEP_FREQ",
-          "ordinal": 8,
+          "ordinal": 7,
           "enabled": false
         }
       ]
