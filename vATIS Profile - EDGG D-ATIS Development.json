@@ -37450,28 +37450,8 @@
       ],
       "notamDefinitions": [
         {
-          "text": "ADVISORY",
-          "ordinal": 1,
-          "enabled": true
-        },
-        {
-          "text": "DEP_FREQ_BOT_DLD_DLA_DLAT_DKLA_119_110",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "DEP_FREQ_GN_118_215",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "DEP_FREQ_GNH_136_480",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
           "text": "CAUTION WINDSHEAR ALL RWYS",
-          "ordinal": 5,
+          "ordinal": 1,
           "enabled": false
         }
       ]
