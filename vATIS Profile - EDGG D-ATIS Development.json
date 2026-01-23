@@ -20333,7 +20333,7 @@
         "low": "A",
         "high": "Z"
       },
-            "atisFormat": {
+      "atisFormat": {
         "observationTime": {
           "standardUpdateTime": [
             20,
