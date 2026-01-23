@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "9d80750b-aceb-49e4-a79b-93bafef9624f",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2026012201,
+    "updateSerial": 2026012301,
     "stations": [
         {
             "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -20340,8 +20340,8 @@
                         50
                     ],
                     "template": {
-                        "text": "{time}Z",
-                        "voice": ". {time} ZULU OBSERVATION"
+                        "text": "{type} {day}{time} ",
+                        "voice": ". {special} MET REPORT TIME {time}."
                     }
                 },
                 "surfaceWind": {
@@ -20353,31 +20353,31 @@
                     "standard": {
                         "template": {
                             "text": "{wind_dir}{wind_spd}KT",
-                            "voice": ". WYND {wind_dir} AT {wind_spd}"
+                            "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit}"
                         }
                     },
                     "standardGust": {
                         "template": {
                             "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-                            "voice": ". WYND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+                            "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
                         }
                     },
                     "variable": {
                         "template": {
                             "text": "VRB{wind_spd}KT",
-                            "voice": ". WYND VARIABLE AT {wind_spd}"
+                            "voice": ". WYND VARIABLE {wind_spd} {wind_unit}"
                         }
                     },
                     "variableGust": {
                         "template": {
                             "text": "VRB{wind_spd}G{wind_gust}KT",
-                            "voice": ". WYND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+                            "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
                         }
                     },
                     "variableDirection": {
                         "template": {
                             "text": "{wind_vmin}V{wind_vmax}",
-                            "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+                            "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
                         }
                     },
                     "calm": {
@@ -22145,13 +22145,13 @@
                     },
                     "template": {
                         "text": "{weather}",
-                        "voice": "WEATHER {weather}"
+                        "voice": "PRESENT WEATHER {weather}"
                     }
                 },
                 "recentWeather": {
                     "template": {
                         "text": "RE{weather}",
-                        "voice": "RECENT {weather}"
+                        "voice": "RECENT WEATHER {weather}"
                     }
                 },
                 "clouds": {
@@ -22238,8 +22238,8 @@
                 "altimeter": {
                     "pronounceDecimal": false,
                     "template": {
-                        "text": "A{altimeter}",
-                        "voice": "ALTIMETER {altimeter}"
+                        "text": "QNH{altimeter}",
+                        "voice": "QNH {altimeter} HECTOPASCAL"
                     }
                 },
                 "trend": {
@@ -22291,14 +22291,14 @@
                 "notams": {
                     "template": {
                         "text": "{notams}",
-                        "voice": ".{notams}"
+                        "voice": "{notams}"
                     }
                 },
                 "closingStatement": {
                     "autoIncludeClosingStatement": true,
                     "template": {
-                        "text": "...ADVS YOU HAVE INFO {letter}.",
-                        "voice": "ADVISE ON INITIAL CONTACT YOU HAVE INFORMATION {letter|word}."
+                        "text": "",
+                        "voice": " INFORMATION {letter|word} OUT"
                     }
                 }
             },
