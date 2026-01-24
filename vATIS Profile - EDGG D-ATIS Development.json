@@ -33203,7 +33203,7 @@
           "name": "26",
           "airportConditions": "",
           "notams": "",
-          "template": "",
+          "template": "RMS [ATIS_LETTER] [OBS_TIME]. [WX]. RWY_26 [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
