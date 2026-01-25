@@ -33040,7 +33040,7 @@
           }
         },
         "clouds": {
-          "identifyCeilingLayer": false,
+          "identifyCeilingLayer": true,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
           "cloudCeilingLayerTypes": [
@@ -33060,23 +33060,23 @@
           "types": {
             "FEW": {
               "text": "FEW{altitude}{convective}",
-              "voice": "few {altitude} feet {convective}"
+              "voice": "few clouds at {altitude} {convective}"
             },
             "SCT": {
               "text": "SCT{altitude}{convective}",
-              "voice": "scattered {altitude} feet {convective}"
+              "voice": "{altitude} scattered {convective}"
             },
             "BKN": {
               "text": "BKN{altitude}{convective}",
-              "voice": "broken {altitude} feet {convective}"
+              "voice": "{altitude} broken {convective}"
             },
             "OVC": {
               "text": "OVC{altitude}{convective}",
-              "voice": "overcast {altitude} feet {convective}"
+              "voice": "{altitude} overcast {convective}"
             },
             "VV": {
               "text": "VV{altitude}",
-              "voice": "vertical visibility {altitude} feet"
+              "voice": "vertical visibility {altitude}"
             },
             "NSC": {
               "text": "NSC",
@@ -33101,22 +33101,22 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS {clouds}"
+            "voice": "{clouds}"
           }
         },
         "temperature": {
           "usePlusPrefix": false,
-          "speakLeadingZero": true,
+          "speakLeadingZero": false,
           "template": {
-            "text": "T{temp}",
+            "text": "{temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
           "usePlusPrefix": false,
-          "speakLeadingZero": true,
+          "speakLeadingZero": false,
           "template": {
-            "text": "DP{dewpoint}",
+            "text": "{dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -33128,14 +33128,14 @@
           }
         },
         "trend": {
-          "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
-          "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
-          "temporaryVoice": "Temporary",
-          "notAvailableText": "NOT AVBL",
-          "notAvailableVoice": "Trend not available",
+          "nosigText": "",
+          "nosigVoice": "",
+          "becomingText": "",
+          "becomingVoice": "",
+          "temporaryText": "",
+          "temporaryVoice": "",
+          "notAvailableText": "",
+          "notAvailableVoice": "",
           "template": {}
         },
         "windShear": {
@@ -33176,7 +33176,7 @@
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": ".{notams}"
+            "voice": "NOTICE TO AIRMEN. {notams}"
           }
         },
         "closingStatement": {
@@ -33203,7 +33203,7 @@
           "name": "26",
           "airportConditions": "",
           "notams": "",
-          "template": "RMS [ATIS_LETTER] [OBS_TIME]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nRWY_26\r\n[ARPT_COND] [NOTAMS]",
+          "template": "RMS [ATIS_LETTER] [OBS_TIME]. [WX]. RWY_26 [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -33219,7 +33219,7 @@
           "name": "08",
           "airportConditions": "",
           "notams": "",
-          "template": "RMS [ATIS_LETTER] [OBS_TIME]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nRWY_08\r\n[ARPT_COND] [NOTAMS]",
+          "template": "RMS [ATIS_LETTER] [OBS_TIME]. [WX]. RWY_08 [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -33235,7 +33235,7 @@
           "name": "27",
           "airportConditions": "",
           "notams": "",
-          "template": "RMS [ATIS_LETTER] [OBS_TIME]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nRWY_27\r\n[ARPT_COND] [NOTAMS]",
+          "template": "RMS [ATIS_LETTER] [OBS_TIME]. [WX]. RWY_27 [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -33251,7 +33251,7 @@
           "name": "09",
           "airportConditions": "",
           "notams": "",
-          "template": "RMS [ATIS_LETTER] [OBS_TIME]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nRWY_09\r\n[ARPT_COND] [NOTAMS]",
+          "template": "RMS [ATIS_LETTER] [OBS_TIME]. [WX]. RWY_09 [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -33271,23 +33271,23 @@
         },
         {
           "variableName": "RWY_09",
-          "text": "RWY 09",
-          "voice": "RWY IN USE 09."
+          "text": "RWY 09 IN USE.",
+          "voice": ". RWY 09 IN USE."
         },
         {
           "variableName": "RWY_08",
-          "text": "RWY 08",
-          "voice": "RWY IN USE 08."
+          "text": "RWY 08 IN USE.",
+          "voice": ". RWY 08 IN USE."
         },
         {
           "variableName": "RWY_27",
-          "text": "RWY 27",
-          "voice": "RWY IN USE 27."
+          "text": "RWY 27 IN USE.",
+          "voice": ". RWY 27 IN USE."
         },
         {
           "variableName": "RWY_26",
-          "text": "RWY 26",
-          "voice": "RWY IN USE 26."
+          "text": "RWY 26 IN USE.",
+          "voice": ". RWY 26 IN USE."
         },
         {
           "variableName": "TWR_PATTERN_OPEN",
@@ -35138,7 +35138,7 @@
           },
           "template": {
             "text": "{weather}",
-            "voice": "WEATHER {weather}"
+            "voice": "{weather}"
           }
         },
         "recentWeather": {
@@ -35148,7 +35148,7 @@
           }
         },
         "clouds": {
-          "identifyCeilingLayer": false,
+          "identifyCeilingLayer": true,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
           "cloudCeilingLayerTypes": [
@@ -35168,23 +35168,23 @@
           "types": {
             "FEW": {
               "text": "FEW{altitude}{convective}",
-              "voice": "few {altitude} feet {convective}"
+              "voice": "few clouds at {altitude} {convective}"
             },
             "SCT": {
               "text": "SCT{altitude}{convective}",
-              "voice": "scattered {altitude} feet {convective}"
+              "voice": "{altitude} scattered {convective}"
             },
             "BKN": {
               "text": "BKN{altitude}{convective}",
-              "voice": "broken {altitude} feet {convective}"
+              "voice": "{altitude} broken {convective}"
             },
             "OVC": {
               "text": "OVC{altitude}{convective}",
-              "voice": "overcast {altitude} feet {convective}"
+              "voice": "{altitude} overcast {convective}"
             },
             "VV": {
               "text": "VV{altitude}",
-              "voice": "vertical visibility {altitude} feet"
+              "voice": "vertical visibility {altitude}"
             },
             "NSC": {
               "text": "NSC",
@@ -35209,22 +35209,22 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS {clouds}"
+            "voice": "{clouds}"
           }
         },
         "temperature": {
           "usePlusPrefix": false,
-          "speakLeadingZero": true,
+          "speakLeadingZero": false,
           "template": {
-            "text": "T{temp}",
+            "text": "{temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
           "usePlusPrefix": false,
-          "speakLeadingZero": true,
+          "speakLeadingZero": false,
           "template": {
-            "text": "DP{dewpoint}",
+            "text": "{dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -35236,14 +35236,14 @@
           }
         },
         "trend": {
-          "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
-          "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
-          "temporaryVoice": "Temporary",
-          "notAvailableText": "NOT AVBL",
-          "notAvailableVoice": "Trend not available",
+          "nosigText": "",
+          "nosigVoice": "",
+          "becomingText": "",
+          "becomingVoice": "",
+          "temporaryText": "",
+          "temporaryVoice": "",
+          "notAvailableText": "",
+          "notAvailableVoice": "",
           "template": {}
         },
         "windShear": {
@@ -35284,7 +35284,7 @@
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": ".{notams}"
+            "voice": "NOTICE TO AIRMEN. {notams}"
           }
         },
         "closingStatement": {
@@ -35311,7 +35311,7 @@
           "name": "04",
           "airportConditions": "",
           "notams": "",
-          "template": "SPM [ATIS_LETTER] [OBS_TIME]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nRWY_04\r\n[ARPT_COND] [NOTAMS]\r\n[CLOSING]",
+          "template": "SPM [ATIS_LETTER] [OBS_TIME]. [WX]. RWY_04 [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -35327,7 +35327,7 @@
           "name": "22",
           "airportConditions": "",
           "notams": "",
-          "template": "SPM [ATIS_LETTER] [OBS_TIME]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nRWY_22\r\n[ARPT_COND] [NOTAMS]\r\n[CLOSING]",
+          "template": "SPM [ATIS_LETTER] [OBS_TIME]. [WX]. RWY_22 [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -35347,12 +35347,12 @@
         },
         {
           "variableName": "RWY_04",
-          "text": "RWY 04 IN USE",
+          "text": "RWY 04 IN USE.",
           "voice": "RWY 04 IN USE."
         },
         {
           "variableName": "RWY_22",
-          "text": "RWY 22 IN USE",
+          "text": "RWY 22 IN USE.",
           "voice": "RWY 22 IN USE."
         },
         {
@@ -39284,7 +39284,7 @@
           }
         },
         "clouds": {
-          "identifyCeilingLayer": false,
+          "identifyCeilingLayer": true,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
           "cloudCeilingLayerTypes": [
@@ -39304,23 +39304,23 @@
           "types": {
             "FEW": {
               "text": "FEW{altitude}{convective}",
-              "voice": "few {altitude} feet {convective}"
+              "voice": "few clouds at {altitude} {convective}"
             },
             "SCT": {
               "text": "SCT{altitude}{convective}",
-              "voice": "scattered {altitude} feet {convective}"
+              "voice": "{altitude} scattered {convective}"
             },
             "BKN": {
               "text": "BKN{altitude}{convective}",
-              "voice": "broken {altitude} feet {convective}"
+              "voice": "{altitude} broken {convective}"
             },
             "OVC": {
               "text": "OVC{altitude}{convective}",
-              "voice": "overcast {altitude} feet {convective}"
+              "voice": "{altitude} overcast {convective}"
             },
             "VV": {
               "text": "VV{altitude}",
-              "voice": "vertical visibility {altitude} feet"
+              "voice": "vertical visibility {altitude}"
             },
             "NSC": {
               "text": "NSC",
@@ -39345,22 +39345,22 @@
           },
           "template": {
             "text": "{clouds}",
-            "voice": "CLOUDS {clouds}"
+            "voice": "{clouds}"
           }
         },
         "temperature": {
           "usePlusPrefix": false,
-          "speakLeadingZero": true,
+          "speakLeadingZero": false,
           "template": {
-            "text": "T{temp}",
+            "text": "{temp}",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
           "usePlusPrefix": false,
-          "speakLeadingZero": true,
+          "speakLeadingZero": false,
           "template": {
-            "text": "DP{dewpoint}",
+            "text": "{dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -39372,14 +39372,14 @@
           }
         },
         "trend": {
-          "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
-          "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
-          "temporaryVoice": "Temporary",
-          "notAvailableText": "NOT AVBL",
-          "notAvailableVoice": "Trend not available",
+          "nosigText": "",
+          "nosigVoice": "",
+          "becomingText": "",
+          "becomingVoice": "",
+          "temporaryText": "",
+          "temporaryVoice": "",
+          "notAvailableText": "",
+          "notAvailableVoice": "",
           "template": {}
         },
         "windShear": {
@@ -39420,7 +39420,7 @@
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": ".{notams}"
+            "voice": "NOTICE TO AIRMEN. {notams}"
           }
         },
         "closingStatement": {
@@ -39447,7 +39447,7 @@
           "name": "07",
           "airportConditions": "",
           "notams": "",
-          "template": "WIE [ATIS_LETTER] [OBS_TIME]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nRWY_07\r\n[ARPT_COND] [NOTAMS]",
+          "template": "WIE [ATIS_LETTER] [OBS_TIME]. [WX]. RWY_07 [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -39463,7 +39463,7 @@
           "name": "25",
           "airportConditions": "",
           "notams": "",
-          "template": "WIE [ATIS_LETTER] [OBS_TIME]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nRWY_25\r\n[ARPT_COND] [NOTAMS]",
+          "template": "WIE [ATIS_LETTER] [OBS_TIME]. [WX]. RWY_25 [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -39479,17 +39479,17 @@
         {
           "variableName": "WIE",
           "text": "WIE TWR INFO",
-          "voice": "WIS BARDEN TOWER INFORMATION"
+          "voice": "WI ES BARDEN TOWER INFORMATION"
         },
         {
           "variableName": "RWY_25",
-          "text": "RWY 25",
-          "voice": "RWY IN USE 25."
+          "text": "RWY 25 IN USE.",
+          "voice": "RWY 25 IN USE."
         },
         {
           "variableName": "RWY_07",
-          "text": "RWY 07",
-          "voice": "RWY IN USE 07."
+          "text": "RWY 07 IN USE.",
+          "voice": "RWY 07 IN USE."
         },
         {
           "variableName": "TWR_PATTERN_OPEN",
