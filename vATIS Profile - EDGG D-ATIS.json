@@ -2411,38 +2411,8 @@
                     "enabled": false
                 },
                 {
-                    "text": "NOTAM_L21_L20",
-                    "ordinal": 3,
-                    "enabled": false
-                },
-                {
-                    "text": "PDC_CLEARANCE",
-                    "ordinal": 4,
-                    "enabled": false
-                },
-                {
-                    "text": "DE_ICING",
-                    "ordinal": 4,
-                    "enabled": false
-                },
-                {
-                    "text": "25C_ALL_SOUTH",
-                    "ordinal": 6,
-                    "enabled": false
-                },
-                {
-                    "text": "25C_ALL_NORTH",
-                    "ordinal": 7,
-                    "enabled": false
-                },
-                {
-                    "text": "CHECK_CHARTS_FOR_DEP_FREQ",
-                    "ordinal": 8,
-                    "enabled": false
-                },
-                {
                     "text": "CAUTION WINDSHEAR ALL RWYS",
-                    "ordinal": 9,
+                    "ordinal": 3,
                     "enabled": false
                 }
             ]
