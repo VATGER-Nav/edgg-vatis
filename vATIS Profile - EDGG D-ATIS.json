@@ -15848,7 +15848,7 @@
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.835."
                 },
                 {
-                    "variableName": "DEP_FREQ_GCH_127.925",
+                    "variableName": "DEP_FREQ_GCH_127_925",
                     "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 127.925",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 127.925."
                 },
@@ -15922,7 +15922,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "DEP_FREQ_GCH_127.925",
+                    "text": "DEP_FREQ_GCH_127_925",
                     "ordinal": 7,
                     "enabled": false
                 },
