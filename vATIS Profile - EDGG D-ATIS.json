@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "9d80750b-aceb-49e4-a79b-93bafef9624f",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2026012501,
+    "updateSerial": 2026031001,
     "stations": [
         {
             "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -1997,6 +1997,81 @@
                 {
                     "id": "3447f0c9-e449-455d-9906-a24eff5a1a6c",
                     "ordinal": 1,
+                    "name": "25L + 25R | ILS Y | 25C CLOSED",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Y\r\nRWY_25R_25L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n25C_CLOSED\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "e9b66e4a-9607-499c-9e06-6b7e9228ceae",
+                    "ordinal": 2,
+                    "name": "25L + 25R | IPA ILS Y | 25C CLOSED",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Y\r\nRWY_25R_25L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n25C_CLOSED\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "5f2e0ac5-233d-437e-8a27-96c2e72db622",
+                    "ordinal": 3,
+                    "name": "25L + 25R | ILS Z | 25C CLOSED",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Z\r\nRWY_25R_25L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n25C_CLOSED\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "5be32735-4002-49f8-a0bf-0ee1df0f4eec",
+                    "ordinal": 4,
+                    "name": "25L + 25R | IPA ILS Z | 25C CLOSED",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Z\r\nRWY_25R_25L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n25C_CLOSED\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "3e8a8fe3-4061-442f-b7ab-966decc372a9",
+                    "ordinal": 5,
+                    "name": "25L | ILS | 25C CLOSED",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_ILS\r\nRWY_25L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n25C_CLOSED\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "3447f0c9-e449-455d-9906-a24eff5a1a6c",
+                    "ordinal": 6,
                     "name": "25L + 25R | ILS Y",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Y\r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2011,7 +2086,7 @@
                 },
                 {
                     "id": "b570872a-51e3-4aad-aa2b-4ddee2a34190",
-                    "ordinal": 2,
+                    "ordinal": 7,
                     "name": "07R + 07L | ILS Y",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_07L_ILS_Y\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2026,7 +2101,7 @@
                 },
                 {
                     "id": "e9b66e4a-9607-499c-9e06-6b7e9228ceae",
-                    "ordinal": 3,
+                    "ordinal": 8,
                     "name": "25L + 25R | IPA ILS Y",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Y\r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2041,7 +2116,7 @@
                 },
                 {
                     "id": "adb89371-bd6a-4415-8537-08d237890ae0",
-                    "ordinal": 4,
+                    "ordinal": 9,
                     "name": "07R + 07L | IPA ILS Y",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_07R_07L_ILS_Y\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2056,7 +2131,7 @@
                 },
                 {
                     "id": "5f2e0ac5-233d-437e-8a27-96c2e72db622",
-                    "ordinal": 5,
+                    "ordinal": 10,
                     "name": "25L + 25R | ILS Z",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Z\r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2071,7 +2146,7 @@
                 },
                 {
                     "id": "5f2e0ac5-233d-437e-8a27-96c2e72db622",
-                    "ordinal": 5,
+                    "ordinal": 11,
                     "name": "25L + 25R | LVO",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Z\r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nLOW_VISIBILITY\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2086,7 +2161,7 @@
                 },
                 {
                     "id": "5e6b3726-b63d-4f0e-ac53-d33f6f200c89",
-                    "ordinal": 5,
+                    "ordinal": 12,
                     "name": "07R + 07L | ILS Z",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_07L_ILS_Z\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2101,7 +2176,7 @@
                 },
                 {
                     "id": "5e6b3726-b63d-4f0e-ac53-d33f6f200c89",
-                    "ordinal": 5,
+                    "ordinal": 13,
                     "name": "07R + 07L | LVO",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_07L_ILS_Z\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nLOW_VISIBILITY\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2116,7 +2191,7 @@
                 },
                 {
                     "id": "5be32735-4002-49f8-a0bf-0ee1df0f4eec",
-                    "ordinal": 7,
+                    "ordinal": 14,
                     "name": "25L + 25R | IPA ILS Z",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Z\r\nRWY_25L_25R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2131,7 +2206,7 @@
                 },
                 {
                     "id": "33268d4b-0baa-483d-8257-e8233eee402f",
-                    "ordinal": 8,
+                    "ordinal": 15,
                     "name": "07R + 07L | IPA ILS Z",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_07R_07L_ILS_Z\r\nRWY_07R_07L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2146,7 +2221,7 @@
                 },
                 {
                     "id": "69a07614-3a40-41b4-89ec-6a8281994020",
-                    "ordinal": 9,
+                    "ordinal": 16,
                     "name": "25C | ILS Z",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25C_ILS_Z\r\nRWY_25C\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2161,7 +2236,7 @@
                 },
                 {
                     "id": "3e8a8fe3-4061-442f-b7ab-966decc372a9",
-                    "ordinal": 10,
+                    "ordinal": 17,
                     "name": "25L | ILS",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_ILS\r\nRWY_25L\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2176,7 +2251,7 @@
                 },
                 {
                     "id": "a2c9828e-79ce-46f5-b6cd-e1b9b210553c",
-                    "ordinal": 11,
+                    "ordinal": 18,
                     "name": "07C | ILS Z",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07C_ILS_Z\r\nRWY_07C\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2191,7 +2266,7 @@
                 },
                 {
                     "id": "c3e73a3c-c37c-4e53-935e-d505393833f9",
-                    "ordinal": 12,
+                    "ordinal": 19,
                     "name": "07R | ILS",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n07R_ILS\r\nRWY_07R\r\nEXPECT RADAR VECTORING, GLS APCH ON REQUEST\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2206,7 +2281,7 @@
                 },
                 {
                     "id": "93f883fb-930d-4888-8b9d-47302119b014",
-                    "ordinal": 13,
+                    "ordinal": 20,
                     "name": "25C | RNP X",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP_X\r\n[ARPT_COND]\r\nRWY_25C\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2221,7 +2296,7 @@
                 },
                 {
                     "id": "aec82799-bb52-4afc-a762-1ccbfbbf6c82",
-                    "ordinal": 14,
+                    "ordinal": 21,
                     "name": "25L | RNP X",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP_X\r\n[ARPT_COND]\r\nRWY_25L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2236,7 +2311,7 @@
                 },
                 {
                     "id": "e9357fe7-bdc4-4036-ba19-a1bfb99f9c10",
-                    "ordinal": 15,
+                    "ordinal": 22,
                     "name": "07C | RNP X",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP_X\r\n[ARPT_COND]\r\nRWY_07C\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2251,7 +2326,7 @@
                 },
                 {
                     "id": "d120288d-3cae-4a04-8d8f-84d346f1c6b9",
-                    "ordinal": 16,
+                    "ordinal": 23,
                     "name": "07R | RNP X",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nEXPECT RNP_X\r\n[ARPT_COND]\r\nRWY_07R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -2303,6 +2378,11 @@
                 },
                 {
                     "variableName": "RWY_25L_25R",
+                    "text": "RWY 25L 25R",
+                    "voice": "RWYS IN USE ^25L AND ^25R."
+                },
+                {
+                    "variableName": "RWY_25R_25L",
                     "text": "RWY 25R 25L",
                     "voice": "RWYS IN USE ^25R AND ^25L."
                 },
@@ -2319,7 +2399,7 @@
                 {
                     "variableName": "APP_SWING",
                     "text": "DO NOT MISTAKE TWY M FOR RWY 25C WHEN PERFORMING VISUAL APPROACH",
-                    "voice": ".DO NOT MISTAKE TWY MIKE FOR RWY ^25C WHEN PERFORMING VISUAL APPROACH."
+                    "voice": ". DO NOT MISTAKE TWY MIKE FOR RWY ^25C WHEN PERFORMING VISUAL APPROACH."
                 },
                 {
                     "variableName": "IPA_25L_25R_ILS_Y",
@@ -2390,6 +2470,11 @@
                     "variableName": "RNP_X",
                     "text": "RNP X APCH",
                     "voice": "RNP X-RAY APCH."
+                },
+                {
+                    "variableName": "25C_CLOSED",
+                    "text": "RWY 25C CLOSED DUE TO WIP",
+                    "voice": ". RWY ^25C CLOSED DUE TO WORK IN PROGRESS."
                 }
             ],
             "airportConditionDefinitions": [
@@ -4408,8 +4493,38 @@
             },
             "presets": [
                 {
-                    "id": "e79e0840-f031-4af8-be19-a271bf43f159",
+                    "id": "b0c7a1c7-3836-4046-817e-62c256f39291",
                     "ordinal": 1,
+                    "name": "25L + 18 | 25C CLOSED",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nRWY_25L_18\r\n25L_FULL_LENGTH\r\n25C_CLOSED\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "b0c7a1c7-3836-4046-817e-62c256f39291",
+                    "ordinal": 2,
+                    "name": "07R + 18 | 25C CLOSED",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nRWY_07R_18\r\n07R_FULL_LENGTH\r\nINTERSECTION_M\r\n07C_CLOSED\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "e79e0840-f031-4af8-be19-a271bf43f159",
+                    "ordinal": 3,
                     "name": "25C + 18",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nRWY_25C_18\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -4424,7 +4539,7 @@
                 },
                 {
                     "id": "8ffd2508-5145-44de-b4f2-ee849461851f",
-                    "ordinal": 2,
+                    "ordinal": 4,
                     "name": "07C + 18",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nRWY_07C_18\r\nINTERSECTION_M\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -4439,7 +4554,7 @@
                 },
                 {
                     "id": "a31b8c99-98fc-494b-b66f-5d19092bb98d",
-                    "ordinal": 2,
+                    "ordinal": 5,
                     "name": "07C with 18 clsd due to tailwind",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nRWY_07C\r\nRWY_18_NOT_USED_TAILWIND\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -4454,7 +4569,7 @@
                 },
                 {
                     "id": "1c1f88e0-eb6b-4c6c-834b-b3b7f137f9c6",
-                    "ordinal": 4,
+                    "ordinal": 6,
                     "name": "07C",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nRWY_07C\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -4469,7 +4584,7 @@
                 },
                 {
                     "id": "f8c6a249-fd6b-4107-bbdf-cf9834d5cdd8",
-                    "ordinal": 5,
+                    "ordinal": 7,
                     "name": "25C",
                     "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nRWY_25C\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
@@ -4484,9 +4599,39 @@
                 },
                 {
                     "id": "b0c7a1c7-3836-4046-817e-62c256f39291",
-                    "ordinal": 6,
+                    "ordinal": 8,
+                    "name": "07R",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nRWY_07R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "b0c7a1c7-3836-4046-817e-62c256f39291",
+                    "ordinal": 9,
                     "name": "25L",
-                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nRWY_25C\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nRWY_25L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "f8c6a249-fd6b-4107-bbdf-cf9834d5cdd8",
+                    "ordinal": 10,
+                    "name": "18",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nRWY_18\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -4530,6 +4675,16 @@
                     "voice": "RWYS IN USE ^07C AND 18."
                 },
                 {
+                    "variableName": "RWY_07R_18",
+                    "text": "RWY 07R 18",
+                    "voice": "RWYS IN USE ^07R AND 18."
+                },
+                {
+                    "variableName": "RWY_25L_18",
+                    "text": "RWY 25L 18",
+                    "voice": "RWYS IN USE ^25L AND 18."
+                },
+                {
                     "variableName": "RWY_18",
                     "text": "RWY 18",
                     "voice": "RWY IN USE 18."
@@ -4548,6 +4703,11 @@
                     "variableName": "RWY_25L",
                     "text": "RWY 25L",
                     "voice": "RWY IN USE ^25L."
+                },
+                {
+                    "variableName": "RWY_07R",
+                    "text": "RWY 07R",
+                    "voice": "RWY IN USE ^07R."
                 },
                 {
                     "variableName": "INTERSECTION_M",
@@ -4588,53 +4748,83 @@
                     "variableName": "PDC_CLEARANCE",
                     "text": "EXPECT ENROUTE CLEARANCE VIA PRIVATE MESSAGE ONLY. DO NOT REPLY.",
                     "voice": "ALL OUTBOUNDS EXPECT ENROUTE CLEARANCE VIA PRIVATE MESSAGE ONLY. DO NOT REPLY."
+                },
+                {
+                    "variableName": "25L_ALL_SOUTH",
+                    "text": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR H OR K",
+                    "voice": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR HOTEL OR KILO."
+                },
+                {
+                    "variableName": "25L_FULL_LENGTH",
+                    "text": "ACFT DEPARTING RWY25L: REPORT TO APRON IF FULL LENGTH REQUIRED",
+                    "voice": "ACFT DEPARTING RWY ^25L, REPORT TO APRON, IF FULL LENGTH REQUIRED."
+                },
+                {
+                    "variableName": "07R_FULL_LENGTH",
+                    "text": "ACFT DEPARTING RWY07R: REPORT TO APRON IF FULL LENGTH REQUIRED",
+                    "voice": "ACFT DEPARTING RWY ^07R, REPORT TO APRON, IF FULL LENGTH REQUIRED."
+                },
+                {
+                    "variableName": "25C_CLOSED",
+                    "text": "RWY 25C CLOSED DUE TO WIP",
+                    "voice": "RWY ^25C CLOSED DUE TO WORK IN PROGRESS."
+                },
+                {
+                    "variableName": "07C_CLOSED",
+                    "text": "RWY 07C CLOSED DUE TO WIP",
+                    "voice": "RWY ^07C CLOSED DUE TO WORK IN PROGRESS."
                 }
             ],
             "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
-                    "text": "LOW_VISIBILITY",
+                    "text": "25L_ALL_SOUTH",
                     "ordinal": 1,
                     "enabled": false
                 },
                 {
-                    "text": "TAILWIND_RWY_18_MORE_10_KT",
+                    "text": "LOW_VISIBILITY",
                     "ordinal": 2,
                     "enabled": false
                 },
                 {
-                    "text": "NOTAM_L21_L20",
+                    "text": "TAILWIND_RWY_18_MORE_10_KT",
                     "ordinal": 3,
                     "enabled": false
                 },
                 {
-                    "text": "PDC_CLEARANCE",
+                    "text": "NOTAM_L21_L20",
                     "ordinal": 4,
+                    "enabled": false
+                },
+                {
+                    "text": "PDC_CLEARANCE",
+                    "ordinal": 5,
                     "enabled": false
                 },
                 {
                     "text": "DE_ICING",
-                    "ordinal": 4,
-                    "enabled": false
-                },
-                {
-                    "text": "25C_ALL_SOUTH",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "25C_ALL_NORTH",
+                    "text": "25C_ALL_SOUTH",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+                    "text": "25C_ALL_NORTH",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "CAUTION WINDSHEAR ALL RWYS",
+                    "text": "CHECK_CHARTS_FOR_DEP_FREQ",
                     "ordinal": 9,
+                    "enabled": false
+                },
+                {
+                    "text": "CAUTION WINDSHEAR ALL RWYS",
+                    "ordinal": 10,
                     "enabled": false
                 }
             ]
