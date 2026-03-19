@@ -4735,6 +4735,11 @@
                     "voice": "RWY 18 NOT IN USE DUE TO TAILWIND."
                 },
                 {
+                    "variableName": "CAUTION FLOCK OF BIRDS IN VICINITY OF THE AERODROME",
+                    "text": "CAUTION FLOCK OF BIRDS IN VICINITY OF THE AERODROME",
+                    "voice": "OUR AUTOMATED SYSTEM HAS DETECTED FLOCKS OF BIRDS IN THE VICINITY OF THE AERODROME"
+                },
+                {
                     "variableName": "25C_ALL_SOUTH",
                     "text": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR M OR W",
                     "voice": "ALL DEPARTING ACFT VIA MARUN, OBOKA AND TOBAK EXPECT SID WITH DESIGNATOR MIKE OR WHISKEY."
@@ -4830,6 +4835,11 @@
                 {
                     "text": "CAUTION WINDSHEAR ALL RWYS",
                     "ordinal": 10,
+                    "enabled": false
+                },
+				{
+                    "text": "CAUTION FLOCK OF BIRDS IN VICINITY OF THE AERODROME",
+                    "ordinal": 11,
                     "enabled": false
                 }
             ]
