@@ -2499,6 +2499,11 @@
                     "text": "CAUTION WINDSHEAR ALL RWYS",
                     "ordinal": 3,
                     "enabled": false
+                },
+				{
+                    "text": "CAUTION FLOCK OF BIRDS IN VICINITY OF THE AERODROME",
+                    "ordinal": 4,
+                    "enabled": false
                 }
             ]
         },
