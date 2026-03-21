@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "9d80750b-aceb-49e4-a79b-93bafef9624f",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2026031001,
+    "updateSerial": 2026032101,
     "stations": [
         {
             "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -4865,7 +4865,7 @@
                     "standardGust": {
                         "template": {
                             "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-                            "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+                            "voice": ". WYND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS MAXIMUM {wind_gust} {wind_unit}"
                         }
                     },
                     "variable": {
@@ -4877,7 +4877,7 @@
                     "variableGust": {
                         "template": {
                             "text": "VRB{wind_spd}G{wind_gust}KT",
-                            "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS {wind_gust} {wind_unit}"
+                            "voice": ". WYND VARIABLE {wind_spd} {wind_unit} GUSTS MAXIMUM {wind_gust} {wind_unit}"
                         }
                     },
                     "variableDirection": {
@@ -4903,7 +4903,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -6742,15 +6742,15 @@
                     }
                 },
                 "altimeter": {
-                    "pronounceDecimal": false,
+                    "pronounceDecimal": true,
                     "template": {
                         "text": "QNH{altimeter}",
-                        "voice": "QNH {altimeter} HECTOPASCAL"
+                        "voice": "QNH {altimeter} HECTOPASCAL OR {altimeter|inhg} INCHES"
                     }
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -6791,7 +6791,7 @@
                     ],
                     "template": {
                         "text": "TRL {trl} ",
-                        "voice": ".TRANSITION LEVEL {trl}"
+                        "voice": ".TRANSITION LEVEL, {trl}."
                     }
                 },
                 "notams": {
@@ -6821,9 +6821,11 @@
             "presets": [
                 {
                     "id": "4c1ee2dc-95c7-4e07-b3a2-b6e5e58c2324",
-                    "ordinal": 0,
-                    "name": "23L",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] DOT\r\nRWY_23L\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "ordinal": 1,
+                    "name": "23L | ILS",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS DOT\r\nRWY_23L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -6836,9 +6838,11 @@
                 },
                 {
                     "id": "3b207d79-49f9-4956-9cc4-d63044445827",
-                    "ordinal": 1,
-                    "name": "DEP 23L | ARR 23R",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 23R DOT\r\nRWY_23L_23R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "ordinal": 2,
+                    "name": "DEP 23L - ARR 23R | ILS",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -6851,9 +6855,10 @@
                 },
                 {
                     "id": "55d0c754-c388-4c7e-83ec-dd318b4d7caa",
-                    "ordinal": 2,
-                    "name": "DEP 23L | ARR 23R 23L",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 23L OR RWY 23R DOT\r\nRWY_23L_23R\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "ordinal": 3,
+                    "name": "DEP 23L - ARR 23R 23L | ILS",
+                    "airportConditions": "",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 23L OR RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -6866,9 +6871,11 @@
                 },
                 {
                     "id": "1dfead01-e839-4aba-b559-1e7418775616",
-                    "ordinal": 3,
-                    "name": "05R",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] DOT\r\nRWY_05R\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "ordinal": 4,
+                    "name": "05R | ILS",
+                    "airportConditions": "",
+                    "notams": "ADVISORY BIRDACT",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS DOT\r\nRWY_05R\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -6881,9 +6888,10 @@
                 },
                 {
                     "id": "43116b9b-c360-4161-b9d0-8e78a8eca34d",
-                    "ordinal": 4,
-                    "name": "DEP 05R | ARR 05L",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 05L DOT\r\nRWY_05R_05L\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "ordinal": 5,
+                    "name": "DEP 05R - ARR 05L | ILS",
+                    "airportConditions": "",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 05L DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -6896,9 +6904,104 @@
                 },
                 {
                     "id": "fdb86a31-9381-4e06-97dd-0611527f3955",
-                    "ordinal": 5,
-                    "name": "DEP 05R | ARR 05L 05R",
-                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\n[ARPT_COND] RWY 05L OR RWY 05R DOT\r\nRWY_05R_05L\r\nTWY_INCURSION\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "ordinal": 6,
+                    "name": "DEP 05R - ARR 05L 05R | ILS",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 05L OR RWY 05R DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "bd8014a3-2067-4114-91fd-39c2acc90061",
+                    "ordinal": 8,
+                    "name": "23L | RNP",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP DOT\r\nRWY_23L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "2a874982-686d-46f5-9b66-abdfe10e8aa4",
+                    "ordinal": 9,
+                    "name": "DEP 23L - ARR 23R | RNP",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "a1ccc10a-ca0e-469d-9c28-8742d7b3c51c",
+                    "ordinal": 10,
+                    "name": "DEP 23L - ARR 23R 23L | RNP",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 23L OR RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "fd17de41-5155-4686-96f4-e7ddd62ab259",
+                    "ordinal": 11,
+                    "name": "05R | RNP",
+                    "airportConditions": "",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP DOT\r\nRWY_05R\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "f70ae24d-0f3f-4b3e-880a-f869879877bb",
+                    "ordinal": 12,
+                    "name": "DEP 05R - ARR 05L | RNP",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 05L DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "e0e6e22e-75ac-466b-a5f8-9dc35cc95510",
+                    "ordinal": 13,
+                    "name": "DEP 05R - ARR 05L 05R | RNP",
+                    "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 05L OR RWY 05R DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -6978,12 +7081,12 @@
                 },
                 {
                     "variableName": "LOW_VISIBILITY",
-                    "text": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVAILABLE",
+                    "text": "\r\nLOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVAILABLE",
                     "voice": "LOW VISIBILITY PROCEDURES IN OPERATION, CAT 2 AND 3 AVAILABLE."
                 },
                 {
                     "variableName": "SRA_ON_REQ",
-                    "text": "SRA APPROACH AVBL ON REQ",
+                    "text": "\r\nSRA APPROACH AVBL ON REQ",
                     "voice": "SRA APPROACH AVAILABLE ON REQUEST"
                 },
                 {
@@ -6993,24 +7096,29 @@
                 },
                 {
                     "variableName": "TWY_INCURSION",
-                    "text": "ATTENTION, RISK OF TWY INCURSION WHEN TAXIING TO RWY05R, CHECK HOT SPOTS T1 AND L9 ON TAXI CHART.",
+                    "text": "ATTENTION, RISK OF TWY INCURSION WHEN TAXIING TO RWY 05R, CHECK HOT SPOTS T1 AND L9 ON TAXI CHART",
                     "voice": "ATTENTION, RISK OF TWY INCURSION WHEN TAXIING TO RWY ^05R, CHECK HOT SPOTS TANGO 1 AND LIMA 9 ON TAXI CHART."
                 },
                 {
                     "variableName": "DEP_FREQ_GNH_136_480",
-                    "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 136.480.",
+                    "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 136.480",
                     "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 136.480."
+                },
+                {
+                    "variableName": "BIRDACT",
+                    "text": "\r\nEXPECT INTENSE BIRD ACTIVITY IN THE VICINITY OF RWY SYSTEM",
+                    "voice": "EXPECT INTENSE BIRD ACTIVITY IN THE VICINITY OF RWY SYSTEM."
+                },
+                {
+                    "variableName": "DCL_INOP",
+                    "text": "DATALINK U/S ENROUTE CLEARENCE VIA VOICE ONLY",
+                    "voice": "DATALINK U/S ENROUTE CLEARENCE VIA VOICE ONLY."
                 }
             ],
             "airportConditionDefinitions": [
                 {
-                    "text": "ILS",
+                    "text": "DCL_INOP",
                     "ordinal": 1,
-                    "enabled": true
-                },
-                {
-                    "text": "RNP",
-                    "ordinal": 2,
                     "enabled": false
                 }
             ],
@@ -7041,13 +7149,18 @@
                     "enabled": false
                 },
                 {
-                    "text": "SRA_ON_REQ",
+                    "text": "\r\nCAUTION WINDSHEAR ALL RWYS",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "CAUTION WINDSHEAR ALL RWYS",
+                    "text": "BIRDACT",
                     "ordinal": 7,
+                    "enabled": false
+                },
+                {
+                    "text": "SRA_ON_REQ",
+                    "ordinal": 8,
                     "enabled": false
                 }
             ]
