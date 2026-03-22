@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "9d80750b-aceb-49e4-a79b-93bafef9624f",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2026032203,
+    "updateSerial": 2026032204,
     "stations": [
         {
             "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -78,7 +78,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -1925,7 +1925,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -2496,7 +2496,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -4343,7 +4343,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -7100,7 +7100,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -8947,7 +8947,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -9530,7 +9530,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -11377,7 +11377,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -11787,7 +11787,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -13634,7 +13634,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -13982,7 +13982,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -15829,7 +15829,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -16177,7 +16177,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -18024,7 +18024,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -18357,7 +18357,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -20204,7 +20204,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -20527,7 +20527,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -22374,7 +22374,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -22667,7 +22667,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -24514,7 +24514,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -24817,7 +24817,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -26664,7 +26664,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -27007,7 +27007,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -28854,7 +28854,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -29227,7 +29227,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -31074,7 +31074,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -31232,6 +31232,11 @@
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 127.5."
                 },
                 {
+                    "variableName": "DEP_FREQ_MAN_132_155",
+                    "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.155",
+                    "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.155."
+                },
+                {
                     "variableName": "DEP_FREQ_BADH_124_035",
                     "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035."
@@ -31301,43 +31306,48 @@
                     "enabled": false
                 },
                 {
-                    "text": "DEP_FREQ_BAD_131_300",
+                    "text": "DEP_FREQ_MAN_132_155",
                     "ordinal": 4,
                     "enabled": false
                 },
                 {
-                    "text": "DEP_FREQ_BADH_124_035",
+                    "text": "DEP_FREQ_BAD_131_300",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "DEP_FREQ_GS_136_315",
+                    "text": "DEP_FREQ_BADH_124_035",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "DEP_FREQ_GSA_131_365",
+                    "text": "DEP_FREQ_GS_136_315",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "DEP_FREQ_GSH_123_010",
+                    "text": "DEP_FREQ_GSA_131_365",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "DEP_FREQ_GCS_135_310",
+                    "text": "DEP_FREQ_GSH_123_010",
                     "ordinal": 9,
                     "enabled": false
                 },
                 {
-                    "text": "DEP_FREQ_GCSH_135.030",
+                    "text": "DEP_FREQ_GCS_135_310",
                     "ordinal": 10,
                     "enabled": false
                 },
                 {
-                    "text": "CAUTION WINDSHEAR ALL RWYS",
+                    "text": "DEP_FREQ_GCSH_135.030",
                     "ordinal": 11,
+                    "enabled": false
+                },
+                {
+                    "text": "CAUTION WINDSHEAR ALL RWYS",
+                    "ordinal": 12,
                     "enabled": false
                 }
             ]
@@ -31412,7 +31422,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 or more",
+                    "unlimitedVisibilityVoice": "visibility 10",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": false,
                     "metersCutoff": 5000,
@@ -33520,7 +33530,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 or more",
+                    "unlimitedVisibilityVoice": "visibility 10",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": false,
                     "metersCutoff": 5000,
@@ -35590,7 +35600,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+                    "unlimitedVisibilityVoice": "visibility ^10 kilometers",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": true,
                     "metersCutoff": 5000,
@@ -37437,7 +37447,7 @@
                 },
                 "trend": {
                     "nosigText": "NOSIG",
-                    "nosigVoice": "No Significant Changes",
+                    "nosigVoice": "NOSIG",
                     "becomingText": "BECMG",
                     "becomingVoice": "Becoming",
                     "temporaryText": "TEMPO",
@@ -37656,7 +37666,7 @@
                     "southWest": "to the south-west",
                     "west": "to the west",
                     "northWest": "to the north-west",
-                    "unlimitedVisibilityVoice": "visibility 10 or more",
+                    "unlimitedVisibilityVoice": "visibility 10",
                     "unlimitedVisibilityText": "9999",
                     "includeVisibilitySuffix": false,
                     "metersCutoff": 5000,
