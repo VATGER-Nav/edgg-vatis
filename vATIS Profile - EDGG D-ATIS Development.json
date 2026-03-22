@@ -2296,9 +2296,9 @@
           "voice": "RWYS IN USE ^07C AND ^07L."
         },
         {
-          "variableName": "RWY_25R_25L",
-          "text": "RWY 25R 25L",
-          "voice": "RWYS IN USE ^25R AND ^25L."
+          "variableName": "RWY_25L_25R",
+          "text": "RWY 25L 25R",
+          "voice": "RWYS IN USE ^25L AND ^25R."
         },
         {
           "variableName": "RWY_25L",
@@ -2384,6 +2384,11 @@
           "variableName": "RNP_X",
           "text": "RNP X APCH",
           "voice": "RNP X-RAY APCH."
+        },
+        {
+          "variableName": "BIRD_ACTIVITY",
+          "text": "ATTENTION: BIRD ACTIVITY IN THE VCY OF THE AD",
+          "voice": "ATTENTION, BIRD ACTIVITY IN THE VICINITY OF THE AERODROME"
         }
       ],
       "airportConditionDefinitions": [
@@ -2400,12 +2405,12 @@
           "enabled": false
         },
         {
-          "text": "TAILWIND_RWY_18_MORE_10_KT",
+          "text": "CAUTION WINDSHEAR ALL RWYS",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "BIRD_ACTIVITY",
           "ordinal": 3,
           "enabled": false
         }
@@ -4570,7 +4575,22 @@
         {
           "variableName": "PDC_CLEARANCE",
           "text": "EXPECT ENROUTE CLEARANCE VIA PRIVATE MESSAGE ONLY. DO NOT REPLY.",
-          "voice": "ALL OUTBOUNDS EXPECT ENROUTE CLEARANCE VIA PRIVATE MESSAGE ONLY. DO NOT REPLY."
+          "voice": "EXPECT ENROUTE CLEARANCE VIA PRIVATE MESSAGE ONLY. DO NOT REPLY."
+        },
+        {
+          "variableName": "ACDM",
+          "text": "ACDM IN PROGRESS. REPORT TOBT AT VATS.IM/VDGS",
+          "voice": "A:CDM IN PROGRESS. REPORT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH VDGS."
+        },
+        {
+          "variableName": "DCL_INOP",
+          "text": "DATALINK U/S ENROUTE CLEARENCE VIA VOICE ONLY",
+          "voice": "DATA LINK U/S. ENROUTE CLEARENCE VIA VOICE ONLY."
+        },
+        {
+          "variableName": "BIRD_ACTIVITY",
+          "text": "ATTENTION: BIRD ACTIVITY IN THE VCY OF THE AD",
+          "voice": "ATTENTION, BIRD ACTIVITY IN THE VICINITY OF THE AERODROME"
         }
       ],
       "airportConditionDefinitions": [],
@@ -4581,43 +4601,58 @@
           "enabled": false
         },
         {
-          "text": "TAILWIND_RWY_18_MORE_10_KT",
+          "text": "ACDM",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "NOTAM_L21_L20",
+          "text": "DCL_INOP",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "PDC_CLEARANCE",
+          "text": "TAILWIND_RWY_18_MORE_10_KT",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "DE_ICING",
+          "text": "NOTAM_L21_L20",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "25C_ALL_SOUTH",
+          "text": "PDC_CLEARANCE",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "25C_ALL_NORTH",
+          "text": "DE_ICING",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+          "text": "25C_ALL_SOUTH",
           "ordinal": 8,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "25C_ALL_NORTH",
           "ordinal": 9,
+          "enabled": false
+        },
+        {
+          "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+          "ordinal": 10,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 11,
+          "enabled": false
+        },
+        {
+          "text": "BIRD_ACTIVITY",
+          "ordinal": 12,
           "enabled": false
         }
       ]
@@ -6645,6 +6680,7 @@
           "ordinal": 3,
           "name": "DEP 23L - ARR 23R 23L | ILS",
           "airportConditions": "",
+          "notams": "",
           "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 23L OR RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
@@ -6661,7 +6697,7 @@
           "ordinal": 4,
           "name": "05R | ILS",
           "airportConditions": "",
-          "notams": "ADVISORY BIRDACT",
+          "notams": "",
           "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS DOT\r\nRWY_05R\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
@@ -6678,6 +6714,7 @@
           "ordinal": 5,
           "name": "DEP 05R - ARR 05L | ILS",
           "airportConditions": "",
+          "notams": "",
           "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nILS RWY 05L DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
@@ -6727,6 +6764,8 @@
           "id": "2a874982-686d-46f5-9b66-abdfe10e8aa4",
           "ordinal": 9,
           "name": "DEP 23L - ARR 23R | RNP",
+          "airportConditions": "",
+          "notams": "",
           "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
@@ -6742,6 +6781,8 @@
           "id": "a1ccc10a-ca0e-469d-9c28-8742d7b3c51c",
           "ordinal": 10,
           "name": "DEP 23L - ARR 23R 23L | RNP",
+          "airportConditions": "",
+          "notams": "",
           "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 23L OR RWY 23R DOT\r\nRWY_23L_23R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
@@ -6758,6 +6799,7 @@
           "ordinal": 11,
           "name": "05R | RNP",
           "airportConditions": "",
+          "notams": "",
           "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP DOT\r\nRWY_05R\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
@@ -6773,6 +6815,8 @@
           "id": "f70ae24d-0f3f-4b3e-880a-f869879877bb",
           "ordinal": 12,
           "name": "DEP 05R - ARR 05L | RNP",
+          "airportConditions": "",
+          "notams": "",
           "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 05L DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
@@ -6788,6 +6832,8 @@
           "id": "e0e6e22e-75ac-466b-a5f8-9dc35cc95510",
           "ordinal": 13,
           "name": "DEP 05R - ARR 05L 05R | RNP",
+          "airportConditions": "",
+          "notams": "",
           "template": "EDDL [ATIS_LETTER] [OBS_TIME]\r\nRNP RWY 05L OR RWY 05R DOT\r\nRWY_05R_05L\r\n[ARPT_COND]\r\nTWY_INCURSION\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] \r\n[PRESSURE]\r\n[RECENT_WX]\r\nTRND [TREND]",
           "externalGenerator": {
             "enabled": false,
@@ -6897,9 +6943,14 @@
           "voice": "EXPECT INTENSE BIRD ACTIVITY IN THE VICINITY OF RWY SYSTEM."
         },
         {
+          "variableName": "ACDM",
+          "text": "ACDM IN PROGRESS. REPORT TOBT AT VATS.IM/VDGS",
+          "voice": "A:CDM IN PROGRESS. REPORT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH VDGS."
+        },
+        {
           "variableName": "DCL_INOP",
           "text": "DATALINK U/S ENROUTE CLEARENCE VIA VOICE ONLY",
-          "voice": "DATALINK U/S ENROUTE CLEARENCE VIA VOICE ONLY."
+          "voice": "DATA LINK U/S. ENROUTE CLEARENCE VIA VOICE ONLY."
         }
       ],
       "airportConditionDefinitions": [
@@ -6946,8 +6997,13 @@
           "enabled": false
         },
         {
-          "text": "SRA_ON_REQ",
+          "text": "ACDM",
           "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "SRA_ON_REQ",
+          "ordinal": 9,
           "enabled": false
         }
       ]
@@ -9289,6 +9345,16 @@
           "variableName": "DEP_FREQ_GNH_136_480",
           "text": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 136.480",
           "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 136.480."
+        },
+        {
+          "variableName": "ACDM",
+          "text": "ACDM IN PROGRESS. REPORT TOBT AT VATS.IM/VDGS",
+          "voice": "A:CDM IN PROGRESS. REPORT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH VDGS."
+        },
+        {
+          "variableName": "DCL_INOP",
+          "text": "DATALINK U/S ENROUTE CLEARENCE VIA VOICE ONLY",
+          "voice": "DATA LINK U/S. ENROUTE CLEARENCE VIA VOICE ONLY."
         }
       ],
       "airportConditionDefinitions": [
@@ -9303,18 +9369,13 @@
           "enabled": false
         },
         {
-          "text": "VOR",
+          "text": "CDO_ILS",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "CDO_ILS",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
           "text": "CDO_RNP",
-          "ordinal": 5,
+          "ordinal": 4,
           "enabled": false
         }
       ],
@@ -9350,13 +9411,23 @@
           "enabled": false
         },
         {
-          "text": "SRA_ON_REQ",
+          "text": "DCL_INOP",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "ACDM",
           "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "SRA_ON_REQ",
+          "ordinal": 9,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 10,
           "enabled": false
         }
       ]
@@ -11378,40 +11449,6 @@
             "approaches": "",
             "remarks": ""
           }
-        },
-        {
-          "id": "a756d940-30db-4425-841a-97236561523b",
-          "ordinal": 3,
-          "name": "07 via CDA",
-          "airportConditions": "",
-          "notams": "",
-          "template": "EDDS [ATIS_LETTER] [OBS_TIME]\r\nEXPECT CDA [ARPT_COND]\r\nRWY_07\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "00bc667e-3344-4305-bf93-6c65c1a69cfa",
-          "ordinal": 4,
-          "name": "25 via CDA",
-          "airportConditions": "",
-          "notams": "",
-          "template": "EDDS [ATIS_LETTER] [OBS_TIME]\r\nEXPECT CDA [ARPT_COND]\r\nRWY_25\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
         }
       ],
       "contractions": [
@@ -11419,11 +11456,6 @@
           "variableName": "EDDS",
           "text": "ATIS EDDS",
           "voice": "STUTTGART INFORMATION"
-        },
-        {
-          "variableName": "CDA",
-          "text": "CDA",
-          "voice": "CONTINUOUS DESCENT APPROACH"
         },
         {
           "variableName": "TRND",
@@ -11529,6 +11561,16 @@
           "variableName": "DEP_FREQ_REU_119_200",
           "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.200",
           "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.2."
+        },
+        {
+          "variableName": "ACDM",
+          "text": "ACDM IN PROGRESS. REPORT TOBT AT VATS.IM/VDGS",
+          "voice": "A:CDM IN PROGRESS. REPORT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH VDGS."
+        },
+        {
+          "variableName": "DCL_INOP",
+          "text": "DATALINK U/S ENROUTE CLEARENCE VIA VOICE ONLY",
+          "voice": "DATA LINK U/S. ENROUTE CLEARENCE VIA VOICE ONLY."
         }
       ],
       "airportConditionDefinitions": [
@@ -11605,28 +11647,38 @@
           "enabled": false
         },
         {
-          "text": "DEICING_PADS_1_2",
+          "text": "DCL_INOP",
           "ordinal": 12,
           "enabled": false
         },
         {
-          "text": "DEICING_PADS_3_4",
+          "text": "ACDM",
           "ordinal": 13,
           "enabled": false
         },
         {
-          "text": "DEICING_PADS_ALL",
+          "text": "DEICING_PADS_1_2",
           "ordinal": 14,
           "enabled": false
         },
         {
-          "text": "SRA_ON_REQ",
+          "text": "DEICING_PADS_3_4",
           "ordinal": 15,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "DEICING_PADS_ALL",
           "ordinal": 16,
+          "enabled": false
+        },
+        {
+          "text": "SRA_ON_REQ",
+          "ordinal": 17,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 18,
           "enabled": false
         }
       ]
