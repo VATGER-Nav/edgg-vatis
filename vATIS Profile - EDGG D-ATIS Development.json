@@ -16,10 +16,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -1839,10 +1836,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -2434,10 +2428,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -4257,10 +4248,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -4522,7 +4510,7 @@
         {
           "variableName": "CHECK_CHARTS_FOR_DEP_FREQ",
           "text": "CHECK SID CHARTS FOR DEP FREQ",
-          "voice": "CHECK DEPARTURE CHARTS FOR DEPARTURE FREQUENCY"
+          "voice": "CHECK DEPARTURE CHARTS FOR DEPARTURE FREQ"
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -4681,10 +4669,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -6504,10 +6489,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -6815,18 +6797,18 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN PASSING 2000FT MONITOR ADVISORY ON FREQUENCY 122.800",
-          "voice": "WHEN PASSING *2000FT MONITOR ADVISORY ON FREQUENCY 122.8."
+          "text": "WHEN PASSING 2000FT MONITOR ADVISORY ON FREQ 122.800",
+          "voice": "WHEN PASSING *2000FT MONITOR ADVISORY ON FREQ 122.8."
         },
         {
           "variableName": "DEP_FREQ_DLD_DLA_BOT_DKLA_121_355",
-          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 121.355",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 121.355."
+          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQ 121.355",
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQ 121.355."
         },
         {
           "variableName": "DEP_FREQ_GN_118_215",
-          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 118.215",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 118.215."
+          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQ 118.215",
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQ 118.215."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -6850,8 +6832,8 @@
         },
         {
           "variableName": "DEP_FREQ_GNH_136_480",
-          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 136.480",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 136.480."
+          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQ 136.480",
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQ 136.480."
         },
         {
           "variableName": "BIRDACT",
@@ -6946,10 +6928,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -8769,10 +8748,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -9170,18 +9146,18 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.8."
         },
         {
           "variableName": "DEP_FREQ_DKA_NOR_DKLA_135_350",
-          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.350",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 135.350."
+          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQ 135.350",
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQ 135.350."
         },
         {
           "variableName": "DEP_FREQ_GN_118_215",
-          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQUENCY 118.215",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 118.215"
+          "text": "WHEN PASSING 2000FT CONTACT LANGEN RADAR ON FREQ 118.215",
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQ 118.215"
         },
         {
           "variableName": "TRND",
@@ -9275,8 +9251,8 @@
         },
         {
           "variableName": "DEP_FREQ_GNH_136_480",
-          "text": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 136.480",
-          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQUENCY 136.480."
+          "text": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQ 136.480",
+          "voice": "WHEN PASSING *2000FT CONTACT LANGEN RADAR ON FREQ 136.480."
         },
         {
           "variableName": "ACDM",
@@ -9376,10 +9352,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -11199,10 +11172,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -11427,28 +11397,28 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.8."
         },
         {
           "variableName": "DEP_FREQ_STG_125_050",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.050",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.050."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.050",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.050."
         },
         {
           "variableName": "DEP_FREQ_BADH_124_035",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035.."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 124.035",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 124.035."
         },
         {
           "variableName": "DEP_FREQ_BAD_131_300",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.300",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.3."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 131.300",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 131.3."
         },
         {
           "variableName": "DEP_FREQ_GS_136_315",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.315",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.315."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.315",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.315."
         },
         {
           "variableName": "SRA_ON_REQ",
@@ -11477,28 +11447,33 @@
         },
         {
           "variableName": "DEP_FREQ_GSH_123_010",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.010",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.010."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 123.010",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 123.010."
         },
         {
           "variableName": "DEP_FREQ_GSA_131_365",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.365",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.365."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 131.365",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 131.365."
         },
         {
           "variableName": "DEP_FREQ_GCS_135_310",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.310",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.310."
         },
         {
           "variableName": "DEP_FREQ_GCSH_135_030",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.030",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.030."
         },
         {
           "variableName": "DEP_FREQ_REU_119_200",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.200",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.2."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 119.200",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 119.2."
+        },
+        {
+          "variableName": "DEP_FREQ_STG_REU",
+          "text": "AFTER TKOF: ALL IFR DEP NORTHBOUND CONTACT FREQ 125.050, ALL IFR DEP SOUTHBOUND CONTACT FREQ 119.200",
+          "voice": "AFTER TAKE OFF, ALL I F R DEP NORTHBOUND, CONTACT FREQ 125.050, ALL I F R DEP SOUTHBOUND CONTACT, FREQ 119.2"
         },
         {
           "variableName": "ACDM",
@@ -11541,82 +11516,87 @@
         },
         {
           "text": "DEP_FREQ_REU_119_200",
-          "ordinal": 2,
+          "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_BAD_131_300",
+          "text": "DEP_FREQ_STG_REU",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_BADH_124_035",
+          "text": "DEP_FREQ_BAD_131_300",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_GS_136_315",
+          "text": "DEP_FREQ_BADH_124_035",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_GSA_131_365",
+          "text": "DEP_FREQ_GS_136_315",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_GSH_123_010",
+          "text": "DEP_FREQ_GSA_131_365",
           "ordinal": 8,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_GCS_135_310",
+          "text": "DEP_FREQ_GSH_123_010",
           "ordinal": 9,
           "enabled": false
         },
         {
-          "text": "DEP_FREQ_GCSH_135_030",
+          "text": "DEP_FREQ_GCS_135_310",
           "ordinal": 10,
           "enabled": false
         },
         {
-          "text": "LOW_VISIBILITY",
+          "text": "DEP_FREQ_GCSH_135_030",
           "ordinal": 11,
           "enabled": false
         },
         {
-          "text": "DCL_INOP",
+          "text": "LOW_VISIBILITY",
           "ordinal": 12,
           "enabled": false
         },
         {
-          "text": "ACDM",
+          "text": "DCL_INOP",
           "ordinal": 13,
           "enabled": false
         },
         {
-          "text": "DEICING_PADS_1_2",
+          "text": "ACDM",
           "ordinal": 14,
           "enabled": false
         },
         {
-          "text": "DEICING_PADS_3_4",
+          "text": "DEICING_PADS_1_2",
           "ordinal": 15,
           "enabled": false
         },
         {
-          "text": "DEICING_PADS_ALL",
+          "text": "DEICING_PADS_3_4",
           "ordinal": 16,
           "enabled": false
         },
         {
-          "text": "SRA_ON_REQ",
+          "text": "DEICING_PADS_ALL",
           "ordinal": 17,
           "enabled": false
         },
         {
-          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "text": "SRA_ON_REQ",
           "ordinal": 18,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION WINDSHEAR ALL RWYS",
+          "ordinal": 19,
           "enabled": false
         }
       ]
@@ -11633,10 +11613,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -13456,10 +13433,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -13677,8 +13651,8 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.8."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -13687,8 +13661,8 @@
         },
         {
           "variableName": "DEP_FREQ_HMM_129_300",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.300",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.3."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 129.300",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 129.3."
         },
         {
           "variableName": "LOC_Y",
@@ -13697,8 +13671,8 @@
         },
         {
           "variableName": "DEP_FREQ_PADH_136_625",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.625",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.625."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.625",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.625."
         },
         {
           "variableName": "ILS_Z_VIS_ON_REQ",
@@ -13712,28 +13686,28 @@
         },
         {
           "variableName": "DEP_FREQ_PAD_135_650",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.650",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.650."
         },
         {
           "variableName": "DEP_FREQ_GN_118_215",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 118.215",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 118.215."
         },
         {
           "variableName": "DEP_FREQ_GNH_136_480",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.480",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.480."
         },
         {
           "variableName": "DEP_FREQ_GA_132_230",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.230",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.230."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 132.230",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 132.230."
         },
         {
           "variableName": "DEP_FREQ_GAH_125_935",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.935",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.935."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.935",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.935."
         }
       ],
       "airportConditionDefinitions": [
@@ -13828,10 +13802,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -15651,10 +15622,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -15857,13 +15825,13 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.8."
         },
         {
           "variableName": "DEP_FREQ_PFA_129_675",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.675",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.675."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 129.675",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 129.675."
         },
         {
           "variableName": "ILS_Y",
@@ -15882,18 +15850,18 @@
         },
         {
           "variableName": "DEP_FREQ_RUDH_135_725",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.725",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.725."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.725",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.725."
         },
         {
           "variableName": "DEP_FREQ_RUD_133_435",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.435",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.435."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 133.435",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 133.435."
         },
         {
           "variableName": "DEP_FREQ_GC_133_815",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.815",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.815"
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 133.815",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 133.815"
         },
         {
           "variableName": "ILS_Z",
@@ -15912,23 +15880,23 @@
         },
         {
           "variableName": "DEP_FREQ_GCA_133_835",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.835",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.835."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 133.835",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 133.835."
         },
         {
           "variableName": "DEP_FREQ_GCH_127_925",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 127.925",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 127.925."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 127.925",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 127.925."
         },
         {
           "variableName": "DEP_FREQ_GCS_135_310",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.310",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.310."
         },
         {
           "variableName": "DEP_FREQ_GCSH_135_030",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.030",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.030."
         }
       ],
       "airportConditionDefinitions": [
@@ -16023,10 +15991,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -17846,10 +17811,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -18052,8 +18014,8 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.8."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -18062,8 +18024,8 @@
         },
         {
           "variableName": "DEP_FREQ_PADL_HMM_125_225",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.225",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.225."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.225",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.225."
         },
         {
           "variableName": "ILS",
@@ -18087,33 +18049,33 @@
         },
         {
           "variableName": "DEP_FREQ_PAD_135_650",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.650",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.650."
         },
         {
           "variableName": "DEP_FREQ_PADH_136_625",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.625",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.625."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.625",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.625."
         },
         {
           "variableName": "DEP_FREQ_GN_118_215",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 118.215",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 118.215."
         },
         {
           "variableName": "DEP_FREQ_GNH_136_480",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.480",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.480."
         },
         {
           "variableName": "DEP_FREQ_GA_132_230",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.230",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.230."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 132.230",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 132.230."
         },
         {
           "variableName": "DEP_FREQ_GAH_125_935",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.935",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.935."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.935",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.935."
         }
       ],
       "airportConditionDefinitions": [
@@ -18203,10 +18165,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -20026,10 +19985,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -20232,13 +20188,13 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.8."
         },
         {
           "variableName": "DEP_FREQ_PADL_HMM_125_225",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.225",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.225."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.225",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.225."
         },
         {
           "variableName": "ILS",
@@ -20262,33 +20218,33 @@
         },
         {
           "variableName": "DEP_FREQ_PAD_135_650",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.650."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.650",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.650."
         },
         {
           "variableName": "DEP_FREQ_PADH_136_625",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.625",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.625."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.625",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.625."
         },
         {
           "variableName": "DEP_FREQ_GN_118_215",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 118.215",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 118.215."
         },
         {
           "variableName": "DEP_FREQ_GNH_136_480",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.480",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.480."
         },
         {
           "variableName": "DEP_FREQ_GA_132_230",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.230",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.230."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 132.230",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 132.230."
         },
         {
           "variableName": "DEP_FREQ_GAH_125_935",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.935",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.935."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.935",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.935."
         }
       ],
       "airportConditionDefinitions": [
@@ -20373,10 +20329,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -22196,10 +22149,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -22402,8 +22352,8 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.8."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -22412,8 +22362,8 @@
         },
         {
           "variableName": "DEP_FREQ_BOT_DLD_DLA_DKLA_119_110",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.110",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.110."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 119.110",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 119.110."
         },
         {
           "variableName": "ILS",
@@ -22437,13 +22387,13 @@
         },
         {
           "variableName": "DEP_FREQ_GN_118_215",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 118.215",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 118.215."
         },
         {
           "variableName": "DEP_FREQ_GNH_136_480",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480"
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.480",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.480"
         }
       ],
       "airportConditionDefinitions": [
@@ -22513,10 +22463,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -24336,10 +24283,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -24542,13 +24486,13 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.8."
         },
         {
           "variableName": "DEP_FREQ_DLAT_LN13_DL05_128_655",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 128.655",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 128.655."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 128.655",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 128.655."
         },
         {
           "variableName": "ILS",
@@ -24572,23 +24516,23 @@
         },
         {
           "variableName": "DEP_FREQ_DLA_DKLA_LN31_DL05_128_555",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 128.555",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 128.555."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 128.555",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 128.555."
         },
         {
           "variableName": "DEP_FREQ_DLD_DLA_BOT_DKLA_DL23_121_355",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 121.355",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 121.355."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 121.355",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 121.355."
         },
         {
           "variableName": "DEP_FREQ_GN_118_215",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 118.215."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 118.215",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 118.215."
         },
         {
           "variableName": "DEP_FREQ_GNH_136_480",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.480."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.480",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.480."
         }
       ],
       "airportConditionDefinitions": [
@@ -24663,10 +24607,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -26486,10 +26427,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -26692,13 +26630,13 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.8."
         },
         {
           "variableName": "DEP_FREQ_EIF_PFA_125_600",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.600",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.600."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.600",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.600."
         },
         {
           "variableName": "ILS",
@@ -26727,38 +26665,38 @@
         },
         {
           "variableName": "DEP_FREQ_RUD_133_435",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.435",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.435."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 133.435",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 133.435."
         },
         {
           "variableName": "DEP_FREQ_RUDH_135_725",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.725",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.725."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.725",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.725."
         },
         {
           "variableName": "DEP_FREQ_GC_133_815",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.815",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.815."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 133.815",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 133.815."
         },
         {
           "variableName": "DEP_FREQ_GCA_133_835",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.835",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 133.835."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 133.835",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 133.835."
         },
         {
           "variableName": "DEP_FREQ_GCH_127_925",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 127.925",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 127.925."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 127.925",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 127.925."
         },
         {
           "variableName": "DEP_FREQ_GCS_135_310",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.310",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.310."
         },
         {
           "variableName": "DEP_FREQ_GCSH_135_030",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.030",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.030."
         }
       ],
       "airportConditionDefinitions": [
@@ -26853,10 +26791,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -28676,10 +28611,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -28897,28 +28829,28 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.8."
         },
         {
           "variableName": "DEP_FREQ_STG_125_050",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.050",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 125.050."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.050",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.050."
         },
         {
           "variableName": "DEP_FREQ_GS_136_315",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.315",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.315."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.315",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.315."
         },
         {
           "variableName": "DEP_FREQ_BAD_131_300",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.300",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.3."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 131.300",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 131.3."
         },
         {
           "variableName": "DEP_FREQ_GSA_131_365",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.365",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.365."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 131.365",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 131.365."
         },
         {
           "variableName": "LOW_VISIBILITY",
@@ -28932,8 +28864,8 @@
         },
         {
           "variableName": "DEP_FREQ_LFSTAPP_119_580",
-          "text": "WHEN AIRBORNE CONTACT STRASBOURG APPROACH ON FREQUENCY 119.580",
-          "voice": "WHEN AIRBORNE CONTACT STRASBOURG APPROACH ON FREQUENCY 119.580."
+          "text": "WHEN AIRBORNE CONTACT STRASBOURG APPROACH ON FREQ 119.580",
+          "voice": "WHEN AIRBORNE CONTACT STRASBOURG APPROACH ON FREQ 119.580."
         },
         {
           "variableName": "HP_CAUTION",
@@ -28942,28 +28874,28 @@
         },
         {
           "variableName": "DEP_FREQ_GSH_123_010",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.010",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.010."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 123.010",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 123.010."
         },
         {
           "variableName": "DEP_FREQ_GCS_135_310",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.310",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.310."
         },
         {
           "variableName": "DEP_FREQ_GCSH_135_030",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.030",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.030."
         },
         {
           "variableName": "DEP_FREQ_BADH_124_035",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 124.035",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 124.035."
         },
         {
           "variableName": "DEP_FREQ_REU_119_200",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.200",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 119.2."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 119.200",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 119.2."
         }
       ],
       "airportConditionDefinitions": [
@@ -29073,10 +29005,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -30896,10 +30825,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -31126,38 +31052,38 @@
         },
         {
           "variableName": "ADVISORY",
-          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.800",
-          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQUENCY 122.8."
+          "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.800",
+          "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.8."
         },
         {
           "variableName": "DEP_FREQ_NKRL_129_355",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.355",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 129.355."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 129.355",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 129.355."
         },
         {
           "variableName": "DEP_FREQ_NKRH_127_500",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 127.500",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 127.5."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 127.500",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 127.5."
         },
         {
           "variableName": "DEP_FREQ_MAN_132_155",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.155",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 132.155."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 132.155",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 132.155."
         },
         {
           "variableName": "DEP_FREQ_BADH_124_035",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 124.035."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 124.035",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 124.035."
         },
         {
           "variableName": "DEP_FREQ_BAD_131_300",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.300",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.3."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 131.300",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 131.3."
         },
         {
           "variableName": "DEP_FREQ_GS_136_315",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.315",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 136.315."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.315",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 136.315."
         },
         {
           "variableName": "DEP_09_ARR_27",
@@ -31166,23 +31092,23 @@
         },
         {
           "variableName": "DEP_FREQ_GSA_131_365",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.365",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 131.365."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 131.365",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 131.365."
         },
         {
           "variableName": "DEP_FREQ_GSH_123_010",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.010",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 123.010."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 123.010",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 123.010."
         },
         {
           "variableName": "DEP_FREQ_GCS_135_310",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.310."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.310",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.310."
         },
         {
           "variableName": "DEP_FREQ_GCSH_135_030",
-          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030",
-          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQUENCY 135.030."
+          "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.030",
+          "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 135.030."
         }
       ],
       "airportConditionDefinitions": [
@@ -33091,10 +33017,7 @@
           "identifyCeilingLayer": true,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -35199,10 +35122,7 @@
           "identifyCeilingLayer": true,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -35446,10 +35366,7 @@
       },
       "atisFormat": {
         "observationTime": {
-          "standardUpdateTime": [
-            20,
-            50
-          ],
+          "standardUpdateTime": [20, 50],
           "template": {
             "text": "{type} {day}{time} ",
             "voice": ". {special} MET REPORT TIME {time}."
@@ -37269,10 +37186,7 @@
           "identifyCeilingLayer": false,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
@@ -39335,10 +39249,7 @@
           "identifyCeilingLayer": true,
           "identifyCeilingLayerTextAtis": false,
           "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
+          "cloudCeilingLayerTypes": ["BKN", "OVC"],
           "convertToMetric": false,
           "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
