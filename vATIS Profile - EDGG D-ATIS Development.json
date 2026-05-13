@@ -4584,8 +4584,8 @@
         },
         {
           "variableName": "DCL_INOP",
-          "text": "DATALINK U/S ENROUTE CLEARENCE VIA VOICE ONLY",
-          "voice": "DATA LINK U/S. ENROUTE CLEARENCE VIA VOICE ONLY."
+          "text": "DATALINK U/S ENROUTE CLEARANCE VIA VOICE ONLY",
+          "voice": "DATA LINK U/S. ENROUTE CLEARANCE VIA VOICE ONLY."
         },
         {
           "variableName": "BIRD_ACTIVITY",
@@ -6847,8 +6847,8 @@
         },
         {
           "variableName": "DCL_INOP",
-          "text": "DATALINK U/S ENROUTE CLEARENCE VIA VOICE ONLY",
-          "voice": "DATA LINK U/S. ENROUTE CLEARENCE VIA VOICE ONLY."
+          "text": "DATALINK U/S ENROUTE CLEARANCE VIA VOICE ONLY",
+          "voice": "DATA LINK U/S. ENROUTE CLEARANCE VIA VOICE ONLY."
         }
       ],
       "airportConditionDefinitions": [
@@ -9261,8 +9261,8 @@
         },
         {
           "variableName": "DCL_INOP",
-          "text": "DATALINK U/S ENROUTE CLEARENCE VIA VOICE ONLY",
-          "voice": "DATA LINK U/S. ENROUTE CLEARENCE VIA VOICE ONLY."
+          "text": "DATALINK U/S ENROUTE CLEARANCE VIA VOICE ONLY",
+          "voice": "DATA LINK U/S. ENROUTE CLEARANCE VIA VOICE ONLY."
         }
       ],
       "airportConditionDefinitions": [
@@ -11482,8 +11482,8 @@
         },
         {
           "variableName": "DCL_INOP",
-          "text": "DATALINK U/S ENROUTE CLEARENCE VIA VOICE ONLY",
-          "voice": "DATA LINK U/S. ENROUTE CLEARENCE VIA VOICE ONLY."
+          "text": "DATALINK U/S ENROUTE CLEARANCE VIA VOICE ONLY",
+          "voice": "DATA LINK U/S. ENROUTE CLEARANCE VIA VOICE ONLY."
         }
       ],
       "airportConditionDefinitions": [
