@@ -4603,7 +4603,7 @@
         {
           "text": "ACDM",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "DCL_INOP",
@@ -6902,7 +6902,7 @@
         {
           "text": "ACDM",
           "ordinal": 8,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "SRA_ON_REQ",
@@ -9326,7 +9326,7 @@
         {
           "text": "ACDM",
           "ordinal": 8,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "SRA_ON_REQ",
@@ -11572,7 +11572,7 @@
         {
           "text": "ACDM",
           "ordinal": 14,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "DEICING_PADS_1_2",
