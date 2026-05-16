@@ -6858,12 +6858,12 @@
                 },
                 {
                     "variableName": "ACDM",
-                    "text": "ACDM IN PROGRESS. REPORT TOBT AT VATS.IM/VDGS",
+                    "text": "\r\nACDM IN PROGRESS. REPORT TOBT AT VATS.IM/VDGS",
                     "voice": "A:CDM IN PROGRESS. REPORT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH VDGS."
                 },
                 {
                     "variableName": "DCL_INOP",
-                    "text": "DATALINK U/S ENROUTE CLEARANCE VIA VOICE ONLY",
+                    "text": "\r\nDATALINK U/S ENROUTE CLEARANCE VIA VOICE ONLY",
                     "voice": "DATA LINK U/S. ENROUTE CLEARANCE VIA VOICE ONLY."
                 }
             ],
