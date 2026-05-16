@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "8678eff9-a005-46ba-a9ba-6aeb513954b2",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2026051602,
+    "updateSerial": 2026051603,
     "stations": [
         {
             "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -4615,7 +4615,7 @@
                 {
                     "text": "ACDM",
                     "ordinal": 2,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "DCL_INOP",
@@ -6920,7 +6920,7 @@
                 {
                     "text": "ACDM",
                     "ordinal": 8,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "SRA_ON_REQ",
@@ -9345,7 +9345,7 @@
                 {
                     "text": "ACDM",
                     "ordinal": 8,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "SRA_ON_REQ",
@@ -11597,7 +11597,7 @@
                 {
                     "text": "ACDM",
                     "ordinal": 14,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "DEICING_PADS_1_2",
