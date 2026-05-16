@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "8678eff9-a005-46ba-a9ba-6aeb513954b2",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2026051601,
+    "updateSerial": 2026051603,
     "stations": [
         {
             "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -1998,7 +1998,7 @@
                     "id": "3447f0c9-e449-455d-9906-a24eff5a1a6c",
                     "ordinal": 1,
                     "name": "25L + 25R | ILS Y",
-                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Y\r\nRWY_25L_25R\r\nGLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Y\r\nRWY_25R_25L\r\nGLS APCH ON REQUEST, APP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -2028,7 +2028,7 @@
                     "id": "e9b66e4a-9607-499c-9e06-6b7e9228ceae",
                     "ordinal": 3,
                     "name": "25L + 25R | IPA ILS Y",
-                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Y\r\nRWY_25L_25R\r\nGLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Y\r\nRWY_25R_25L\r\nGLS APCH ON REQUEST, APP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -2058,7 +2058,7 @@
                     "id": "5f2e0ac5-233d-437e-8a27-96c2e72db622",
                     "ordinal": 5,
                     "name": "25L + 25R | ILS Z",
-                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Z\r\nRWY_25L_25R\r\nGLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Z\r\nRWY_25R_25L\r\nGLS APCH ON REQUEST, APP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -2073,7 +2073,7 @@
                     "id": "5f2e0ac5-233d-437e-8a27-96c2e72db622",
                     "ordinal": 6,
                     "name": "25L + 25R | LVO",
-                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Z\r\nRWY_25L_25R\r\nGLS APCH ON REQUEST\r\nLOW_VISIBILITY\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_25R_ILS_Z\r\nRWY_25R_25L\r\nGLS APCH ON REQUEST\r\nLOW_VISIBILITY\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -2118,7 +2118,7 @@
                     "id": "5be32735-4002-49f8-a0bf-0ee1df0f4eec",
                     "ordinal": 9,
                     "name": "25L + 25R | IPA ILS Z",
-                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Z\r\nRWY_25L_25R\r\nGLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\nIPA_25L_25R_ILS_Z\r\nRWY_25R_25L\r\nGLS APCH ON REQUEST, APP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -2163,7 +2163,7 @@
                     "id": "3e8a8fe3-4061-442f-b7ab-966decc372a9",
                     "ordinal": 12,
                     "name": "25L | ILS",
-                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_ILS\r\nRWY_25L\r\nGLS APCH ON REQUEST\r\nAPP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
+                    "template": "EDDF [ATIS_LETTER] [OBS_TIME]\r\n25L_ILS\r\nRWY_25L\r\nGLS APCH ON REQUEST, APP_SWING\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]\r\nTRND [TREND]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -2302,9 +2302,9 @@
                     "voice": "RWYS IN USE ^07C AND ^07L."
                 },
                 {
-                    "variableName": "RWY_25L_25R",
-                    "text": "RWY 25L 25R",
-                    "voice": "RWYS IN USE ^25L AND ^25R."
+                    "variableName": "RWY_25R_25L",
+                    "text": "RWY 25R 25L",
+                    "voice": "RWYS IN USE ^25R AND ^25L."
                 },
                 {
                     "variableName": "RWY_25L",
@@ -2319,7 +2319,7 @@
                 {
                     "variableName": "APP_SWING",
                     "text": "DO NOT MISTAKE TWY M FOR RWY 25C WHEN PERFORMING VISUAL APPROACH",
-                    "voice": ". DO NOT MISTAKE TWY MIKE FOR RWY ^25C WHEN PERFORMING VISUAL APPROACH."
+                    "voice": "DO NOT MISTAKE TWY MIKE FOR RWY ^25C WHEN PERFORMING VISUAL APPROACH."
                 },
                 {
                     "variableName": "IPA_25L_25R_ILS_Y",
@@ -2399,7 +2399,7 @@
             ],
             "airportConditionDefinitions": [
                 {
-                    "text": "FROM 0350 EXPECT ILS OR GLS APCH",
+                    "text": "FROM 0250 EXPECT ILS OR GLS APCH",
                     "ordinal": 1,
                     "enabled": false
                 }
@@ -4615,7 +4615,7 @@
                 {
                     "text": "ACDM",
                     "ordinal": 2,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "DCL_INOP",
@@ -6920,7 +6920,7 @@
                 {
                     "text": "ACDM",
                     "ordinal": 8,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "SRA_ON_REQ",
@@ -9345,7 +9345,7 @@
                 {
                     "text": "ACDM",
                     "ordinal": 8,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "SRA_ON_REQ",
@@ -11597,7 +11597,7 @@
                 {
                     "text": "ACDM",
                     "ordinal": 14,
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "text": "DEICING_PADS_1_2",
