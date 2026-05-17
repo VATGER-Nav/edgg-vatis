@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "8678eff9-a005-46ba-a9ba-6aeb513954b2",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2026051604,
+    "updateSerial": 2026051701,
     "stations": [
         {
             "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -6860,12 +6860,12 @@
                 },
                 {
                     "variableName": "ACDM",
-                    "text": "ACDM IN PROGRESS. REPORT TOBT AT VATS.IM/VDGS",
+                    "text": "\r\nACDM IN PROGRESS. REPORT TOBT AT VATS.IM/VDGS",
                     "voice": "A:CDM IN PROGRESS. REPORT TARGET OFF BLOCK TIME AT VATS DOT I M SLASH VDGS."
                 },
                 {
                     "variableName": "DCL_INOP",
-                    "text": "DATALINK U/S ENROUTE CLEARANCE VIA VOICE ONLY",
+                    "text": "\r\nDATALINK U/S ENROUTE CLEARANCE VIA VOICE ONLY",
                     "voice": "DATA LINK U/S. ENROUTE CLEARANCE VIA VOICE ONLY."
                 }
             ],
