@@ -2,7 +2,7 @@
     "name": "EDGG D-ATIS",
     "id": "8678eff9-a005-46ba-a9ba-6aeb513954b2",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2026051701,
+    "updateSerial": 2026062601,
     "stations": [
         {
             "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -4555,11 +4555,6 @@
                     "voice": "ACFT DEPARTING RWY 18, EXPECT POSSIBLE DEPARTURE FROM INTERSECTION MIKE, TORA {3454} METERS. IF UNABLE ADVISE TWR ON INITIAL CONTACT."
                 },
                 {
-                    "variableName": "NOTAM_L21_L20",
-                    "text": "ACFT DEPARTING RWY07C: EXPECT DEPARTURE FROM INTERSECTION L17, TORA 3312 METERS. IF UNABLE, ADVISE APRON ON INITIAL CONTACT",
-                    "voice": "AIRCRAFT DEPARTING RWY ^07C, EXPECT DEPARTURE FROM INTERSECTION LIMA ONE SEVEN, TORA {3312} METERS. IF UNABLE ADVISE APRON ON INITIAL CONTACT."
-                },
-                {
                     "variableName": "TAILWIND_RWY_18_MORE_10_KT",
                     "text": "TAILWIND COMPONENT RWY 18 MORE THAN 10 KT, PILOTS UNABLE TO ACCEPT SHALL ADVISE ATC UPON START-UP REQUEST",
                     "voice": "TAILWIND COMPONENT RWY 18 MORE THAN 10 KT PILOTS UNABLE TO ACCEPT SHALL ADVISE ATC UPON START-UP REQUEST."
@@ -4628,43 +4623,38 @@
                     "enabled": false
                 },
                 {
-                    "text": "NOTAM_L21_L20",
+                    "text": "PDC_CLEARANCE",
                     "ordinal": 5,
                     "enabled": false
                 },
                 {
-                    "text": "PDC_CLEARANCE",
+                    "text": "DE_ICING",
                     "ordinal": 6,
                     "enabled": false
                 },
                 {
-                    "text": "DE_ICING",
+                    "text": "25C_ALL_SOUTH",
                     "ordinal": 7,
                     "enabled": false
                 },
                 {
-                    "text": "25C_ALL_SOUTH",
+                    "text": "25C_ALL_NORTH",
                     "ordinal": 8,
                     "enabled": false
                 },
                 {
-                    "text": "25C_ALL_NORTH",
+                    "text": "CHECK_CHARTS_FOR_DEP_FREQ",
                     "ordinal": 9,
                     "enabled": false
                 },
                 {
-                    "text": "CHECK_CHARTS_FOR_DEP_FREQ",
+                    "text": "CAUTION WINDSHEAR ALL RWYS",
                     "ordinal": 10,
                     "enabled": false
                 },
                 {
-                    "text": "CAUTION WINDSHEAR ALL RWYS",
-                    "ordinal": 11,
-                    "enabled": false
-                },
-                {
                     "text": "BIRD_ACTIVITY",
-                    "ordinal": 12,
+                    "ordinal": 11,
                     "enabled": false
                 }
             ]
