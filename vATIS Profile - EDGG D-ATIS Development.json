@@ -20176,10 +20176,10 @@
             "presets": [
                 {
                     "id": "b34eee79-c2b7-4e6a-b584-e8efd63a93cb",
-                    "name": "06",
+                    "name": "05",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "EDLP [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_06\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
+                    "template": "EDLP [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_05\r\nOLD_NAV_DATA_06\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -20192,10 +20192,10 @@
                 },
                 {
                     "id": "b9012361-6181-4659-8980-1ce8f356eebb",
-                    "name": "24",
+                    "name": "23",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "EDLP [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_24\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
+                    "template": "EDLP [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_23\r\nOLD_NAV_DATA_24\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -20214,14 +20214,14 @@
                     "voice": "PADABORN INFORMATION"
                 },
                 {
-                    "variableName": "RWY_06",
-                    "text": "RWY 06",
-                    "voice": "RWY IN USE 06."
+                    "variableName": "RWY_05",
+                    "text": "RWY 05",
+                    "voice": "RWY IN USE 05."
                 },
                 {
-                    "variableName": "RWY_24",
-                    "text": "RWY 24",
-                    "voice": "RWY IN USE 24."
+                    "variableName": "RWY_23",
+                    "text": "RWY 23",
+                    "voice": "RWY IN USE 23."
                 },
                 {
                     "variableName": "ADVISORY",
@@ -20282,6 +20282,16 @@
                     "variableName": "DEP_FREQ_GAH_125_935",
                     "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.935",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.935."
+                },
+                {
+                    "variableName": "OLD_NAV_DATA_06",
+                    "text": "ATTN! RWY 06 RENAMED TO RWY 05. REPORT OLD NAV DATA ON INITIAL CONTACT.",
+                    "voice": "ATTN... RWY ^06 RENAMED TO RWY ^05. REPORT OLD NAV DATA ON INITIAL CONTACT."
+                },
+                {
+                    "variableName": "OLD_NAV_DATA_24",
+                    "text": "ATTN! RWY 24 RENAMED TO RWY 23. REPORT OLD NAV DATA ON INITIAL CONTACT.",
+                    "voice": "ATTN... RWY ^24 RENAMED TO RWY ^23. REPORT OLD NAV DATA ON INITIAL CONTACT."
                 }
             ],
             "airportConditionDefinitions": [
