@@ -1,8 +1,8 @@
 {
     "name": "EDGG D-ATIS",
-    "id": "8678eff9-a005-46ba-a9ba-6aeb513954b2",
+    "id": "c28a23e1-6724-40fa-957c-7a33265ff108",
     "updateUrl": "https://raw.githubusercontent.com/VATGER-Nav/edgg-vatis/refs/heads/main/vATIS%20Profile%20-%20EDGG%20D-ATIS.json",
-    "updateSerial": 2026090401,
+    "updateSerial": 2026093001,
     "stations": [
         {
             "id": "73ec3511-7995-4a7f-bd5f-95f297696102",
@@ -9155,8 +9155,8 @@
                 },
                 {
                     "variableName": "ADVISORY",
-                    "text": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.800",
-                    "voice": "WHEN AIRBORNE MONITOR ADVISORY ON FREQ 122.8."
+                    "text": "WHEN PASSING *2000FT MONITOR ADVISORY ON FREQ 122.800",
+                    "voice": "WHEN PASSING *2000FT MONITOR ADVISORY ON FREQ 122.8."
                 },
                 {
                     "variableName": "DEP_FREQ_DKA_NOR_DKLA_135_350",
