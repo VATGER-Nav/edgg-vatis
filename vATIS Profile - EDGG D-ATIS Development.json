@@ -17999,7 +17999,7 @@
                     "name": "06",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "EDLW [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_06\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
+                    "template": "EDLW [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_06\r\n[NOTAMS]\r\nPUSH_IN\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -18015,7 +18015,7 @@
                     "name": "24",
                     "airportConditions": "",
                     "notams": "",
-                    "template": "EDLW [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_24\r\n[NOTAMS]\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
+                    "template": "EDLW [ATIS_LETTER] [OBS_TIME]\r\nEXPECT VECTORS [ARPT_COND]\r\nRWY_24\r\n[NOTAMS]\r\nPUSH_IN\r\n[TL]\r\n[WIND] [VIS] [RVR] [CLOUDS] [PRESENT_WX] [RECENT_WX] [TEMP] [DEW] [PRESSURE]",
                     "externalGenerator": {
                         "enabled": false,
                         "textUrl": "",
@@ -18107,6 +18107,11 @@
                     "variableName": "DEP_FREQ_GAH_125_935",
                     "text": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.935",
                     "voice": "WHEN AIRBORNE CONTACT LANGEN RADAR ON FREQ 125.935."
+                },
+                {
+                    "variableName": "PUSH_IN",
+                    "text": "PUSH IN PROC ON REQ",
+                    "voice": "PUSH IN PROCEDURE ON REQUEST."
                 }
             ],
             "airportConditionDefinitions": [
